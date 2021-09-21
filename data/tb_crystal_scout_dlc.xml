@@ -1,0 +1,50 @@
+<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
+<!-- Superluminal exported file -->
+
+<img x="-50" y="-60" w="206" h="396"/>
+
+<!-- Only used for iPad -->
+<glowOffset x="27" y="25"/>
+
+<offsets>
+	<cloak x="19" y="17"/>
+</offsets>
+
+
+<weaponMounts>
+	<mount x="47" y="70" rotate="false" mirror="true" gib="3" slide="left"/>
+	<mount x="110" y="80" rotate="false" mirror="false" gib="3" slide="right"/>
+	<mount x="30" y="250" rotate="false" mirror="true" gib="2" slide="left"/>
+	<mount x="160" y="170" rotate="false" mirror="false" gib="4" slide="right"/>
+</weaponMounts>
+
+<explosion>
+	<gib1>
+		<velocity min="0.10" max="1.00"/>
+		<direction min="20" max="160"/>
+		<angular min="-1.00" max="1.00"/>
+		<x>64</x>
+		<y>262</y>
+	</gib1>
+	<gib2>
+		<velocity min="0.10" max="0.30"/>
+		<direction min="280" max="350"/>
+		<angular min="-1.00" max="1.00"/>
+		<x>0</x>
+		<y>92</y>
+	</gib2>
+	<gib3>
+		<velocity min="0.40" max="1.00"/>
+		<direction min="190" max="260"/>
+		<angular min="-0.40" max="1.00"/>
+		<x>0</x>
+		<y>0</y>
+	</gib3>
+	<gib4>
+		<velocity min="0.10" max="0.60"/>
+		<direction min="-40" max="40"/>
+		<angular min="-0.50" max="0.50"/>
+		<x>73</x>
+		<y>112</y>
+	</gib4>
+</explosion>

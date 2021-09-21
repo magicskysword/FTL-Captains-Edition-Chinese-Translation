@@ -1,0 +1,2536 @@
+<metadata>
+  <title><![CDATA[ FTL船长版 ]]></title>
+  <threadUrl><![CDATA[ http://www.ftlgame.com/forum/viewtopic.php?f=11&t=15663 ]]></threadUrl>
+  <author><![CDATA[ Sleeper Service and many others 译者：剑圣 ]]></author>
+  <version><![CDATA[ check file name ]]></version>
+  <description>
+<![CDATA[
+《FTL船长版》是一个旨在让关卡上多样化和扩展《FTL》游戏玩法的Mod。该mod试图匹配游戏的背景，画风和基调。虽然它添加了许多新内容，但它也旨在维持游戏的平衡性。
+
+
+FTL Captain's Edition is a major overhaul mod-compilation that aims to diversify and extend FTL's game-play on different levels. The mod tries to match the games lore, graphic style and general tone. While it adds a lot of new content, it also aims to maintain the balance of the vanilla game.
+
+
+A big thanks goes to the people that support me on Patreon:
+Biohazard063
+goldenboy
+Xzun
+Piotr Jawidzyk
+Roger Rösch
+Ninja Bob
+Ali Ahmad
+BlueTemplar En Taro Adun
+Alex Payne
+stylesrj
+Jani
+Ethan Mollick
+
+Captain Tier:
+Sawyer Chamaillard
+Kevin Berdsley
+
+
+If you want to support me for the free game content I create you can become my Patron too. Visit https://www.patreon.com/user?u=581715&alert=1
+
+
+For a full overview of this mods features you can check the CE Wiki front pate at:
+http://ftl-captains-edition.wikia.com/wiki/FTL:_Captain%27s_Edition_Wiki
+
+
+
+Mod Load Order
+When you patch the mods in via SMM, not loading mods in the right order can cause various problems (visual glitches in some events, crystal sector spawning instead of deepspace, etc).
+Therefore you have to get the mods into the right order, simply by dragging them around in the mod manager window. In the end, your load-order should look like this:
+
+Code: Select all
+    |   Any non-ship not-CE-related mods you are using
+    |   Better Planets and Backgrounds
+    |   CE Resource Pack
+    |   FTL Captain's Edition
+    |   CE BPaB Compatibility Patch
+    |   CE Additional Music Addon
+    |   CE Infinite Addon
+    |   CE Additional Music Infinite Compatibility patch
+    |   EL Texture Pack
+    |   CE Endless Loot Addon for CE Infinite
+    |   or
+    |   CE Endless Loot Addon standard CE (never use both)
+    |   CE Non-EL Enemy Loadouts Addon
+    |   CE Vanilla Player Ship Loadouts Addon
+    |   Extended Pursuit Indicator x2/x3/x5/x24
+    |   Random Flagship
+    |   Rand-[trel/orus/asio/wark/a Monster/prey]
+    V   Any ship mods you are using
+
+
+Obviously this list does not imply that you have to use everything that is in it. Choose your mods according to the experience you want. Read the descriptions below the download links and the detailed descriptions in this post and decide which components of CE you want to use. Then use only patch in the mod components that are relevant for you.
+
+Compatibility Notes
+Note: incompatibility does not necessary mean the game crashes, things might just not work properly.
+- Outright incompatible with Balanced Arsenal, New Enemy Classes, Diversity Mod and Infinite Space; Don't use these mods alongside
+- Incompatible with most enemy mods, weapon mods, drone mods or event mods
+- Currently incompatible with the Corpses mod CE addon, causes crashes
+- CE Infinite is generally incompatible with anything that changes the crystal sector
+- Most other stuff, specially ship mods and visual mods, should work
+
+
+
+Active Contributors:
+Karmos, liakad, Istarune, Kieve, Snowhusky, Estel, kartoFlane, Solarion, slowriderxcorps, 5thHorsemen, R4V3-0N, VanguardOfValor, Ericrumor, Killox3, mict5pn, Cyk0, rannl, Sanmonku, Jep, Joshklement, Masterplayer 1337, CaptainLordAvalon, Tweevle, Russian Rockman, KJ4VOV, r2d2go, KeronCyst, iiiyyylll, LordTrilobite, Gencool, dmi3, splette, Jopyth, scooterbaga, Lemmonade, TaxiService,
+Noobjuice, analytalica and many more
+
+
+
+Changelog
+
+
+CE Resource Pack 1.301
+- Corrected some spelling errors in fixed background graphics
+- Credited new sound contributor on the title screen
+
+CE Additional Music Addon 1.301
+- Added a new track by Comet Hunter
+- Shuffled some tracks around
+
+CE Infinite Addon 1.301
+- Fixed some bad grammar
+
+CE Endless Loot 1.301 for CE and CE Endless Loot 1.301 for CE Infinite
+- Fixed some discrepancies in player ship loadouts
+
+
+CE Endless Loot 1.299 for CE and CE Endless Loot 1.299b for CE Infinite
+- Fixed crew not being sold at prices adjusted for infinite
+
+CE Infinite Addon 1.299b
+- Fixed crew not being sold at prices adjusted for infinite
+
+CE Resource Pack 1.299
+- Corrected some spelling errors in fixed background graphics
+
+CE Update 1.299
+- Added decline option for Lanius deconstruction event after negotiating a better deal
+- Pulled latest spell checking from github
+- Fixed some more typos mentioned in the thread
+- Fixed some backgrounds not using the _REAL list
+
+CE Infinite Addon 1.299
+- Fixed misc file not being rawappend
+- Fixed some visual changes to crew not taking effect
+
+CE Endless Loot 1.299 for CE and CE Endless Loot 1.299 for CE Infinite
+- Fixed Serve Drones not being named as such
+- Fixed bad weapon ID on Engi Type C
+- Fixed Zoltan B not using the current loadout in infinite version
+- Switched one Ion Burst on Zoltan B to Quickshot
+- Switched Ball Minelauncher on Slug B to Hull Ripper
+- Fixed some visual changes to crew not taking effect
+
+CE Update 1.298b
+- Added enemy version of the Ares Missile, for real now
+
+CE Resource Pack 1.298
+- Fixed some typos in fixed texts
+- Lowered volume of crew stun explosions again
+
+CE Update 1.298
+- Added enemy version of the Ares Missile
+- Fixed fugitive first aid option not having hidden outcome
+- Added some recent Patreon supporters to the name list
+- Pulled recent spellchecking commits from github
+
+CE Endless Loot 1.298 for CE and CE Endless Loot 1.298 for CE Infinite
+- Fixed Sungazer not providing fire chance bonus
+- Modified Plasma Throwers now have the same amount of projectiles as in main CE
+- Description of Overcharged Heavy Ions now correctly states that the weapon gains +2 ion damage
+
+CE Update 1.297
+- Pulled latest spelling fixes from git hub
+- Some misc fixes
+
+CE Endless Loot 1.297 for CE and CE Endless Loot 1.297 for CE Infinite
+- Fixed "Heavy" prefix on certain ion weapons
+- Fixed some cooldown prefixes on Auto Laser I
+
+CE Update 1.296
+- Pulled some spelling fixes from git hub
+- Infinite related: Bounty Hunter Database will always give marks on non-combat Contested Deep Space entry beacons
+
+CE Endless Loot 1.295 for CE and CE Endless Loot 1.295 for CE Infinite
+- "Heavy" prefix on ion weapons works as intended now
+
+CE Update 1.295
+- Cluster Stun Bomb only deploys two bombs, but deals one ion damage now
+- Some convenience changes to weapon and crew order across several player ships (as suggested by ahmedoo)
+
+CE Resource Pack 1.295
+- Fixed some typos on hazard tooltips
+
+CE Update 1.294
+- Cluster Bomb no longer has a fire chance
+- Trade good rarity levels are named a little more euphemistic now
+
+CE Endless Loot 1.294 for CE and CE Endless Loot 1.294 for CE Infinite
+- Fixed some Type C ships not having modded guns
+- Flux drones should work now
+- Chain Vulcan can no longer have "Suppression"
+- "Unfocused" is considered mixed now
+
+CE Resource Pack 1.293b
+- Fixed missing Mantis Scout gib
+
+CE Endless Loot 1.293 for CE and CE Endless Loot 1.293 for CE Infinite
+- fixed new AI avatar sprites not appearing
+
+CE Resource Pack 1.293
+- Added missing Mantis Bomber pirate gib
+- Added missing Vintage Rebel pirate cloak image
+- Cleaned up AI avatar sprites
+
+CE Resource Pack 1.292
+- AI Avatar crew has a more distinct appearance now, based on Gencools sylph sprites
+- AI Avatar crew now has portraits
+
+CE Update 1.292
+- Internal Generator is cheaper now
+- Supspace Scanner cloak break now requires 2 power
+- AI avatar generator is slightly cheaper now
+- AI avatar generation fail is less severe now
+- Engineering Crystal Vengeance needs less hull now
+- On-board Assembly Line price increased
+- On-board Science Lab is cheaper now
+- Producing generic trade goods with On-board Assembly Line no longer requires time
+- Requisition License price increased
+- Bounty Hunter mark reward range broadened
+- Killing marks acquired through Bounty Hunter database generally gives better payouts now
+- Combat Simulator even cheaper now
+- Producing with Ammo and Drone Manufacturer are even more economic now
+- Fixed Pirate Artillery Cruiser door links
+- Misc fixes
+
+CE Additional Music Addon 1.292
+- Fixed Sonar file path, should work now
+
+CE Resource Pack 1.291
+- Corrected some typos in background tooltips
+
+CE Update 1.291
+- Corrected typos in some events
+- Added one blue option for artillery system
+- Slightly increased second reward for Mantis Invasion Convoy event
+- Slightly increased rewards for curator quest
+- Fixed ghost ship event
+
+CE Additional Music Addon 1.291
+- Fixed missing soundtrack?
+
+CE Resource Pack 1.29
+- Corrected Rock Scout C cloak image
+- Custom hazard backgrounds have static sudo-tooltips now
+
+CE Update 1.29
+- Corrected brackets in one event
+- Another attempt at fixing Stealth C gib placement after death
+- Fixed Adcanced Plating combat aug optio not being labled correctly in a couple events
+- Added asteroid background to one hazard event
+
+CE Additional Music Addon 1.29
+- Added "Deepspace Sonar" by Commet Hunter to the mix
+- Federation Controlled Sectors now have an own soundtrack, headlining Sonar
+
+CE Resource Pack 1.287
+- Corrected Rock Scout C cloak image
+- Custom hazard backgrounds have static sudo-tooltips now
+
+CE Update 1.287
+- Enabled subspace scanner combat aug option in all phases of the boss fight
+- Last Stand start event mentions that the beacon is disputed now
+- Attempted to fix text clobbering in credits and certain tooltips
+
+CE Resource Pack 1.286
+- Added missing Manti Scout B pirate hull
+
+CE Update 1.286
+- Clarified Advanced Plating description
+- Added some recent Patreon supporters to the list
+
+CE Endless Loot 1.286 for CE and CE Endless Loot 1.286 for CE Infinite
+- Shot bonus prefixes can no longer apply to certain charge weapons
+- Fixed unfocused beam weapon stats
+- Some more minor fixes
+
+CE Resource Pack 1.285b
+- re-added some missing ship graphics
+
+CE Update 1.285
+- Added some recent patreon supporters to the names list
+- Changed certain AE themed enemies to use the new type C ship graphics
+- Pulled some spell checking from the new git repo
+
+CE Resource Pack 1.285
+- Added more type c variants for Mantis, Slug and Zoltan enemies (made by elijahdb)
+- Added more type c pirate variants for Mantis, Slug and Zoltan enemies (made by elijahdb)
+- Changed type c Rock enemies to smooth hulls (made by Qwerty343D)
+
+CE Update 1.284
+- Added some recent patreon supporters to the names list
+- Out-of-fuel Drone Manufacturer option now creates drone parts as intended
+- Further shortened zero-grav construction yard intro text to prevent crashes?
+- Changed some blue options to use the correct brackets
+- Fixed ordering of combat aug options in some fights
+- Fixed phase three boss having its drone system functionung from the start when fightin in nebula
+- Some minor fixes
+
+CE Update 1.282
+- Fixed bad ghost event eventList
+- Corrected choice sorting in s couple events
+- Some minor fixes
+
+CE Update 1.282
+- Plasma Throwers fire chance and projectile count increased
+- Adaptive Focus Beam III charges slower now
+- Some minor fixes
+
+CE Endless Loot 1.282 for CE and CE Endless Loot 1.282 for CE Infinite
+- Previous changes in main CE player ship loadouts integrated
+- Supression Light Chain Laser works now
+- Soma balancing changes
+
+CE Update 1.281b
+- Fixed some very old issues with a rare event in hazard sectors, potentially fixing a crash
+
+CE Update 1.281
+- Advanced Navigation AI and FTL Recharge Booster now allow you to circumvent black holes
+- Enemy Version of the Heavy Ion Drone can no longer be acquired by the player
+- Adaptive Effector charges much faster now
+- Missile Defense Turret Mark I is cheaper now
+- Swarm Missile Drone is slightly faster now
+- Baton and Bo beam stun time increased
+- Player version of the Hadur Mine Launcher is overall better now
+- Stealth B loadout replaced with Maul beam
+- Zoltan A and B loadout changed
+- Rock A loadout changed
+- Removed a bunch of bad drone ID's in AE overwrite lists
+- Weapon Components now sell correctly in Hazard and Pirate sectors
+- Added a free repair event to industrial sector free stuff list
+- Terraforming gear sells better in Civilian Sectors now
+
+
+CE Update 1.28d
+- Fixed a few bad name tags
+- Fixed a bad "req" tag in the Rock Ramship ship event
+- Added a missing enemy variant for Beam Drone II
+- Pulled some more spell checking from gitbhub
+
+CE Update 1.28c
+- Fixed upload related instability?
+
+CE Update 1.28b
+- Fixed FTL Recharge Booster not enabling faster hyperspace travel
+- Fixded a few event trade outcomes not working correctly
+- Removed redundant continue option in NEBULA_AUTO_HAZARD_STORM_DELAY
+
+CE Endless Loot 1.28 for CE and CE Endless Loot 1.28 for CE Infinite
+- Fixed a problem with the Rebel Pusher using the wrong hull
+
+CE Infinite Addon 1.28
+- Fixed a problem with the Rebel Pusher using the wrong hull
+
+CE Resource Pack 1.28
+- Fixed a couple wrong image dimensons
+- Added type C pirate hulls for Rebel and Federation ships, made by R4V3-0N
+- Added type A vintage Rebel hulls, made by R4V3-0N
+
+CE Update 1.28
+- Integrated R4V3-0N new hulls
+- Fixes a potential problem that causes the hull repair kit to not work as intended
+- Pulled some more spell checking from github
+
+
+CE Update 1.279
+- Fixed a problem with weapon tips not appearing
+- Added a couple new blue options for the on-board science lab
+- Added a new outcome for the Federation fleet battle quest
+
+CE Update 1.278c
+- Fixed some tag inconsistencies
+
+CE Update 1.278b
+- Removed some bad github stuff
+
+CE Update 1.278
+- On-board Science Lab, On-Board Assembly Line and Cargo Teleporter are cheaper now
+- Basic Laser Mark II fire chance increased
+- Hull Laser Mark I breach chance increased
+- Basic Laser Mark II and Hull laser Mark I price decreased
+- Traveling through nano bot clouds now halts the Rebels fleet advance entirely instead of just delaying it
+- Teleporter disruption field now allows to apprehend or hire the marooned Slug thief
+- Added a missing pre-fight fall-back continue to one of the confined space event in auto sectors (potentially increasing game stability?)
+- Added missing pre-fight fall-back continue to a couple nebula events (potentially finally fixing that persisting nebula crash?)
+- Pulled recent github grammar fixes and spell-checking
+
+CE Update 1.277b
+- Fixed a problem with certain game texts not displaying spaces correctly
+
+CE Update 1.277
+- Stores in hazard sectors buy compressed nebula gas now
+- Defeating AI ships in nanobot cloud now also resets AE systems
+- Lanius Interceptor bad door links fixed
+- Naginata beam range increased
+- Some minor changes
+
+CE Update 1.273
+- Added a couple new out-of-fuel events
+- Fixed wrong buying price for Religious Rock Literature
+- "worrying radiation" coming from your medical unit now also affects your clonebay
+- Mind Controll now allows to counter Slug kidnaping attempts
+- Fixed gib offsets for auto constructor platforms
+- Auto ships in asteroid fields will no longer try to escape into asteroid fields
+- Some small fixes
+
+
+CE Update 1.272
+- Fixed some crew names not being displayed correctly
+
+CE Update 1.271
+- Fixed: A teleporter disruptor option in the ROCK_BORDERS_SUN event not spawning a hostile ship correctly
+- Added some missing teleporter disruptor options to the Slug fight where "dangerous radiation" is detected in your medbay
+- Added some missing "Continue..." options to the fights during the Pirate Homeworld questline
+- Some spellchecking by Russian Rockman
+
+
+CE Resource Pack 1.27
+- "SIMULATION COMPLETE" image corrected
+- crystal sounds by Noobjuice integrated
+
+CE Update 1.27
+- "Improved Crystal Sounds" mod by Noobjuice integrated
+- Bad IDs of some trade goods fixed
+- Fixed: Gaining Intel on the fleet through questionably methods speeding up the fleet instead of delaying it
+- Fixed a possible crash cause in "factory of colossal proportions" event ?
+
+EL Texture Pack 1.27
+- Changes of CE 1.27 integrated
+
+CE Endless Loot 1.27 for CE and CE Endless Loot 1.27 for CE Infinite
+- "Improved Crystal Sounds" mod by noobjuice integrated
+- A bunch of unique "Legendary" prefixes added
+- Soma balancing changes
+
+
+CE Resource Pack 1.269
+- Crew sprites now longer have selection discs by default
+- Vintage Slug croissant offset fixed
+
+CE Update 1.269
+- Light Chain Vulcan buffed
+- Baton beam is cheaper now
+- Hull Missile II has a stun effect now
+- Slug Pleasure cruiser offset fixed
+- Pirate Rebel Pusher layout fixed
+- Some typos fixed
+
+
+CE Resource Pack 1.268
+- R4V3-0Ns Pirate versions of the vintage Rebel ships added
+- R4V3-0Ns Civ and Civ pirate version of the slug ships added
+
+CE Update 1.268
+- Fixed a problem that prevent Advanced Navigation AI from working in events
+- Changed the way evading Rock Rammships is presented
+- Fixed a problem with the pirate version of the Rebel Pusher class
+- Vintage Rebel ships can now be in the hand of pirates (hulls by R4V3-0N)
+- Some Slug ships can have their vintage "civ" design from early development (hulls by R4V3-0N)
+- Ravens name fixed
+
+CE Resource Pack 1.267
+- R4V3-0Ns reworks of the Matt and Justin's original Rebel ship designs added
+
+CE Update 1.267
+- Some new ship classes for the Rebels added
+- A few new events added
+- Some minor fixes
+
+CE Infinite Addon 1.267
+- Shield system price increased
+- Changes of CE 1.267 imported
+
+
+EL Texture Pack 1.266
+- Changes of CE 1.266 integrated
+
+CE Endless Loot 1.266 for CE and CE Endless Loot 1.266 for CE Infinite
+- Changes of CE 1.266 integrated
+- "Repeater" can no longer apply to artillery lasers
+- "Boosted" now counts as epic
+- Some other prefixes adjusted
+- Many more weapon prefixes can now also apply to drones
+
+
+CE Additional Music Addon 1.266
+- Removed the track for Federation sector due to a problem with looping it
+
+
+CE Resource Pack 1.266
+- Slug portrait saturation fine tuned
+- Humanoid portrait armor saturation fine tuned
+- Effector Drone reworked to match new AE effector style
+- R4V3-0N's Militia Defender ship model integrated
+
+CE Update 1.266
+- Troopship crews are generally equipped with Adaptive Gel Suits now
+- Civ goods can now be sold to traveling traders as intended
+- About a thousand new crew names added
+- The FTL Fuel Recycler augment has a slightly lower overall fuel output now
+- A couple of Lanius events added
+
+
+CE Resource Pack 1.265
+- Rock Protector cloak image fixed
+- Most of gencools amazing crew variant graphics added
+
+CE Update 1.265
+- Some more combat fluff added
+- Gencools crew variants added
+
+
+CE Update 1.264b
+- Fixed misleading event texts when using Advanced Plating
+- Fixed Stealth C augments
+
+CE Endless Loot 1.264b for CE and CE Endless Loot 1.264b for CE Infinite
+- Fixed Stealth C augments
+
+CE Update 1.264
+- Rebel Scrambler horizontal offset fixed
+- Changed mind control jamming effect to prevent mind shielding related crashes
+- Merged Firewall Plating and Mind Shielding and changed overall functionality
+- Merged Advanced FTL Navigation and Advanced Proximity Navigation into a single, more universally useful augment
+
+CE Infinite 1.264
+- Bad Rebel station IDs purged
+
+CE Endless Loot 1.264 for CE and CE Endless Loot 1.264 for CE Infinite
+- Tight spread can no longer apply to weapons that normally only deal crew damage
+- Changes of CE 1.264 integrated
+
+CE Additional Music Addon 1.264
+- Three tracks from Ben Prunty's album "Chromatic T-Rex" integrated (with personal permission of course)
+
+CE Additional Music Infinite Compatibilyt Patch 1.0
+- Initial Release; fixes some inconsistencies when using the addon with Infinite and adds some of the new tracks to constested deep space
+
+
+CE Update 1.263
+- Beacon access kit can fail now; fail chance depends on amount of empty beacons in the current sector
+- Advanced FTL navigation now also enables faster hyperspace travel
+- Certain factions can now use AE related combat augs against you
+- Enemies using combat augs are slightly more rare now
+
+
+CE Update 1.262
+- Plasma Thrower Mark I and II fire chance increased
+- Plasma Thrower Mark II radius slightly increased
+- Plasma Thrower Mark II projectile count increased
+- Heavy Defense Drone I and II and Drone Destroyer are overall better now
+- Neural Stunner Mark II and Bliss Stun Artillery projectile count increased
+- Artillery Laser Mark II damage increased
+- Hull Crusher Laser power cost decreased
+- Change misc.xml.append to misc.xml.rawappend, which should fix missing spaces in tooltips and game texts
+- Requires SMM 1.5 to work now (?)
+
+
+EL Texture Pack 1.261b
+- Added missing _purple variants for reworked effectors
+
+CE Update 1.261b
+- Fixed an exploit that allowed free repairs through simulating damage with the Combat Simulator augment
+
+CE Resource Pack 1.261
+- Ship Greebles Graphics mod changes integrated
+
+CE Update 1.261
+- Ship Greebles Graphics mod changes integrated
+- "Ambush well known criminal" outcome for "Take on some mercenary work" fixed (was not supposed to spawn as quest obviously)
+- Some small stuff fixed
+
+
+CE Update 1.26b
+- Fixed Zoltan C starting loadout
+- Fixed Zoltan Beam-Ship system stations (?)
+
+CE Endless Loot 1.26b for CE and CE Endless Loot 1.26b for CE Infinite
+- Fixed a problem that prevented "boosted" drones from getting a working drone image assigned
+
+CE Endless Loot 1.26 for CE and CE Endless Loot 1.26 for CE Infinite
+- Changes of CE 1.26 imported
+- Added some rarity ratings for prefixes, slightly increasing rarity of certain positive prefixes (which are now marked as "Rare")
+- Added some even more rare "Epic" prefixes, each one unique for a certain weapon type
+- Fixed another problem that apparently caused radius giving prefixes to decrease projectile count
+- More ship prefixes added, many of which are more specific than before
+- Ship faction and ship class now strongly influences which prefixes can be applied to the ship in question
+- Weapons with special effect chances of 0 will no longer claim that they have a "low" special effect chance on their item card
+
+
+CE Resource Pack 1.26
+- Fancy greeble graphics, some supplied by LordTrilobite, for all player ships added
+- Some new drone graphics added
+
+CE Update 1.26
+- Successfully surrendering to Slugs works correctly now
+- Six drones added (mostly rare crystal drones)
+- Crystal drones to the reward list for the special crystal conversation outcome added
+- A few selected crystal enemies can use drones now
+- Re-implemented and edited weapon rarity overrides for crystal sector
+- Scatter Laser Flak power cost decreased
+- Fixed a problem that prevented stealth C from getting its full CE loadout
+- Some blue options fixed
+- Some typos fixed
+- Some small fixes
+
+CE Infinite 1.26
+- Changes of CE 1.26 imported
+- Piloting and doors can be upgraded to level 4 now (?)
+
+CE Endless Loot 1.26 for CE and CE Endless Loot 1.26 for CE Infinite
+- Changes of CE 1.26 imported
+- Added some rarity ratings for prefixes, slightly increasing rarity of certain positive prefixes (which are now marked as "Rare")
+- Added some even more rare "Epic" prefixes, each one unique for a certain weapon type
+- Fixed another problem that apparently caused radius giving prefixes to decrease projectile count
+- More ship prefixes added, many of which are more specific than before
+- Ship faction and ship class now strongly influences which prefixes can be applied to the ship in question
+- Weapons with special effect chances of 0 will no longer claim that they have a "low" special effect chance on their item card
+
+EL Texture Pack 1.26
+- Graphics for the Phase Ion Drone added
+
+
+CE Endless Loot 1.25c for CE and CE Endless Loot 1.25c for CE Infinite
+- Fixed several problems with the EL loadout of Stealth C
+
+CE Endless Loot 1.25b for CE and CE Endless Loot 1.25b for CE Infinite
+- Radius adding prefixes fixed
+- Weapon showcase re-added
+
+CE Resource Pack 1.25
+- Some tiny adjustments
+- Rebel Assault ship graphic added
+- Target Practice ship graphic by TaxyService integrated
+
+CE Update 1.25
+- Battery caps in storms removed again
+- SUN_INTENSE event is unique now, as it should have been
+- Slug unlock quest gives regular augs instead of Slug Gel now
+- Rebel Drone-Carrier reworked
+- Two new Rebel ship classes added
+- Pirate Cruiser destroyed event fixed
+- Some more blue options added
+- Many small fixes
+
+CE Infinite 1.25
+- Changes of CE 1.25 imported
+- Medbay caps out at lvl 3 again (due to possibility of aquiring glitched lvl 4 clonebay this way)
+- Shields cap out at lvl 8 again (due to visual glitches)
+- Cleared some problems with pirate list containing non-pirate ships
+
+CE Endless Loot 1.25 for CE and CE Endless Loot 1.248 for CE Infinite
+- Changes of CE 1.25 imported
+
+
+Vanilla Player Ship Loadout Addon 1.248
+- Fixed: dlc_blueprints_override wasn't appending :(
+
+CE Additional Music Addon 1.248
+- Fixed a crash when traveling to auto sectors.
+
+CE Update 1.248
+- Targeting Jammer is much less likely to jamm two weapons at once now
+- Kestrel A and C door links fixed
+- Rock Fireship door links and gibs fixed
+- Plasma storms events will limit the use of the backup battery now; preventing possible crashes
+(max lvl 2, only relevant for Infinite)
+
+CE Update 1.247
+- Some missing combat aug options added
+- Stealing supplies from civilians aided by Rebels now counts as an act of piracy
+- Salvaging civilian supplies from Rebel aid ships can have more results now
+- "Care to take up a bit of mercenary work?"-event has some more jobs available now
+- Non-nebula slug events will allow to use the autonomous ASB correctly now
+- Any ammo based weapon allows to engineer an Ammo Manufacturer now
+- Auto-Freighter weapon mounts fixed
+- Some small fixes
+- Some typos fixed
+
+CE Infinite 1.247
+- Changes of CE 1.247 imported
+- Some bad Engi ship IDs purged
+- A bunch of bad Auto Construction ship and station IDs purged
+
+CE Endless Loot 1.247 for CE and CE Endless Loot 1.247 for CE Infinite
+- Changes of CE 1.247 imported
+
+
+CE Resource Pack 1.246
+- Some tiny adjustments
+
+CE Update 1.246
+- Fire Suppression augment is more effective now
+- Changed Kestrel A and C layout to discourage the usage of breaches as internal airlocks
+- Neural Stunner should take effect almost instantaneously now
+- Verdict focus beam artillery damage reduced
+- Verdict focus beam artillery will no longer be able to hit two rooms accidentally
+- Combat fluff events are called slightly earlier now
+- Some missing combat aug options added
+- Some typos fixed
+
+CE Infinite 1.246
+- Changes of CE 1.246 imported
+- Backup Battery can now be upgraded to level 3
+
+
+CE Resource Pack 1.245
+- Some small adjustments
+
+CE Update 1.245
+- Attacking Slug stations turns them hostile correctly now
+- Some small fixes
+- Some typos fixed
+
+CE Infinite 1.245
+- Some more bad ship IDs purged
+
+CE Endless Loot 1.245 for CE and CE Endless Loot 1.245 for CE Infinite
+- Changes of CE 1.245 imported
+
+
+CE Resource Pack 1.244
+- Russian Rockmans crew projectiles integrated
+- Allied ASB Backgrounds added
+- Custom Hangar screen added
+
+CE Update 1.244
+- Waveform EMP max ion damage reduced and accuracy increased
+- Hangar screen reworked
+- Some events with allied ASB will telegraph more clearly that you are not the target
+- Some small fixes
+
+CE Infinite 1.242
+- Changes of CE 1.242 integrated
+- Some bad Slug ship IDs purged
+
+CE Additional Music Addon
+- Songs normalized to have them match the general ingame sound volume better
+
+
+CE Update 1.243a
+- Fixed a crashes upon jumping to Rock controlled sector
+
+
+CE Update 1.243
+- Fixed crashes/event glitches when jumping to civilian sectors?
+- Several small fixes
+- Drone Uplink Jammer is more reliable now
+- Mind Shielding always disables three system bars now
+
+
+CE Update 1.242a
+- Some fix attempts concerning possible crashes upon jumping to auto controlled sectors
+- ASB options for some left out AE events added
+
+CE Update 1.242
+- One augment added
+- Auto Factory Ship wrongly assigned cloak system removed
+- Requisition License works correctly for all out-of-fuel encounters now
+- Pirate Cruiser gibs fixed
+
+CE Infinite 1.242
+- Changes of CE 1.242 integrated
+
+CE Endless Loot 1.242 for CE and CE Endless Loot 1.242 for CE Infinite
+- Changes of CE 1.242 imported
+
+
+CE Update 1.241a
+- Fixed a crash related to civilian station surrenders
+
+
+CE Update 1.241a
+- Alpha version of the bounty hunter database removed
+- More Lanius system stations fixed
+- Piracy and combat aug option for the dubious engi ship that appears when you are out of fuel added
+- Some weapon mounts fixed
+
+
+CE Infinite 1.241a
+- Fixed a problem causing start beacons of auto sectors not delaying the fleet and calling hyperspace events instead
+
+
+CE Non-EL Enemy Loadouts Addon 1.241
+- Now also reverts auto constructor weapon and drone lists
+
+
+CE Update 1.241
+- Engi C shield room gained an airlock where it is suggested by the floor image
+- Fixed a bad event ID for Pirate Homeworlds
+- Combat aug options for AE out-of-fuel events enabled
+- Some more missing combat aug options added
+- Attacking refuges when out of fuel counts as an act of piracy now
+- Lanius Interceptor generates system stations correctly now
+- Surrendering to Lanius now correctly allows to break truce (?)
+- Some more pre-fight options re-ordered
+- CRUISER_BOSS_RESCUE spawns a repair beacon correctly now (?)
+
+CE Infinite 1.241
+- Changes of CE 1.241 integrated
+- Auto Constructor events and Pirate Homeworld events to Contested Deep Space sectors added
+
+CE Additional Music Addon
+- Added playlist for Auto-Sector
+- No longer overrides CEs title screen
+
+
+
+CE Resource Pack 1.24
+- Estels great title screen added
+- Revamped version of Lord Trilobites Mantis and Rock crew portrait integrated
+- Ship and station images for the Auto Constructor faction added
+- Other assets related to auto sectors added
+- Lemmonades Letze Reise Cruiser integrated
+- Some backgrounds for the mixed hazzards occurring in hazzard sectors added
+
+
+CE Update 1.24
+- Does not contain a Testrel
+- Two unique hostile sectors added (Auto controlled sectors and Pirate Homeworlds)
+- Many new events and quests added
+- Auto Constructor faction added
+- Auto Constructor cruisers can occasionally appear outside auto controlled sectors in classic auto cruiser events (beacon builder and such)
+- One Hazard added
+- One Augment added
+- Added a large amount of flavor events and texts that have a small chance to be called in a very broad range of fights
+- Combat aug power costs will be applied correctly during the boss fight now
+- Drone Uplink Jammer can be used upon boss AI takeover now
+- All combat augs should work correctly now after Zoltan negotiations with the boss fail
+- Pre-fight options now follow a global order (1. Continue... 2. Offer surrender 3. Special Aug options 4. Combat aug options)
+- Subspace scanner pre-fight options texts clarified
+- "Full Maintenance" option of the Hull Repair Kit now repairs more hull and needs more time again
+- Some new blue options and event outcomes added
+- Hyperspace events use the correct textlist now
+- Games start text no longer refers to a non-existing hyperspace jump
+- Scythe Beam gained a small fire chance
+- Enemy version of the Adaptive effector can no longer be acquired by the player
+- Sha'k Internal Teleporter on enemy Teleporter Barges is slightly more intimidating now
+- Auto Repair Ship no longer appears among normal auto ships
+- Invader classes now appropriately use the 'invasion' boarding AI
+- Slug artillery triggers neural stunner blue options correctly now
+- Energy AI ship now uses the original Zoltan style AI Bomber hull
+- Zoltan military ships now use more type b hull designs
+- Auto-Cruisers are generally equipped with Titanium System Casing now
+- AI ship AE-override list fixed, AI ships with AE systems will appear correctly now
+- One bad ship ID from the Engi ship list purged
+- Some bad weapon IDs from the STANDARD weapon list purged
+- One bad ship ID from the PIRATE list purged
+- Swallow medbay system tag fixed
+- Onboard Science Lab now works when being out of fuel
+- A few new science outcomes added (including ways to start the crystal quest)
+- Stealth drones no longer count as mining drones
+- Pirate traders now always have cargo teleporters, but only allow pirate ships to actually use them
+- Quarantine sectors now have a chance to grant a single safe crew member for free, just like they might randomly infect one of your crew
+- The "Federation Medical Officers join your crew" outcome now telegraphs more clearly what is actually happening
+- Engi Scrapyard event no longer gives preset weapons
+- Civilians ships in the ESCORT event now actually show serious malfunctions when being engaged
+- Fixed a problem that prevent the Union pirate hunt quest from spawning quest beacons upon destroying the first or second pirate ship
+- Slug stations personnel wised up and no longer tries to run away with a stationary space station after hacking your piloting
+- Auto Turret frying its processors gives MED reward now, for consistency
+- Raiding Slug Blackmarkets no longer counts as an act of piracy
+- Another take on actually preventing those ice-field enemies from cloaking
+- Auto Drone-Harbors and Auto Drone-Carriers start to appear later now (as they should have, but only did in infinite so far)
+- Auto Troopships start to appear slightly earlier now
+- Reworked the way the avoidable Rebel cruiser holds back and powers up
+- Some typos fixed
+
+
+CE Infinite 1.24
+- Changes of CE 1.24 imported
+- High level system upgrades for most systems enabled
+- A few quarantine sector NOTHING texts from the deep space list removed
+
+EL Texture Pack 1.24
+- Missing invisible textures for invisible effector impacts added
+
+CE Endless Loot 1.24 for CE and CE Endless Loot 1.24 for CE Infinite
+- Changes of CE 1.24 imported
+
+
+
+CE Resource Pack 1.23 (silent update)
+- PDS projectile graphic edges fixed
+
+
+CE Resource Pack 1.23
+- Some of scooterbagas great image replacements integrated
+- Civilian Infiltrator cloak image added
+- ASB hazard uses a custom projectile graphic now
+- Light Scatter Laser projectiles fan out in flight and impact with scatter impacts
+
+CE Update 1.23
+- The game no longer starts in hyperspace; hyperspace events start to appear after sector one onwards
+- Some blue options for hyperspace events added
+- CEs Anti-Drones are slightly cheaper now
+- Ion Flak II price slightly decreased
+- Anti-Ship Swarm missile drone projectiles are correctly shot down by defense drones now
+- Niche gear available at the nebula weapon trader costs less scrap
+- Lanius Instigator gibs fixed
+- Lanius Broodship clone tube and door links fixed
+- Mantis troopship gibs fixed
+- Federations planets assaulted by gunboats offer their fire support earlier in the fight now
+- Combat aug options for space dock fight fixed
+- Some typos fixed
+
+CE Infinite 1.23
+- Changes of CE 1.23 imported
+- Fixed a problem that caused hyper space events to appear when traveling to civilian sectors
+
+CE Endless Loot 1.23 for CE and CE Endless Loot 1.23 for CE Infinite
+- Changes of CE 1.23 imported
+
+
+CE Resource Pack 1.229
+- Fixed a problem that prevent Russian Rockmens map icons from appearing
+
+CE Update 1.229
+- Hull Crusher Laser now pierces one shield
+- Bardiche Beam price and cooldown decreased
+- Burst Scatter Defense Drone projectile speed decreased
+- Burst Scatter Laser I price increased
+- Minelauncher prices reduced
+- Light Anti-Crew Missile Drone needs two power now
+- Enemy versions for swarm missiles and minelaunchers added; enemies will no longer spawn with high tier missiles early on
+- Some previously left out changes that AE made implemented
+- Last stand repair beacons display some friendly fed stations now
+- Repair beacons during the last stand are no longer as safe as they used to be
+- Outlaws at the entrance to Pirate sectors have ASBs backup now
+- Rock Homeworlds call the hyperspace event correctly now
+- Typ C Rock enemy gibs and cloak offsets fixed
+- Typ C Rock enemy escape event fixed
+- Typ C Rock enemies are equipped with Crystal Vengeance instead of Rock Plating now
+- Rock Checkpoint shield graphic repositioned
+- Slightly changed the description of some player ships to point more clearly to their CE characteristics
+- Rock C comes with Crystal Vengeance instead of Rock Plating now (piracy options did not feel right for that ship)
+- Some typos fixed
+
+CE Infinite 1.229
+- Changes of CE 1.229 imported
+
+CE Endless Loot 1.229 for CE and CE Endless Loot 1.229 for CE Infinite
+- Stun beams no longer can have the "piercing" prefix
+- Healing Burst variants graphics fixed
+- Changes of CE 1.229 imported
+
+Non EL Enemy Loadouts Addon 1.229
+- Changes of CE 1.229 imported
+
+
+CE Update 1.228
+- Auto Lasers gained a small fire chance
+- Targeting Jammer and Drone Uplink Jammer pre-fight options display their power cost correctly now
+- Unknown refugee ships have to be hailed and fully identified before they can be pirated
+- Fixed one refugee event that was not loading the correct ship
+- Enabled breaking truce with Lanius ships
+
+
+CE Update 1.227
+- Various AI ship layout door links fixed
+- Phase three boss drones nerved
+
+CE Endless Loot 1.226 for CE and CE Endless Loot 1.226 for CE Infinite
+- Slug A loadout fixed
+
+CE Update 1.226
+- Light Gatling Laser is now called Light Chain Vulcan to avoid conflict with a EL prefix
+- Stealth C cloak offset fixed
+- Ice-fields prevent Auto-Stations from cloaking as intended now
+- Fixed a bad textlist ID in the Slug player surrender event
+
+
+CE Update 1.225c
+- Fixed a crash related to AI sector store events
+- Fixed a crash related to Revel sector store events
+
+CE Resource Pack 1.225
+- Initial release, required for the Captain Editsion base mod
+
+CE Update 1.225b
+- Lanius Instigator layout fixed?
+- CE textures and audio files outsourced to facilitate updating the mod
+
+CE Endless Loot 1.225b for CE and CE Endless Loot 1.225b for CE Infinite
+- "Shredder" works on bombs as intended now (fixes Slug A loadout)
+- A few missile prefixes can be applied to bombs as well now
+
+
+CE Update 1.225
+- Jumps to new sectors are now considered long-range hyperspace jumps that come with distinct visuals and sound
+- Performing long-range jumps globally drains fuel, jumping on emergency fuel only causes the fleet to catch up
+- Various speed and fuel usage options (depending on your engine levels) allow you to get a head-start against the fleet, with trade-offs
+- Friendly PDS warning icon removed (was required to make this work)
+- Exit beacons now use the infinite textlist that describes their long-range jump relays
+- Distraction Buys removed from the game (mess up fleet delay at start beacon events)
+- Maul beam glow fixed
+- Targeting Jammer is slightly less effective now
+- Refugee events spawns the correct ships now
+- Red-Tail float doors removed
+- Zoltan Gunboat doors fixed
+- Some typos fixed
+
+CE Additional Music Addon
+- Changes of CE 1.225 imported
+
+CE Infinite 1.225
+- Changes of CE 1.225 imported
+
+CE Endless Loot 1.225 for CE and CE Endless Loot 1.225 for CE Infinite
+- "Heavy" and "Wild" can no longer be applied to hull weapons
+- Changes of CE 1.225 imported
+
+Non EL Enemy Loadouts Addon 1.225
+- Reverts Lanius weapon list as well now
+
+
+CE Update 1.222
+- Mantis Minelayer doors and gibs fixed
+- Some Lanius ship offsets fixed
+- Red-Tail artillery room airlocks fixed
+- Fixed a crash related to the Federation/Engi store event
+- A few events that can deny you the "Tactical Approach" achievement now telegraph more clearly that they do so
+- All internal AP drones have personal shielding now (visual effect only)
+- Combat augment blue options display power costs now
+- The boss charges weapons slower on easy now (to compensate for the meany meany layout)
+- Phase three flagship no longer deploys combat augments
+- Phase three flagships life support will fail, forcing a the AI takeover and re-introducing CEs makeshift "fourth phase"
+- Phase three flagship will activate internal drones after the AI has taken over
+- Phase three flagship is equipped with defensive augments again
+- Slightly increased the probability of finding/encountering internal drones
+- Some typos fixed
+
+CE Endless Loot 1.222 for CE and CE Endless Loot 1.222 for CE Infinite
+- Changes of CE 1.222 imported
+- Reworked the way "Shrapnel" and "Shredder" works
+- Decreased the effect of prefixes that change fire chance, breach chance and stun chance
+- Increased the effect of prefixes that affect drone evade
+- Added a cooldown penalty for a few very positive prefixes
+- "Piercing" and "Focused" can no longer apply to non-damaging beams
+- Speed modifying drone prefixes can now also apply to boarding drones
+- Certain defense drone prefixes no longer apply to anti drones
+- Some small changes and fixes
+
+
+CE Update 1.221b
+- Crashes related to one junk character fixed
+- Fleet Flagship Construction offset fixed
+- Adaptive Effector adapts correctly and more linear now
+- Adaptive Effector cooldown and power cost increased
+
+CE Update 1.221
+- CE Flak Mark I cooldown decreased
+- Fixed a crash related to the Lanius trade event
+- "Defense satellites gone haywire" event now allows changing your mind after considering to help
+- Various refugees fleeing the Rebels advance can no be pirated (which makes you a horrible person)
+- "Humanoid requests to be dismissed" event fixed
+- Engi Drone Harbor weapon mount fixed
+- A couple additional blue options for adaptive gel suits added
+- Leviathan Missiles deal and show the intended damage now
+- All drones enable engineering a Drone Manufacturer now
+- All missile weapons enable engineering an Ammo Manufacturer now
+- Salvaging fleet ships has some different flavor texts for crew kills now
+
+CE Update 1.22
+- One weapon added
+- Design of the Effectors reworked
+- New impact graphics for Effectors and Neural Stunners added
+- Stealth Beam Drone Mark I and II are better at evading enemy anti-drones now
+- Zoltan artillery can no longer accidentally hit two rooms
+- Crystal artillery can now be shot down by defense drones as intended
+- Crystal unlock quest no longer gives the Crystal Vengeance augment
+- Zoltan negotiations with Rock trade stations now give stores as intended
+- Flagship crew is equipped with Adaptive Gel Suits during all phases now
+- Phase three flagship can now also disrupt your hacking system
+- Player and enemy combat augments now use up some reactor power when being active
+- The Internal Generator will supply the required power if it is used to power up a second combat augment
+- Internal Generator also gives an option to negate power costs for your first combat augment; this prevents powering a second one
+- Subspace Scanner is more effective against cloaking now
+- Internal Effector is less effective against cloaking, mind control and hacking now
+- Plasma storms now disable all combat augments
+- Impact graphic for light crystal weapons added
+- Swarm missile tooltip no longer wrongly states that missile swarms evade defense drones (?)
+- Swarm missiles are slightly cheaper now
+- Hight tier swarm missiles fire slightly faster now
+- Missile Flak max damage reduced
+- Certain enemies are slightly more likely to use Ion Intruders
+- Stores have varying chances to be equipped with cargo teleporters now, depending on sector type (original idea by jopyth)
+- Corporate Science Station uses the correct weapon list again
+- Mantis Minelayer uses the Mantis Scout hull now
+- Mantis Troopship uses the Mantis Minelayer hull now
+- Some small fixes
+- Some typos fixed
+
+CE Infinite 1.22
+- Changes of CE 1.22 imported
+- A few more semi-boss events to contested deep space starting beacons added
+
+EL Texture Pack 1.22
+- Added missing textures for Plasma Drones
+- A few new graphics for EL 1.22 added
+
+CE Endless Loot 1.22 for CE and CE Endless Loot 1.22 for CE Infinite
+- Fixed a problem with visual variants of the Breach Bomb Mark II
+- Fixed a problem with visual variants of the Fire Bomb Mark II
+- "Breaching" does add less breach chance for beams now
+- Asteria Missile Launcher can no longer have the "Replicator" prefix
+- "Shrapnel" and "Shredder" prefixes readjusted
+- "Ripper" can no longer apply to weapons with more than three shops
+- Changes of CE 1.22 imported
+- Playership showcase re-integrated
+
+EL Vanilla Enemy Loadouts Addon 1.22
+- Changes of CE 1.22 imported
+- Does no longer reset event related weapon lists
+
+
+CE Update 1.217
+- Classic version of Splettes Highres Shield Graphics mod integrated (Original mod here: http://www.ftlgame.com/forum/viewtopic.php?f=11&t=24982 )
+- Hull Repair Kit effectiveness slightly reduced
+- Shading direction for Slug artillery graphic fixed
+- Fire focus beam now pierces all shields to avoid confusion caused by its automatically generated description
+- Some problems with the new Lanius enemy layouts fixed
+- Auto Repair Ships and Rebel Repair Ships are a little less good at repairing now
+- Neutral stations and ships will no longer randomly teleport people after certain neutral events (?)
+- Certain empty beacons during the last stand now allow socializing and on-board engineering as well
+- Federation controlled sectors have a small chance to spawn a low scale repair beacon
+- Human crew-members that want to resign are now dismissed immediately, to avoid other crewmen stepping in for them
+
+CE Infinite 1.217
+- Changes of CE 1.217 imported
+
+CE Endless Loot 1.217 for CE and CE Endless Loot 1.217 for CE Infinite
+- A few prefixes added
+- Changes of CE 1.217 imported
+- Focused Beam Drone can no longer have the focused prefix
+
+
+CE Update 1.216b
+- Left gib for the pirate version of the slug interceptor type c fixed
+- Cloak images for Lanius type C enemies fixed
+- Stealth C artillery room doors fixed
+
+CE Endless Loot 1.216b for CE and CE Endless Loot 1.216b for CE Infinite
+- Fixed a few instances of missing weapon graphics due to some faulty prefixes
+
+CE Update 1.216
+- Tweevlees great Lanius B enemy hulls intigrated
+- More enemy classes for Lanius added
+- Upgraded sensors no longer detect PDS dummy weapons on Spotter and Defender classes
+- AI controlled sector textlists revised
+- Some small fixes
+
+CE Infinite 1.216
+- Changes of CE 1.216 imported
+
+CE Endless Loot 1.216 for CE and CE Endless Loot 1.216 for CE Infinite
+- Some small fixes
+- "Ripper" prefix can no longer apply to adaptive beams
+- Changes of CE 1.216 imported
+
+
+CE Update 1.215
+- Cooldown of the standard focus beams slightly increased
+- Gunboat class gibs fixed
+- Some small fixes
+- Rock Missile Barge fourth weapon mount properly attached
+
+CE Infinite 1.214
+- Changes of CE 1.215 imported
+
+CE Endless Loot 1.215 for CE and CE Endless Loot 1.215 for CE Infinite
+- Changes of CE 1.215 imported
+
+
+CE Update 1.214c
+- Some small fixes
+- Added a waring to artillery systems concerning the load related crashes they cause (temporary solution)
+
+CE Infinite 1.214b
+- Changes of CE 1.214c imported
+
+CE Vanilla Player Ship Loadouts Addon 1.214b
+- Changes of CE 1.214c imported
+
+CE Update 1.214b
+- Projectiles passing through your shields for Fed C and Lanius A/B should no longer cause the ship hull to disappear
+- Zoltan A hull fixed
+- Zoltan B artillery weapon graphic fixed
+- Amount of boarders for the whisps in asteroid field event reduced
+
+CE Update 1.214
+- Enemy version of the Mantis A/B artillery added
+- Mantis teleporter barge max artillery power lowered
+- Lockdown Blast Mark II description changed
+- Some crew names correctd
+- Some artillery graphics changed
+- Fed C/Lanius A/Lanius B artillery mount fixed
+- Player ship glow on some artillery mount positions softened
+
+CE Vanilla Player Ship Loadouts Addon 1.214
+- Changes of CE 1.214 imported
+
+CE Infinite 1.214
+- Changes of CE 1.214 imported
+
+
+CE Update 1.213
+- Engi A and C artillery animation fixed
+- Mantis C artillery gun animation fixed
+- Fed B weapon mount fixed
+- Vindicator Beam animation fixed
+- Fed C/Lanius A/Lanius B artillery animation fixed
+- Stealth artillery damage increased
+- Titel screen name spelling corrected (sorry everyone)
+- Ingame character name spelling corrected (sorry again)
+- A few people from the forum to the name list added (let me know if you think you should be included)
+- Some artillery descriptions changed
+
+CE Infinite 1.213
+- Changes of CE 1.213 imported
+
+CE Endless Loot 1.213 for CE and CE Endless Loot 1.213 for CE Infinite
+- Changes of CE 1.213 imported
+
+
+CE Update 1.212c
+- Artillery system naming in shops fixed fixed
+
+CE Infinite 1.212c
+- Changes of CE 1.212c imported
+
+CE Update 1.212b
+- One bad shipname fixed
+- Enemy max artillery lowered
+- Artillery using enemies have the correct hull design assigned now
+- Rock B Artillery base cooldown and fire chance decreased
+
+CE Infinite 1.212b
+- Changes of CE 1.212b imported
+
+CE Endless Loot 1.02b for CE and CE Endless Loot 1.02b for CE Infinite
+- Changes of CE 1.212b imported
+- Fixed a problem during contend generation that allowed Hull Ripper drones to have an unfitting prefix
+
+
+CE Update 1.212
+- Lord Trilobites awesome Detailed Crew Portraits mod integrated
+(original mod thread here: http://www.ftlgame.com/forum/viewtopic.php?f=11&p=77425#p77425 )
+- CEs many contributers are now listed on the title page
+- CEs contributers can appear as crew ingame now
+- Artillery systems are available at shops for all player ships now
+- 12 custom artillery weapons added (with support from the Open Artillery mod crew)
+- Some player ship layouts changed to make room for the artillery system
+- Most player artilleries display hardmounted weapons on your ship hull when installed
+- Cut Vindicator Beam graphics added
+- Modified a few enemies to use the the new artilleries against you
+- Added a few enemy layouts that use the the new artilleries against you
+- Mantis Brood-Ship and Mantis Brood-Station boarding AI changed
+- Energy Hacker uses the Zoltan B hull style now
+- Engi Ion Barge uses the Engi C hull style now
+- Heavy Defense Drone I cooldown decreased
+- Trade system sell reminder appears in a separate text level now
+- After destroying any kind of fleet ship, the Rebels will start firing their ASB at you now
+- Zoltan Shield no longer provides immunity against PDS Artillery
+- Swallow Loadout changed
+
+CE Infinite 1.212
+- One bad ship ID from the SHIPS_MANTIS list removed
+- Engi aid station no longer sells repair gear
+- Changes of CE 1.212 imported
+
+CE Endless Loot 1.02 for CE and CE Endless Loot 1.02 for CE Infinite
+- Changes of CE 1.212 imported
+
+CE Vanilla Player Ship Loadouts Addon 1.212
+- Changes of CE 1.212 imported
+
+
+Endless Loot 1.0e for CE Infinite
+- Slug B loadout fixed. Did not quite get it last time.
+
+Endless Loot 1.0d for CE Infinite
+- Slug B loadout fixed for real
+
+Endless Loot 1.0c for CE Infinite
+- Slug B loadout fixed
+
+CE Endless Loot 1.0b for CE and CE Endless Loot 1.0b for CE Infinite
+- Fixed some problems with the loadouts related to prefixes that no longer applied for certain weapons
+
+CE Update 1.21
+- DE: One drone reworked
+- BA: Seven new weapons added
+- Some rare crystal weapons now cause a "heavy lockdown" effect
+- All CE weapons will be labeled with more appropriate "type" tags now
+- Emergency Respirators are Adaptive Gel Suits now and have their effect improved, as well as some blue options added
+- Unique ship and station hull images for the rogue AI faction added
+- All rogue AI ship and station layouts reworked
+- A couple of rare outcomes for encounters with the Rebel fleet added
+- You can now attempt to salvage ships in encounters with the Rebel fleet (its as bad as an idea as it sounds)
+- You can now break truce with auto stations
+- AI nano bot clouds and the perfect storm now also affect AE systems
+- Events that do hidden system resets now also reset AE systems
+- AI Hacker and AI Instigator no longer have oxygen systems
+- AI Hacker is no longer crewed by Zoltan
+- Light Scatter drone uses the correct impact graphic now
+- Getting wasted with your Slug buddy works correctly now
+- "Attack the slaver scum" option no longer prevents you from using combat augments
+- Fuel Recycler works correctly now when the player is out of fuel and activates the distress beacon
+- Magnetic Anomaly Hazard will telegraph more clearly what it does now
+- Militia Hacker clonebay room fixed
+- Some small fixes
+
+CE Infinite 1.21
+- Changes of CE 1.209 imported
+- Crew cost increased
+- Repair gear is no longer available in CE Infinite
+- One bad event ID from deep space nebula list removed
+
+EL Texture Pack 1.0
+- Changes of CE 1.21 imported
+
+CE Endless Loot 1.0 for CE and CE Endless Loot 1.0 for CE Infinite
+- Most Prefixes now affect projectile graphics
+- Some prefixes now affect beam color
+- "Optimized" can no longer apply to weapons that only use two power
+- "Pulse" can no longer apply to missiles, as these have their own ion prefix already
+- A couple new prefixes suggested by Rannl added
+
+CE Non-El Enemy Loadouts Addon 1.1
+- Changes of CE 1.21 imported
+
+
+
+EL Texture Pack 0.98
+- Initial release, required by any version of CE Endless Loot beyond 0.98h
+
+CE Endless Loot 0.98i for CE and CE Endless Loot 0.98i for CE Infinite
+- The textures that EL needs have been outsourced in a separate mod; so EL requires the EL Texture Pack now
+(separate download)
+- Fixed an error that prevented "safe" drone weapons from being generated
+
+CE Endless Loot 0.98h for CE and CE Endless Loot 0.98h for CE Infinite
+- A few more prefixes added
+- Prefixes no longer globally affect rarity, which should equalizes the probability of getting good or bad prefixes on gear
+- "Heavy" can no longer be applied to neural stunners
+- Plasma throwers got their own unique +fire chance prefix now
+- "Uncalibrated" and "Unreliable" can no longer apply to missiles to prevent a projectile graphic related glitch
+
+CE Endless Loot 0.98g for CE and CE Endless Loot 0.98g for CE Infinite
+- Fixed an error during content generation that prevented "safe" drone weapons from being generated correctly
+- Related: Engi A drone fixed
+
+CE Infinite 1.209
+- Fleet controlled exit beacons now correctly allow you to escape into deep space also when AE is enabled
+
+CE Endless Loot 0.98f for CE and CE Endless Loot 0.98f for CE Infinite
+- Fixed an oversight that prevented some prefix graphics to be displayed
+
+CE Update 1.208c
+- Test Ion Beams removed
+- Some small fixes
+
+CE Endless Loot 0.98d for CE and CE Endless Loot 0.98d for CE Infinite
+- Fixed an error during content generation that prevented a lot of drone variants from being generated
+- Related: Engi A loadout fixed
+
+CE Endless Loot 0.98d for CE and CE Endless Loot 0.98d for CE Infinite
+- Engi A loadout fixed for real this time
+- "...spread" prefixes for Flaks work correctly now
+- Lanius B crew and loadout fixed
+
+CE Endless Loot 0.98c for CE and CE Endless Loot 0.98c for CE Infinite
+- "Battleworn" tag no longer causes missing hull images
+- A few more visual variants for weapons added
+- Hill Ripper Drone Mk II can now have more prefixes
+- A few prefixes added that effect drones dodge value
+
+CE Update 1.208b
+- Test event at game start removed
+- "Mark" and "Drone" re-added to equipment titles
+- Empty distress beacons in abandoned sectors now count as empty beacons
+
+CE Endless Loot 0.98b for CE and CE Endless Loot 0.98b for CE Infinite
+- Drone images fixed
+- EL no longer users uses visually different hulls for its enemy variants, as these bloat the file size a lot and have comparable little use
+- Some starting loadout stuff fixed
+- Hull Ripper drones can now have more prefixes
+
+CE Update 1.208
+- Some great ship hull images by R4V3-0N and iiiyyylll integrated
+- A few new events for Rock sectors added
+- Lvl 2 defense drones should now be able to intercept missile swarms
+- Damage shenanigans in the sun distress event are more random and less obvious now
+- Destroyer Turret projectile speed and cooldown increased
+- Drone Salesmen can no longer sell you _ENEMY drones
+- Lanius repair conversation outcome works correctly now
+- Slug Checkpoint gibs fixed
+- Icefield background color reworked
+- Some special conversation outcome texts fixed
+- AIs make better use of all these nano bots they control in combat now
+- Texts related to Mantis ships will no longer describe all them as red
+- Some small changes
+
+CE Infinite 1.208
+- Changes of CE 1.208 imported
+
+CE Endless Loot 0.98 for CE and CE Endless Loot 0.98 for CE Infinite
+- All player ships now start with EL variants of their CE gear, powered by Rannl
+- "Safe" can no longer be applied to weapons that only deal one crew damage anyway
+- Missile Flak can no longer have damage increasing prefixes
+- "Swag" can longer be applied to low tier weapons
+- "Assault" on missiles now decreases cooldown by x0.75, just like for other weapon categories
+- "Heavy" now increases cooldown by x1.5
+- Not mentioned before: Now also removes the word "Drone" from description card titles to make room for prefixes
+- Not mentioned before: Enemy ship prefixes and suffixes are now always written in full
+- "Concussion" no longer effects ion stunners
+- "Replicator" now increases cooldown
+- EL will no longer generated unused variants for the boss blueprints
+
+
+
+CE Endless Loot 0.97c for CE and CE Endless Loot 0.97c for CE Infinite
+- Based on FTL 1.5.10
+
+CE Update 1.207
+- R4V3-ON's Engi Station Typ B and Engi Scout Typ C hull graphics integrated
+- Two left out events for Federation sectors added
+- A few rare event outcomes and quests added
+- Stealth B loadout changed
+- Some general _OVERRIDE lists altered to match the vanilla rarity of crew less opponents more closely
+- Federation Hacker clone bay room fixed
+- Slightly broadened the range of price fluctuation when buying trade goods
+- Producing plastic items with the On-board Assembly Line works now
+- Negative slavery outcomes work as intended now
+- Lanius encounters now display the continue option correctly
+- Auto Tech-Cruisers depend even more on their backup battery
+- Production options in Quarantine and Engi sectors correctly appear only if you have a production augment now
+- Zoltan negotiations with the bribing pirates now lets you contact their former prey afterwards
+- Effector hit prompts display their full animation again
+- Internal Effector can now also target clonebays
+- Rock Asteroid Miners are sometimes equipped with Flare Drones now
+- The Decoy Drone now cloaks when moving, enabling it to also distract enemy anti-drones effectively
+- Hull repair bombs gained a small system repair effect
+- Non-functional Shield Overcharger Drones replaced with copies of the vanilla version to keep their relative rarity intact
+- Plasma Thrower Mark II fire chance reduced
+
+CE Infinite 1.207
+- Changes of CE 1.207 imported
+
+CE Endless Loot 0.97 for CE and CE Endless Loot 0.97 for CE Infinite
+- Weapons, Drones and sometimes Ships appear visually different now when having certain prefixes applied; powered by rannl batch processing
+- "High Yield" and "Torpedo" tag can no longer be applied to burst missiles
+- Added a tag that enables certain drones to run without power
+- "Tightspread" and "Widespread" prefix can no longer be applied to missile weapons other than swarm launchers
+- Weapons which don't deal hull damage can no longer have the widespread prefix
+- Prefixes that reduce hull damage can no longer reduce it below zero and therefore no longer produce repair weapons
+- "Shredder" prefix can no longer apply to missiles that fire more than two projectiles
+- "Safe" combat drones work correctly now
+- Prefixes that affect combat drones projectile speed will no longer be applied to beam drones
+- Fire beam drones can now get more prefixes
+- "Predictable" prefix can no longer apply to weapons which main function is to stun
+- Charge Missiles can now get more prefixes
+- "EMP" prefix now removes shield piercing from missiles
+
+
+CE Update 1.205
+- LASER type mines list-rarity reworked for AUTO and REBEL list; based on the fact that the game probably treats these as lasers
+- Enemies should overall be less often equipped with cloak weapons and swarm missiles now
+- A new era: Swarm missiles can now be targeted by lvl one defense drones. Holy scrap!
+- Swarm missiles gained a small fire and/or breach chance (much lower than their regular missile counterparts)
+- Committing acts of piracy now requires a second confirmation
+- The new, AE related combat augs should now work correctly in Lanius encounters
+- Producing regular trade goods with the On-board Assembly Line is now as economic as it should have been in the first place (ooops)
+- Some icon-reworks by Russian Rockmen integrated (map ship icons so far)
+- Auto Cruiser third and fourth weapon mount repositioned
+- Sun distress event rewards reworked
+- Civilian trader sell option will now only appear if you carry trade goods
+- Production Augments are now marked as such in the description
+- Faction aug descriptions now telegraph more clearly what special actions they might enable
+- Enemy flashbang sound volume lowered further
+- Some enemy ship offsets corrected
+- Avoidable Rebel cruiser might now also reserve AE systems for later in the fight
+- The usual minor fixes
+
+CE Infinite 1.205
+- It is no longer possible to travel towards deeps space from sector 8, due to a game-load related bug
+- Ship unlock quests can now rarely be found in deep space
+
+CE Endless Loot Addon 0.96 for CE and CE Endless Loot Addon 0.96 for CE Infinite
+- Added a missile prefix that makes missiles evade defense drones
+- Added prefixes that give weapons inaccurate area targeting
+- Original spread prefixes can no longer affect Flak weapons
+- New spread prefixes for Flak weapons added that actually change their area of effect
+- Neural Stunners can no longer have prefixes that give breach or fire chance
+- Light Lasers can no longer have certain prefixes
+- Chain Vulcan and Light Gatling Laser can no longer have prefixes that break their cooldown once they are fully charged
+- Some missile prefixes can no longer apply to the Asteria launcher
+- Replicator prefix can no longer be applied to Nano Repair Blast and Nano Repair Burst
+
+
+
+CE Update 1.205b
+- Test start event removed
+- Rock crew test reticles removed
+
+CE Update 1.205
+- Ooops, some pre-AE boss stuff was still left in; boss now no longer suffocates its crew in phase 3, for real this time
+- White option outcomes for the mining base in distress corrected
+- New AE combat augs and the subspace scanner secondary function now also work against the boss
+- Militia Spotter vertical offset fixed
+- Combat augments work against the turret guarding the supply station now
+- Life Support UI does no longer change back to Oxygen UI when hacked
+- Mantis Interceptor now has enough power to run all systems
+- Rock Sectors got a guaranteed normal store back
+- Swarm Missile Drone moves slightly slower now
+- Plasma Thrower Mark I fire chance lowered
+- Federation medical officers in the quarantine refugee event should no longer all have the same name
+- Stores in abandoned sectors will now correctly accept goods from civilian sectors
+- LASER type missiles list rarity reworked for AUTO and REBEL list; based on the fact that the game probably treats these as lasers
+- Auto Cruiser have names now
+- Engineering window reworked to allow more options to be displayed when having normal font size selected
+- Civilians that are out of fuel or can't jump will no longer be able to flee upon being attacked
+- Flashbang detonation ringing is less obnoxious now
+- Enemy stun cluster bombs and drone-fired stun grenades will now obscure player vision on rooms
+- Player controlled Light Anti-Crew Stun Drones move faster now
+- Auto Controller fourth weapon mount fixed
+- Some small fixes
+- Some typos fixed
+
+
+CE Infinite 1.205
+- A few changes made in the main mod introduced in Infinite
+
+
+CE Enless Loot 0.94 for CE
+- Release for CE 1.205 (not compatible with Infinite)
+
+CE Enless Loot 0.94 for CE Infinite
+- Release for CE 1.205 with CE Infinite 1.205
+
+
+
+CE Enless Loot 0.93
+- Fixed a problem concerning the generation of combat and defense drone variants, these should actually work now
+
+
+CE Update 1.204
+- Auto-Cruisers can appear in a few more sectors now
+- Auto-Cruisers perform a little better now
+- A few blue options for the On-board Science Lab added
+- Some Science Lab texts reworked
+- Science Lab fail-chance slightly increased
+- Slug Stealth Barge cloak offset fixed
+- Zoltan crew can now have additional glow
+- Charge Missile Mark I graphic fixed
+- Auto Terminator Cloak fixed
+- Accepting Surrender no longer a resets your sensors in nebula
+- Honoring your truce is now always the first option you can choose
+- Zoltan Pirates will no actually use ships with pirate paintjobs
+- Rebel Spotter in the fleet PDS event can no longer have non-existent weapons
+- A few events that have a change to give crew no longer give their outcome away by displaying the crewmen you will get
+- One junk character in events.xml.append removed
+- Some typos fixed, as always
+
+
+CE Infinite 1.204
+- A few new CE event to contested deep space sectors added
+- Rock Investigator clonebay room fixed
+- Rebel Interceptor layout fixed
+- Fixed a potential crash cause upon traveling to the Ancient Sector
+
+
+CE Enless Loot 0.91
+- Torpedo prefix can no longer be applied to burst and swarm missiles
+- Some prefix texts fixed
+
+
+CE Update 1.203
+- kartoFlanes Auto-Cruisers integrated (great hull!)
+- One new augment added
+- Experimental: A lot of Engi crew will now have personal shielding (no actual game play effect, just visually)
+- Experimental: Some Slug crew might have personal cloaking (no actual game play effect, just visually)
+- Charge Missile Mark I animation fixed
+- Adaptive Beam Mark I glow fixed
+- Energy Hacker will now always be able to actually hack
+- Auto Controller shield starting power decreased
+- Anti-Combat drone tooltip modified
+- Defense Drone Mark II now uses the correct AE amount of power
+- Elite Invader now has the proper elite paint-job
+- A few enemy ships with insufficient power now have the correct amount
+- Sector map name field reworked to display the original frame (powered by Russian Rockman testing)
+- Second Federation Sector PDS event uses the correct artillery now
+- Several events fixed that cluttered the event window with their many reward boxes
+- Engineering a shield overcharge drone works correctly now
+- Rock Aggressor hull fixed
+- A couple new events added
+- Several small and big adjustments to the AE player ship load-outs and augments
+- Other small fixes
+- More typos fixed
+
+CE Infinite 1.203
+- Distraction Buoys are no longer available due to not working correctly in Infinite
+- Civilians no longer field Mantis and Rebel ships
+- Stores in Contested Deep Space are slightly less rare now
+- Several small fixes
+
+CE Enless Loot 0.91 (beta)
+- Ace Ships should no longer appear in sector one, as originally intended
+- Beams can no longer have the momentum related tags
+- Several prefixes can no longer apply to weapons that do not make sense for them
+- Several prefixes values adjusted
+- Some tooltips corrected
+- Unused variants of player ships purged
+
+
+CE 1.201 / CE Infinite 1.201
+- Crashes related to ship classes with encased systems fixed, by removing that feature from the mod :(
+- Crashes related to enemy artillery systems fixed
+- Player Effector activation sound fixed
+- Nebula Arms dealer texts fixed
+- One left out event added
+
+CE 1.2
+- Overall compatibility with AE established; yay! (Thanks to Matthew and Justin for letting me join the beta, that sped this up a lot)
+- CEs AE related contend will only appear when activating AE in the hangar, just the same as with vanilla AE content
+- BA: 17 new weapons added, making use of the new mechanics introduced with AE
+- Custom tips for CEs weapon subcategories on item cards added
+- AE-like stun chances to CEs weapons added
+- Small additional stun effects to all explosions added
+- Planetary artillery shells do now stun, but deal slightly less crew damage
+- Nano Repair Bombs repair effect and cooldown reduced, power cost increased
+- Maul Beam damage increased
+- For some unknown AE related reason, Light Lasers pierce Zoltan shields now; which is actually fine with me
+- DE: 9 new drones added
+- Drone-to-drone combat extended; most drones can dodge anti-combat drones now, telegraphed by a 0 damage prompt (not intentional :/ )
+- All drones dodge values readjusted, drone dodge is closely tied to actual drone speed now
+- Some minor design changes on custom drones, in order to distinguish anti-combat drones more clearly from regular defense drones
+- Crew variants broadly extended; implemented a lot of the styles originaly designed for CEPM directly into the game
+- Additional layers for certain crew sheets added (Rock eye color, Lanius eye color, Lanius uniform), resulting in more possible variations
+- Humans are now Humanoids, representing panhuman species; you will come across people that look different from earthly humans now and then
+- Custom names for Abandoned Sectors (aka Lanius controlled) added
+- Lanius stations added
+- Lanius station event added
+- Lanius trade event added
+- Empty beacon options for Abandoned Sectors added
+- A few fitting Lanius events to some of CEs new sectors added
+- Lanius crew can, on rare occasions, be found in a few of CEs custom sectors
+- Lanius ships and stations will have AI holograms as part of their crew
+- Crew conversations and special outcomes for Lanius crew added
+- A few new conversation outcomes for other factions added
+- Human and Crystal crewmen special conversation outcome rarity increased
+- Crystal crewmen special conversation outcome weapon rarity reworked
+- 28 new trade goods for the new sectors added, most of the goods are of the new generic typ (=mainly available as loot or through piracy)
+- Onboard Assembly Line can now produce generic trade goods
+- Internal Effector can now target Mind Control and Hacking system as well
+- Subspace Scanner can now be used to negate enemy cloaking
+- Augment Extension: 3 new augments added
+- Internal Effector and Onboard Clone Lab removed
+- AEs new ship classes into CEs New Enemy Classes component integrated (means stronger emphasis on the AE classes signature systems)
+- Unique layouts for all of AEs new ship classes added
+- New station classes for all factions added, featuring AE content
+- One new Rebel cruiser class and one Rebel gunboat class added, featuring AE content
+- To celebrate the AE release, some pirates have repainted their stations in the colours of Fed C
+- CE now mixes AEs new "custom" pirate ship layouts with the regular "commandeered" pirate ship layouts
+- Custom pirate ship layouts use a wider array of weapons instead of their ships original faction loadouts
+- CEs layout related boss changes reverted for now
+- The boss now uses its hard mode layout also on Normal and Easy (subject to change)
+- The boss no longer calls in Artillery in phase one (subject to change)
+- The boss no longer suffocates its crew and activates a backup drone system in phase three (subject to change)
+- Boss Ion shots reduced
+- Some of AEs new events to CEs new sectors added
+- CEs and AEs fleet events merged, both CEs and AEs PDS/ASB hazards can occur in fleet events now (so many abbreviations!)
+- Engineering menu is now always available
+- Crystal Vengeance can now be engineered correctly
+- Reworked the way how Crystal Vengeance is engineered
+- Some crew can provide bonuses during engineering now
+- Some of AEs new gear can be engineered by certain ships
+- AEs modified ship unlock quests no longer give faction augs, to preserve their unique functions for the respective faction ships
+- Acid hazard risk/reward and mechanic reworked
+- Prolonged acid damage now causes breaches (yep, stuff like this is possible now)
+- Radiation events removed, due to some crash related to loading dummy husks with AE (subject to change, I'm trying to bring this back)
+- AE Pulsar events to Hazard Sector added
+- Sending beam drones on mining duty yields better rewards now
+- One more step to full completion of the curator quest added
+- Curator quest final reward slightly improved
+- Stores in Federation sectors no longer offer free repairs for everyone
+- A few new events added
+- Although rouge AI are a great concept, they will all go rogue now...
+- Auto Drone Harbors and Auto Drone-Carriers can no longer appear in sector one
+- Auto Drone Harbors max drone and weapon power lowered
+- Elite Destroyer weapon mount fixed
+- Pre fight options for (all?) new AE events added
+- Pre fight choices streamlined and reorder to prevent an in-fight game-load related bug
+- All of CEs crew killing/removing events got the appropriate clone bay tags
+- CE's contend to the appropriate AE OVERRIDE_ lists added
+- AE compatible cloak image offset for all CE ship blueprints added
+- CE beam impact graphics modified to make them look better within AEs new beam impact animations
+- Custom backgrounds for AEs ASB events added
+- AEs sector map window modified to have it display CEs custom sector names correctly
+- Some minor changes to non-AE player ship loadouts
+- CEs new AE related content to AEs player ships added
+- Many small fixes
+- More typos fixed, this time with lots of help from KeronCyst
+
+- CE Player Ship Vanilla Addon updated; now also reverts all AE player ships to their default loadouts
+
+
+CE Infinite 1.2
+- Some deep space related textlists extended
+- AE events to contested deep space sectors added
+- Deep space elite variants for new enemies added (excluding pirates, they will fall behind in the endgame)
+- Exponential upgrade costs for AE systems added
+- Traveling to sector eight gives you a final choice that allows you to continue traveling deep space
+- Contested Deep Space can have slightly more empty beacons now
+
+
+
+CE Infinite 1.005
+- Deep space starting beacons work correctly now
+
+CE 1.105
+- Crystal Vengeance can be engineered correctly now
+- All Interceptors are equipped with various configuration of FTL Boosters and FTL Jammers now
+- Self destruction Auto ships are now controlled by a preset escape timer
+- All impact UI prompts are displayed slightly shorter
+
+CE Infinite Addon 1.004
+- Enemies in sector 6 and adjacent deep space are often much stronger now
+- Enemies in sector 7, adjacent deep space and beyond will always be much stronger
+
+CE 1.104b
+- Boss uses the correct repair drone in phase three now
+- Attacking auto fuel sellers works now
+- Mantis clan ships appear correctly during the event
+
+- Hidden update to CE Infinite: Boss phase three uses the correct drone now
+- The drone is also no longer available as loot
+
+CE 1.104
+- The flagships door and sensor systems have switched places, enabling doors in phase two
+- The flagship might now hack you sensors in phase three
+- The flagship now features a backup drone system and maintenance doors for its weapon rooms in phase three
+- The flagship will deploy support drones upon AI takeover in phase three
+- Boss beam breach chance lowered
+- Flail beam gained a small breach chance
+- Pirates are less likely to field Zoltan and Engi ships now
+- Accepting Slug surrender should no longer have them shut down their hacking gear
+- Some small changes
+- Some typos fixed
+
+
+CE Infinite 1.002
+- Harsher, exponential upgrade cost growth
+- Boss has faster weapon cooldowns in all phases
+- Boss has no oxygen in phase three, immediately suffocating crew
+- Boss has access to different drones in phase three now
+- Boss backup drones system in phase three is encased now
+- Crystal sectors are accessible now by finding an "Ancient Sector" (as rare as Rock Homeworlds) while having a Crystal crewmen aboard
+- Ancient devices can no longer be found in deep space
+- Fleet events on exit beacons force you to jump immediately and give you the regular deep space option now
+- Removed a few event texts that appear odd in deep space
+- Deep space start events have a good chance to spawn various boss-like hostile encounters now
+- Quest rarity in deep space adjusted
+
+- CE Infinite Addon 1.0 released
+
+1.102b
+- Fixed a crash related to slaver ship outcomes
+- Crystal Burst tooltips fixed
+- Light Crystal impact graphic fixed
+- Auto surrender reset your systems now
+
+1.102
+- Still no Testrel
+- All kinds of augments now allow you to resist certain hazards and combat augments
+- Subspace Scanner cost slightly increased
+- Rock Plating and Titanium System Casing cost reduced
+- Internal AI designs flawless System Repair Drones now
+- Out-of-fuel engineering options corrected
+- Crystal Sector is no longer unique
+- Rock Homeworlds start beacon crystal option now correctly spawns a quest beacon instead of calling the event
+- Enemy Rock ships are further distinguished by how many layer of armor plating they have now
+- Fancy black holes - Now also available in Rock territory
+- System resets now include teleporters
+- Hellebard Beam impact now also displays and UI prompt
+- Curator quest final reward increased
+- Nebula exit beacon behaves like in vanilla again
+- The boss will finally shut down the medbay correctly in phase three
+- Husks should no longer have visible crew now
+- Dead auto ships no longer reset you sensors
+- Few typos fixed
+
+1.1
+- Some new events and outcomes added at various point throughout the game
+- AE: One augment added
+- Weapon Jammer now slightly affects enemy artillery as well
+- All new nebula type hazards now completely scramble your sensors
+- Slug engineering options changed
+- Crystal Vengeance can no longer be acquired through conversations
+- Crystal Vengeance can now be engineered
+- You can now converse with your crew after checking engineering options
+- You can bow decide to use production augments after considering to socialize with you crew
+- HE: Two new hazards added
+- Your impulse engines now will allow you to escape radiation zones after a certain amount of time
+- Drone Carriers and Drone Harbors starting drone power/weapon power further reduced
+- Drone Carriers and Drone Harbors ammunition reduced
+- Engi AI Ship from civilian list removed
+- Auto enemies selfdestruct start health range increased
+- Elite Battlecruisers are no longer lacking power to run all their systems
+- Quest drone merchant no longer claims to pay an advance
+- Slug surrenders now always allow you to let the enemy leave
+- Buying Recon Drones from weapon traders works correctly now
+- AI boarding event fixed
+- Slug interceptor weapon mounts rearranged
+- Rebel Corvette weapon mounts rearranged
+- Energy interceptor invisible shield bubble fixed
+- Auto interceptor invisible shield bubble fixed?
+- Rock unlock quest rewards you with Titanium System Casing instead of Rock Plating now
+- A lot of small fixes
+- Some typos
+
+1.099
+- Enemy version of the Ion Defense Drone is no longer available to the player
+- Burst Scatter Defense Drone has an enemy version now
+- Heavy Ion Drone movement speed slightly increased
+- Nano cloud mass in AI sectors slightly reduced
+- Zoltan negotiation outcomes reworked again
+- Supply theft event fixes
+- Some more (all?) civilian trade events now let you commit acts of piracy
+- Pirate store trap event reworked
+- Dust cloud descriptions are more vague now about the engine clogging
+- Zoltan ship captains can no longer negotiate with AI ships
+- AI ship in nebula no longer have random Zoltan ships nearby that give you scrap for free
+- Crashes in Pirate sectors resolved
+
+1.098
+- Does not contain the Testrel this time, I checked
+- UI impact prompts added to many more weapons
+- DE: Two drones added
+- Enemy Ion Defence Drones should be as ineffective as player ones now
+- Enabled breaking truce for (all?) enemies with custom surrenders
+- Zoltan AI ship minimal sector removed, resolves rare Zoltan sector crashes
+- Sensor resets from Slug surrenders removed
+- Crystal crew now lets you locate the ancient device when arriving in the Rock Homeworld
+- Industrial Sector nebula mass reduced
+- Industrial Sector counts as a Nebula sector again
+- Bio Focus Beam now requires four power
+- Player ship addon is now integrated into the CE coremod
+- Released a new addon that let's you revert player ships to vanilla loadouts
+
+1.096b
+- Testrel removed once more, gotta remember taking that out in the future...
+- Zoltan negotiation option for Slaver ship added
+- Weapon trader now sells what he's supposed to
+- Weapon trader special offer descriptions include hint's on what the stuff does now
+already last updates:
+- Zoltan negotiation offers rebalanced
+- Ship Blue Options for Federation Cruiser added
+
+1.096
+- Exit beacon in any nebula will call neutral nebula events now (stable?)
+- A few barge class enemies can upgrade their signature system further than normal now
+- Minimal sector for Engi AI ship removed (possible unknown crash cause?)
+- Hider does no longer join your crew for fun when paying his fare
+- Stray fleet event fixed
+- Sensor reset from all post- and in-fight hard resets removed
+
+1.095d
+- Dammit Testrel, leave us alone!
+
+1.095c
+- A few enemies can deploy Recon Drones now, purely for flavor
+- Scrap Arm engineering option has the crew produce what they are told now
+- New engineering options added
+- Drone Reactor Booster renamed to "Improved Internal AI", for coherency reasons
+- Pharmaceuticals no longer sell good in civilian sectors
+- Player Ship Addon updated
+
+1.095b
+- Testrel banished, back into the ship testing environment with you!
+- Some Zoltan ship options that lacked requirements fixed
+
+1.095
+- Engineering options for empty beacons added, allows to customize the ship into certain directions
+(mostly augment related)
+- Some vanilla and new some CE augments slightly changed to make them fit better into engineering
+- Production augment options unified
+- Production augment options are now all controlled by a single sub menu
+- Mantis escape pod outcomes fixed
+- One wrong Zoltan blue option fixed
+- Alternative way to get a crystal crewmen added
+- Ancient devices can be found in Rock controlled sectors as well now, but might not be functional
+- A few blue options for the Federation Cruiser added
+- Refuelling Station surrender fuel reward fixed
+- Station encounter surrender betrayal list implemented
+- Minelayer drones can be used to place minefields now
+- Most combat drones can now be left behind at empty beacons to harass the Rebel fleet
+- Manufacturing ammo aboard the ship is slightly cheaper now
+- Three pieces of very situational gear added, only available at the nebula weapons dealer
+- Some typos corrected
+- CE for Player Ships Addon updated
+
+1.094b
+- Crystal Shard reworked again, did not work as intended
+- Rebel Interceptor layout fixed
+- Zoltan player surrender textlist fixed
+- One incoherent Zoltan negotiation option removed
+- Surrender betrayal default outcomes fixed
+
+1.094
+- The player con now offer surrender in a lot of hostile encounters
+- Player surrenders can have a great range of outcomes, depending on offer made and the opponents faction
+- Wretched Captains can now continue the attack even after accepting an enemies surrender
+- Captains of Slug ships can open fire on previously defeated enemies without penalties
+- Captains of Zoltan ships can use diplomacy to avoid combat with less aggressive factions
+- Captains of Zoltan ships can now negotiate more favourable deals when enemies surrender
+- Some stores in Pirate Sectors are no longer as save as they used to be
+- Accepting enemy surrender should now prevent the opponent from firing artillery
+- During nebula fleet encounters, you might be engaged by Rebel cruisers and spotters now
+- Various fixes to prevent your ship (especially sensors) from being permanently effected by new hazzards
+- Implemented a global system reset on all empty beacons as safeguard against permanent system disruption
+- A few new events across various sectors added
+- Mining options for beam drones added
+- Special conversation outcomes for Zoltan finally implemented
+- A few more special conversation outcomes added
+- Global likelihood of special conversation outcomes slightly lowered
+- Crystal sector start beacon now also counts as an empty beacon
+- Crystal Lockdown Blast uses blue projectiles now
+- Crystal Lockdown Blast names shortened
+- Crystal Shard augment reworked
+- Crystal Shard augment is now available for purchase in Crystal sectors
+- Crystal Shard Barge is now only equipped with two shards
+- Player Big Bomb fuse time corrected
+- On-Board Assembly Line cost reduced
+- Heavy Defense Drone projectile speed increased
+- Another attempt on having the flagship correctly shut down Oxygen and Medbay in phase three...
+- Flagship Effector is using the "limit" tag to disrupt your door system now, probably works better
+- Rebel Interceptor doors fixed
+- Auto satellites in icefields will have their cloaking disabled as intended now (?)
+- Despite the harsh conditions, combataugs work during the plasma storm Rebel encounter now
+- QUEST_CREWDEAD now has blue options for pretty much any dedicated crew killing equipment
+- Some typos fixed, but there are always more of course
+- CE Player Ship Addon updated
+
+
+1.092
+- Second round of spell checking by KJ4VOV
+- Typo in the artillery warning UI prompt corrected
+- Auto Laser cooldown reduced, there you go, I finally did it
+- Bio Bomb cooldown reduced
+- Burst Scatter Laser Mark II cost and cooldown reduced
+- Maul Beam cooldown reduced
+- Maul Beam tooltip corrected
+- Fire Focus Beam tooltip corrected
+- Global probability of Auto encounters in nebula lowered
+- Probability of Auto encounters in certain sectors slightly lowered
+- Flagship should now shut it's medbay down for good in phase three
+- Store at the Last Stand now offers Federation sector trade options instead of the civilian ones
+- Unique Zoltan Conversation outcomes implemented (existed before, but where not activated yet)
+- Special Crystal conversation outcomes fixed?
+
+- CE Player Ship Addon updated, includes Crystal Ships now
+
+CE Additional Music Addon 1.0 released
+- Some creative commons music for most of the new sectors added, all tracks include explore and battle variants
+- Custom title screen added
+
+1.091
+- HE: One custom nebula type hazard for Engi sectors added
+- BA: One weapon added
+- Burst firing light lasers now pierce two layers of shields
+- Light scatter lasers cooldown decreased
+- Fire Focus Beam reworked
+- Heavy Scatter MK II does the correct amount of damage now
+- Simurgh missiles rarity slightly decreased
+- Some zero power systems in various ships blueprints fixed
+- Systems disrupted by enemy combat augments should now come online again after the fight
+- Rock Cargo Ship is no longer crewed by boring humans
+
+1.09d
+- Some more minor stuff fixed
+
+1.09c
+- Various Federation related event transitions fixed
+
+1.09b
+- Bugs fixed, Mantis are proper Mantis again
+- Additional drones from phase two of the boss fight removed again
+- Boss can now also hack door systems with its Internal Effector augment
+
+1.09
+- Entire mod has been professionally spell checked by KJ4VOV
+- Boss phase one artillery and weapon cooldowns fixed
+- The Boss gained some internal drones for phase two
+- The Boss deploys a Heavy Defence Drone instead of a Defence Drone Mark I in phase two
+- Boss will prepare for a forced AI takeover in phase three by shutting down oxygen and medbay
+- Boss AI takeover event now also acts as a deadline for phase three and triggers a wave of boarders
+- Slug Hacker station event now displays the station immediately, so you know what you'll have to deal with
+- Placing minefields cost's one missile less
+- Blue options in quarantine sectors readjusted, some more options for lvl 2 medbays now
+- One Rock hazard cloud textlist and related background generation fixed
+- Combat augs for a few left out enemies enabled
+- Defence Drone MK III fire rate decreased
+
+1.089b
+- One configuration changed that slowed down the flagships weapon charging
+
+- CE for Player Ships addon updated
+
+1.089
+- BA: Three new low tier weapons added
+- Cost of production augments that require scrap to run decreased
+- Two classic hazard events for the last stand and Federation controlled sectors added
+- Boss artillery slightly modified
+- Boss can now also hack your medbay with its internal effector
+- Map overlay once more modified, allows to display even longer sector names now
+- AI Turret surrenders reworked again, can now have some more favourable outcomes
+- You can now be a ship captain with a drinking problem
+- One wrong textlists ID fixed
+- Some more typos and grammar fixed
+
+1.087
+- Another attempt on getting the boss artillery support to work
+- Testrel Cruiser removed
+
+1.086
+- A lot of great type b enemy hull graphics by Tweevle added
+- DE: One drone added
+- AE: One augment added
+- One general quest added
+- Some more special outcomes for certain crew conversations added
+- After a certain time, the Boss should now get artillery support during phase one of the fight
+- The Boss will now use it's combat augments in phase three instead of phase one
+- Player can no longer evade more than one PDS targeting via cloaking
+- Industrial sectors are now classified as civilian to avoid creation of additional nebula beacons
+- Swarm Missile Drones can no longer cause breaches and fires
+- Faction specific augs given to some enemy classes that where lacking them
+- Some small fixes
+- More typos and grammar corrected
+
+1.084
+- One error in the conversation outcomes fixed, stable now? (/edit: stable!)
+
+1.083
+- Attempt to fix crashes by altering enemy combat aug outcome lists
+
+1.082
+- Several small fixes
+- Some overlooked events added to lists
+- CE for Player Ships Addon updated
+
+1.081
+- Some possible crash cause in Engi and Quarantine sector resolved
+
+1.08
+- SE: Three new sector types added (Industrial, Quarantine, AI Controlled), all containing dozens of new events
+- Hazard Sectors are now unique (can appear only once per run)
+- Small industrial smog clouds can be found in some Rock sectors now
+- HE: Five new hazards added, most of them are closely tied to the new sector types
+- CE Social component added, enables full conversations with all crew members and offers rare special outcomes
+- Some new events for various old sectors added
+- Various enemies now can use combat augs against you
+- The flagship will always use a random combat aug against you in phase one
+- Several wrong combat aug texts fixed
+- Crystal Vengeance has increased retaliation chance and lower scrap-cost now
+- The start beacon of the final stand now counts as an empty beacon
+- One lost civilian PDS event to the eventlist added
+- All PDS artillery charges slightly faster now
+- Oxygen System is now globally designated as Life Support System for greater coherency in radiation events
+- Zoltan and Engi now usually have some AI Avatars on their ships
+- Militia Crafts and Stations have a more diverse crews now
+- Gang Ships are crewed by random locals now
+- Energy Defenders weapon mounts fixed
+- Some more typos fixed
+- CE for Player Ships Addon updated
+
+1.073
+-Scanner augs and the production aug should be working correctly in all sectors now
+
+1.072
+-FIxed a configuration that potentially caused Minelayer related crashes on Mantis and Rock sector load
+-Internal effector is way less effective against medbays now, was never intended like that
+-A few small fixes
+
+1.071
+-Various problems connected to slavery events corrected
+
+1.07
+-Entire mod spell checked, thanks to everyone who contributed
+-Boss battle artillery support removed, did not work
+-AE: Three augments added
+-Enemy Hullcrusher Lasers now use the correct impact graphic
+-Outposts across the board have slightly increased missile ammo
+-AI ships are now manned only by AI avatars and have no longer any oxygen systems
+-Mantis stations now employ forced Engi labour
+-The player now always has the option to free slaves when they are offered as tribute or found after combat
+-Forcing slaves to join your crew is now an act of slavery, with similar consequences than piracy
+-Pirates in boarding events are no longer humans only
+-Some frequently used textlists now display more suitable texts after being exhausted
+-Zoltan Shield blue options in PDS events reworked to avoid various glitches
+-Asteroid Stations in various events become hostile correctly now
+-Avoidable Rebel cruiser now offers the correct reward instead of the fleet reward
+-Some more missing hidden tags added
+-Player Ship Addon updated
+
+1.069
+-Two new enemy ship hulls added, courtesy of Cyk0 and R4V3-ON
+-Boss beam shortened
+-Bio Focus beam cooldown increased
+-Combat aug options for "young Mantis in a charred uniform" event added
+-Hazard sector sun event risk/reward slightly reworked
+-Several small fixed
+
+1.068
+-The Rebel Flagship now targets the player with customized artillery strikes in phase II and III (experimental)
+-Phase III of the boss-fight has a chance to take place within a hazard zone (no storm or minefield though)
+-Combat aug choices of the flagship fight slightly customized
+-Rebel fleet background from the Rebel sector PDS event removed
+-Internal Effector can now also target artillery systems
+-Enemy weapon and drone systems are much better protected against hacking attempts than other systems now
+-Internal Effector can no longer hack systems that are already affected by other combat augs
+-Price of the Internal Effector and the Radiation Projector increased
+-Advanced Proximity Navigation price decreased
+-Anti-Ship Ion Drone Mark I and Heavy Ion Drone now need one less power to run
+-Enemy versions of the Hull Ripper Drone Mark I and Mark II are no longer available to the player
+-Old lasers are no longer available as loot or in shops
+-All swarm missile projectiles are animated now, missiles behave less static during flight
+-Custom impact graphic for light lasers added
+-Blue option for the artillery beam added
+-Several small fixes
+
+1.067
+-Three new enemy ship/station hulls added, courtesy of 5thhorsemen, Rav3-on and Ericrumor
+-Six enemy ship b recolours added, red crystal enemies by Killox3
+-A few new events involving new station and cruiser encounters added
+-Events featuring planetary defence weapon for all red and some other sectors added
+-Minefield events for some red sectors added
+-New enemy classes related to these events added
+-The Rebel fleet might fire long range artillery at you in all kinds of fleet events
+-Some background and planets from the Better Planets and Backgrounds by Sanmonku used for the PDS events, it is recommended to use Better Planets and Backgrounds alongside CE
+-AE: One more augment added
+-Global combat augment rarity increased
+-Internal Effector now also triggers the blue options that the other effectors offer (?)
+-BA: Four new weapons added (one bomb, one beam, two lasers)
+-Maul beam needs four power now and deals only four damage
+-Flail Beam now needs three power
+-DE: Two new drones added
+-Anti-Ship Beam Drone Mark II beam reach increased
+-Hull Ripper Drone now fires the correct hull laser projectiles
+-Hull Ripper Drone is now used by enemies as well
+-Heavy Defence Drones is a little less rare now
+-Most defence drones reload speeds reworked once more
+-Experimental flagship changes re-added, boss uses augments and becomes significantly stronger in each phase now
+-Flagship Laser now does two damage
+-Flagship Beam now has longer reach and travels slower, much like the flail beam
+-Combat augments can now be used against the flagship, allows for interesting new possibilities
+-Rebel capital ships all start with a medbay now
+-Rebel capital ships are general less prone to fight to the death and will try to retreat more regularly
+-Starting and max engines for all Interceptor class ships increased
+-Medevace, Medical Stations and capital ships all start with better life support
+-Non-Rebel transport ships in piracy events will now surrender their goods more often
+-Cargo ships and freighters are slightly more powerful now
+-Late game stations are slightly more powerful again
+-Damage from self-destructing stations and auto ships slightly increased
+-Reward for destroying auto stations lowered
+-Derelict wreckage rewards changed
+-Rewards for all custom distress events reworked
+-One more blue options for the bounty hunter event added
+-Enemy Weapon lists readjusted, now use weapon type percentages similar to vanilla lists
+-Pirate weapon list slightly upgraded
+-Some more typos fixed, some more missing hidden="true" tags added
+-Captain'sion for Playerships Addon updated
+
+CE People Modified Addon (CEPM) 2.0
+-Structure reworked, contains a metric ton of separate FTL files for each crew skin now, should be easier to use
+-One more Crystal skin added.
+
+1.066b
+-Another attempt to fix the enemy fire bomb...
+-All defence drones now have their reload time mentioned in their description
+
+1.066
+-Missile production reworked once more
+-Cluster bomb descriptions clarified (don't know why they don't get a "shots" tag automatically...)
+-Enemy fire bomb graphic fixed (?)
+-Teleporter disruptor now has a chance to also disable lvl 3 teleporters
+-Stray fleet event reward slightly randomized
+-Hull weapons re-added to some enemy lists
+-Bad text in Rebel station destroyed event split
+-Scatter Laser impact sounds diversified
+-Focusbeams now use some custom sounds that where cut from the vanilla game
+
+1.065e
+-Choice-layer in civilian start event added to prevent crashes on game start
+
+1.065d
+-Enemy Fire Bomb MK III impact graphic fixed
+-Enemy version of the Heavy Scatter Drone is no longer available to the player
+-Crystal weapons now use the crystal lockdown sound
+-Civilian Sector start beacon now allows blue options and like all sectors features a textlist
+
+Player ship addon 1.061
+-Rock A starting ammo reduced
+-Some trade augs removed
+
+People Modified Addon 1.061
+-Missing player sheets for the Rebel coloured AP drone added
+
+1.065c
+-Production capacity for ammo manufacturer for Engi and Mantis sectors fixed
+-Name ambiguities between Federation and Rebel Sectors removed (Fronts are no always Rebel sectors)
+
+1.065b
+-A missing textlist added
+
+1.065
+-Global enemy ammo capacity fine-tuned
+-All troopships and most stations start with doors lvl2 now
+-UI icons and mini-ship icons from sM polish kit integrated
+-Incorrect price calculation for hiring crew from black market stations fixed
+-Station surrender offers are more randomized again
+-Spending time in debris fields to salvage now yields standard rewards instead of stuff rewards
+-Four cut Mantis and Rock events modified and reintroduced to the game
+-Some more events and blue options added
+-AE: Two new augments added
+-Ammo Manufacturer production capacity increased
+-AI Avatar Generator can fail now
+-Some vanilla augments rebalanced to fit in with AE
+-Some vanilla augs made available in shops
+-A few more sector names added
+
+People Modified Addon 1.05
+-Nine new crew skins added
+-Some visual glitches and wrongly assigned crew sheets in the addon fixed
+-The Addon now also contains three premade mod files for easiyer usage
+
+1.064
+-Station surrender offers improved
+-Probability of positive outcomes for performing acts of animal cruelty increased
+-Engi civilian surrender message fixed
+-Out of fuel fleet event now spawns a cruiser as intended
+-Rebel Battlecruisers might be encountered even earlier on exit beacons
+-Light fire missile drone fire chance decreased
+-One new ship layout added
+-Bounty hunters should try to escape your ship more effectively
+-Advanced Proximity Navigation aug now protects you from suiciding stations as well
+-Some typos fixed
+
+1.063
+-KartoFlanes Engi-pirate hulls added
+-Pirate list reworked to make some ships more unique to their respective faction
+-Bio Beam II uses correct contact graphic now
+-AI avatar rarity significantly increased
+-Some blue options for AI avatars added
+-Some augment costs readjusted
+-Auto-Turrent and Auto Drone-Harbor starting power decreased
+-Repair Burst tooltip corrected
+-Slug infiltrator weapon mount mirrored
+-Blue options for shuttle event added
+-Dual Laser Mark II rarity increased
+-Auto ships will sometimes try to self-destruct
+-Light Missile Drones attack speed decreased
+-Some more typos corrected
+-CE People Modified Addon 1.0 (DIY mix and match) released
+-Crew laser projectiles customized, in order to make vanilla crew projectiles coherent with addon crew skins
+
+1.062f
+-More junk character removed
+
+1.062e
+-One single junk character removed, runs stable again?
+
+1.062d
+-Some more aug-immune ships fixed
+-"Invasion" boarding AI for some more ships assigned, seems to work nicely
+-Scythe and Flail Beam charge time increased
+
+1.062c (experimental)
+-Duplicated choice tag removed, should work now
+
+1.061b
+-Duplicated choice tag removed, should work now
+
+1.062b (experimental)
+-False tags from Rebel Flagship blueprints removed, should make it... less broken
+-Nebula weapons trade combat aug immunity removed
+
+1.062 (experimental)
+-Rebel Flagship randomized
+-Some Mantis now use the "invasion" boarding tag; let's see how that works out
+
+1.061
+-AE: One more support augment added
+-Several ships immunity to combat augs removed
+-Internal Effector can now disrupt the enemy weapon system correctly
+-Several minor event corrections
+-Starting beacons, except the first beacon of the game, now also count as empty beacons; this adds a reward factor for finishing a sector and allows for more predictable augment use
+-Beacons with Federation fleets in Fed sectors now also count as empty beacons
+-Repair bombs reworked, they no longer can repair systems; makes them more boring, but less glitchy
+-Heal Cluster Bomb reworked to be more effective when targeting your own ship
+-Bounty hunter ship now finally holds fire in the beginning of the event?
+-Bounty hunter now escapes via a fixed timer
+-The sun in the DISTRESS_SUN event lost its magical property to heal you and now deals damage instead, like intended
+-Energy AI ship from pirate list removed (hopefully before anyone notices that it has no hull image for that...)
+-Trade union now pays their dues
+
+1.06
+-Augment Extension component added, includes ten new augments with various combat and support functions
+-Very broad event modifications in order to integrate the new augs (includes every single event that makes a ship hostile)
+-Holographic AI avatar crew added (aka ghosts)
+-Cut vanilla ghost events modified and re-added to the game
+-BA: Four beams added (side-note: Scythe Beam graphic is now used for a similar, more powerful weapon, so watch out!)
+-TB: One new enemy class added
+-DE: One drone added
+-The Rebel Fleet will now always send cruisers in when it catches you without fuel
+-Player ship addon updated, several ships received some of the new augs
+
+1.057
+-Five ships/stations with encased systems integrated
+-Entire event texts spell-checked again, this time by slowriderxcorps; Thanks a lot!
+-Drone lists reworked for less harsh Missile Drone distribution
+-Pernach and Maul beam length decreased, should no longer be able to hit two rooms
+-Avoidable forward cruisers from a certain event should now be marked correctly on the map
+-Late game exit beacons gain a chance to let you encounter Rebel Battlecruisers
+-Elite Cruisers and Battlecruiser cloaking systems limited, longer cloak actually made escaping them easier
+-Several remaining typos fixed
+-The auto terminator should now hold fire at the beginning of the fight, just like the event says
+-Mantis Teleporter Barge and several other new ships reworked and tested, they should be glitch free now
+-Civilian stores from Rock homeworld removed (no idea how the got there)
+-Several minor event adjustments
+-Player Ship Addon: Slug A's crew killing ability improved
+
+1.056
+-A few cut events re-added to the game
+-Traitor event now lets you fight your real own crewmen
+-Human crew members now have many many, very uninteresting things to say
+-Some sound adjustments, global missile sounds changed
+-Civilian Infiltrators got their civ paint-job back. Union Shipyards is apologizing for constantly messing things up, no refund though.
+-High tier beam weapons rebalanced
+-Healing Burst changed into Healing Cluster Burst
+-Ion Cluster Bomb projectile graphic fixed
+-Simurgh Missiles weapon graphic reworked to distinguish it more from the real swarm launchers
+-Peryton and Cockatrice weapon graphic from sM Polish Kit integrated
+-Auto Drone-Harbour hullpoints lowered
+-Correct drone list for the Repair Station assigned
+-Pernach Beam price lowered
+-Stray power and buffer systems in the player ship addon fixed
+
+1.055e
+-Three potentially crash causing typos removed from the xmls
+-Size bloating tilde files cleaned up again
+
+1.055d
+-Fire Bomb MK II graphic fixed
+-Mantis Teleporter Barge layout reworked, glitch free now?
+-Risk/Reward for traitor event slightly adjusted, still a potentially dangerous event
+-Two new event with delayed environmental effects added
+
+1.055c
+-Heavy Scatter Lasers charge glow positions fixed
+-Heavy Scatter Lasers sound volume increased
+-Hull Beam Mark I and Hasta Beam length decreased
+-Minor event adjustments
+-Unique sound for light lasers added
+
+1.055b
+-Enemy version of the small Minelauncher entirely removed
+-Heavy anti-ship scatter drone name shortened, was never meant to include "Mark I" anyway...
+-CE For Player ships addon requests implemented: Slug a has a damaging laser now, Stealth B almost has its old load-out back
+
+1.055
+-Parts of slowriderxchorps sM Polisch Kit mod have been directly integrated into CE. Among other things the following has been integrated: weapon graphics for Dual Laser and Burst Laser MK IV, the smaller font, Rebel pursuit circle graphics, flavour texts for ship destruction and hundreds of new names for your crew; well done slowriderxchorps!
+-BA: 17 weapons added (three light lasers, two heavy lasers, two utility bombs, three cluster bombs, three true swarm missile launchers, four boring minelaunchers)
+-Several other small adjustments to BA's weapon graphics made (tech missiles visually convey their function better now for example)
+-Several new weapon sounds added, mostly mashups of exiting sounds
+-DE: Three drones added, equipped with the new weapon types
+-A lot of blue event options for the new weapons added
+-Five generic distress events added
+-Some other new events added
+-"Take a drink at the local canteen" option to pirate blackmarkets added, allows to get a lot of hints about CE, specially about trading; the list might still be extended
+-TE: Trade event for crystal sectors added, just in case...
+-TB: Barge classes for Mantis, Engi and Slug factions added
+-Zoltan ship layouts changed to include way more doors, realised that accessibility seems to be a Zoltan thing in vanilla
+-Enemy weapon lists reworked for less harsher missile distribution
+-Several BA weapons from pirate(aka standard)-list removed
+-Interceptors appear earlier in the game
+-Proper drone list for Auto Drone Harbour assigned
+-Auto Troop Ships no longer carry system repair drones
+-Union Shipyards is happy to announce the completion of the Civilian Infiltrator Model 1.2928pk recall; All models delivered from now on will be equipped with suitable life support systems
+-SMM description added
+-CE for Player Ships addon updated
+
+1.051
+-Map overlay images modified to allow for longer sector names to be displayed
+-More modified impact graphics added
+-Oni missiles impact graphic fixed
+-Float mounts on (almost?) all ships fixed
+-Tech missiles from some enemy weapon lists removed
+-Multi-shot missile launchers no longer have any fire and/or brach chance
+-Hammer Beam damage increased
+-Civilian store from Rock sectors removed, no idea how that got there...
+-A few typos corrected
+
+1.05
+-SE Component added, brings three new sector types to the game (includes dozens of new events and quite a few quests)
+-Randomized sector name generation reintroduced, a few hundred custom sector names added
+-A few new general events added
+-TE: Global trade profit slightly increased
+-TE: Profit from selling good in high demand significantly increased
+-Stores in nebula clearings no longer sell civilian goods
+-events_pirate.xml.append fixed, enables trading in pirate controlled sectors and other pirate event modifications
+-BA: Two weapons added
+-Detonation delay for some bombs added, comes with fuse animations
+-Small flavour UI prompts to various impact animations added
+-All stations that can be encountered in the first sector nerfed
+-Suiciding stations now finally blow themselves up more reliably and activate their FTL cores correctly
+
+1.034
+-Energy Shield Barge removed from pirate list to purge hull display bug
+-Federation Cargo Ship mount adjusted
+-Repair Station once again redone, displayed correctly now?
+
+1.033
+-Custom enemy version of the Effectors with lower cooldown added, should make them more of a threat now
+-Several offsets and shield bubbles fixed
+-Auto Drone Habor redone
+-Two typ c graphics for zoltan ships added
+-Fleet delay reward for destroying cruisers on exit beacons restored
+
+1.031
+-Destroying exit beacon cruisers no longer slows down the fleet, because pursuit modification doesn't carry over to the next sector anyway
+-Most of the lost ship blueprints added again
+-Visual glitches fixed
+
+1.03
+-Most of the mod has been spellchecked by Solarion (thanks a lot!)
+-BA: several weapons rebalanced, many weapons renamed for coherency, tool-tips clarified and short titles adjusted
+-Addon player ship load-outs rebalanced
+-DE: one drone added
+-Global probability of encountering auto turrets lowered
+-TB: One auto turret variant added, apparently these things where boring a lot of people to death
+-Probability of station encounters in civilian sectors lowered
+-Several events modified
+-Piracy options added to a few more vanilla events
+-A few enemies use recoloured hull graphics now, matching the style of the type b player ship of their faction
+
+1.02
+-Some new beam contact graphics added
+-Several minor errors fixed
+-Slug hunter class offset adjusted
+-Several weapons stats rebalanced
+-Rebel Repair Ship layout changed to fix vertical offset
+
+1.0
+-DE: eight drones added, Drones Plus is no longer required to run CE
+-Light lasers design slightly changed
+-Light laser MKIII now uses its own weapon sheet as intended
+-Stations crew increased
+-Slightly lowered Auto Turret HP
+-Piracy options significantly extended
+-Trade goods as rare loot added
+-More avoidable forward cruisers added
+-One more space diner quest added
+
+0.972
+-Slug Exterminator ship.txt reference fixed for real now?
+-Bad destroyed tag of one pirate station purged
+
+0.971
+-Several bad weapon IDs purged
+-One bad ship.txt reference fixed
+-Missing files for Fed Bomber added
+-Missing sound file added
+-Other minor errors fixed, CE should run much more stable now, big thanks to kartoFlane for his exact error report that made fixing all this stuff possible
+
+0.97
+-Trade Extension (TE) component added: all shop events modified, 22 trade goods introduced
+-Trade goods added as loot to certain events
+-Piracy options extended
+-Commanding ships of generally hostile factions lets you get away with Piracy more easily
+-Fuel events modified, some CE contend integrated, specially piracy (for once it can be you who lures ships into a trap with a distress beacon)
+-BS: Stations empowered. Some more augs added to stations. They should feel more like a real threat now and fighting them should be more exiting.
+-BS: Station encounter probability slightly lowered
+-BS: Suicide capable stations should blow themselves up correctly now?
+-Fixed some crashes that where caused by too long event texts (Rebel supply depot quest, encounters in Engi sectors, ...)
+
+0.962
+-DE: three more drones added
+-Light defense drones projectile speed further increased, some other defense drone stats changed
+-Min and max sectors for vanilla ships restored
+-Min and max sectors for mod contend introduced
+-DE drones in one more vanilla event integrated
+-Fleet events fixed
+-Destruction of cruiser in fleet occupied beacons slows down the fleet as intended now
+
+0.961 Beta
+-Slug crew now allows you to read the mind of potential crew members in some events and identify individuals that want to deceive you (idea by snowhusky5)
+-One new boarding event added
+-BA weapons integrated into blue options of faction specific events (way less work than I thought it would be)
+-Odds for negative outcomes lowered when the player commits acts of piracy
+-Tech missile launchers made available for enemies now
+-Rebel lifter offset adjusted
+-Minimum crew for some stations increased
+-Bad event name on ITEMS_ENGI list purged
+
+0.96 Beta
+-Cruiser Extension component added (two new enemy ship models with five layouts in total, not including elite variants; new unique events to encounter the ships in)
+-DE: two high tier defense drones added
+-BA: two high tier missile launchers, one mid tier laser and one mid tier beam added.
+-Various vanilla events modified, some options added. All non faction specific events support BA weapons for blue options now
+-Odds for Turret surrender lowered
+-Self destruction of stations changed, works now?
+-Bad weapon ID name on Rock Missile Barge weapon list fixed. (caused random crashes on beacon load?)
+
+0.953 Beta
+-Setellite supply depot event fixed
+-Modified vanilla events added again
+-Light lasers (weapons and drones) projectile speed increased
+-Some drone values adjusted
+-A few offsets and names adjusted
+
+0.952 Beta
+-Pirate suicide event fixed
+-Suicide capable stations now are controlled via escape timers, to make them blow themselves up more effectively
+-Some drone stats readjusted
+
+0.951 Beta
+-All modified vanilla events deactivated, to see if crashes persist
+-Auto Satellite spawn text fixed
+-Corporate Science Station graphic fixed
+-Scythe Beam charge glow added
+
+0.95 Beta
+(concerns initial release and what changed since the last updates of the components stand alone versions)
+-Battle Stations (about 18 stations, events, three quests) and Drone Extension (six drones) component added
+-Tips List modified, contains a lot of Tips about new weapon and enemy types now
+-Asteria missile launcher removed from standard weapon list, was not intended to be in pirate hands
+-Hull weapons removed from standard weapon list, should fix crashes on enemy spawns
+-Some spelling errors fixed
+-New Enemy Classes offsets fixed, new classes should all be centred nicely now
+-Some free floating/wrong oriented weapon mounts on new classes fixed
+-Repair Ship classes got a unique enemy version of the hull repair drone so that they can repair themselves slower and more efficiently now
+-Some classes rebalanced, carriers all start without weapons now, miners start with weaker drone control
+-A few new classes added (Energy Troopship, Engi Collector, Corporate Assault...)
+-Diversity Mod intigrated
+-Drones Plus is required to be used together with the mod now
+-Faction and class specific drone lists added, carriers of different factions use different drones now
+
+
+]]>
+  </description>
+</metadata>
