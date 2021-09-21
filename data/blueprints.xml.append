@@ -5152,8 +5152,8 @@
 	<title>大炸弹</title>
 	<short>大炸弹</short>
 	<locked>1</locked>
-	<desc>重装弹药和部署速度比小型炸弹发射器慢，但造成的伤害更大。 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does 3 damage to systems. 3-second fuse. 可以瞄准己方舰船。</tooltip>
+	<desc>重装弹药和部署速度比小型炸弹发射器慢，但造成的伤害更大。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 对系统造成3点伤害。3秒延迟爆炸。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
 	<persDamage>3</persDamage>
@@ -5182,11 +5182,11 @@
 <weaponBlueprint name="BA_BOMB_BIO">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Anti-Bio Bomb</title>
-	<short>Bio B.</short>
+	<title>反生物炸弹</title>
+	<short>反生物炸弹</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive that does no physical damage but destroys organic material, dealing heavy damage to crew members. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does no damage but greatly injures enemy crew. 1-second fuse. 可以瞄准己方舰船。</tooltip>
+	<desc>自传送炸弹，不造成物理伤害，但是会破坏有机物，从而对船员造成严重伤害。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 不会对船体造成伤害，但会对敌方船员造成严重伤害。1秒延迟爆炸。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>4</persDamage>
@@ -5214,11 +5214,11 @@
 <weaponBlueprint name="BA_BOMB_HEAL_2">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>Healing Cluster Burst</title>
-	<short>Heal C.B.</short>
+	<title>集群治疗弹</title>
+	<short>集群治疗弹</short>
 	<locked>1</locked>
-	<desc>Deploys 3 self-teleporting healing units that instantly heal all friendly crew in the room. Only deploys one unit when targeting your ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 healing units which heal nearby crew members. Can target your own ship, but only one unit is sent.</tooltip>
+	<desc>部署3个自传送治疗单位，立即治疗房间里的所有友军。当目标是己方舰船时，只部署1个单位。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送3个治疗单位来治疗目标附近的友军。可以瞄准己方舰船，但只传送一个单位。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>-4</persDamage>
@@ -5246,11 +5246,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_1">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>Cluster Bomb</title>
-	<short>Cluster B.</short>
+	<title>集束炸弹</title>
+	<short>集束炸弹</short>
 	<locked>1</locked>
-	<desc>Deploys 3 self-teleporting explosives that damage systems and crew but not the hull. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs that do 每发造成1点伤害, but inflict damage to systems only, not hull.</tooltip>
+	<desc>部署3个自传送炸弹，破坏系统与船员，但不破坏船体。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，每个造成1点伤害，但只对系统造成损害，不对船体造成伤害。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -5279,11 +5279,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_FIRE">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>Fire Cluster Bomb</title>
-	<short>Fire C.B.</short>
+	<title>狱火集束炸弹</title>
+	<short>狱火集束炸弹</short>
 	<locked>1</locked>
-	<desc>Deploys 3 small self-teleporting explosives that are designed to damage crew members and ignite fires.</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs that deal damage to crew and have a good chance to light fires.</tooltip>
+	<desc>部署了3个小型自传送炸药，旨在杀伤船员并点燃船体。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，对船员造成伤害，较高概率点燃船体。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -5312,11 +5312,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_ION">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>Ion Cluster Bomb</title>
-	<short>Ion C.B.</short>
+	<title>离子集束炸弹</title>
+	<short>离子集束炸弹</short>
 	<locked>1</locked>
-	<desc>Deploys 3 self-teleporting explosives that use ion damage to disable systems.</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs that do no damage but deal 1 ion damage each.</tooltip>
+	<desc>部署3个自传送炸药，对系统造成离子伤害。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，每个炸弹不造成物理伤害，而是造成离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<stunChance>2</stunChance>
@@ -5351,7 +5351,7 @@
 	<short>Breach C.B.</short>
 	<locked>1</locked>
 	<desc>Deploys 3 self-teleporting explosives designed to damage systems and causes breaches. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs; each does 1 damage to systems with good chances of breaching. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; teleports 3 bombs; each does 1 damage to systems with good chances of breaching. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -5384,7 +5384,7 @@
 	<short>Hull Repair I</short>
 	<locked>1</locked>
 	<desc>Self-teleporting nano repair unit that instantly restores one hull damage and one system damage of the system it is teleported to. Designed to target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; repairs 1 hull damage. Should target your own ship.</tooltip>
+	<tooltip>炸弹武器; 需要导弹; repairs 1 hull damage. Should target your own ship.</tooltip>
 	<damage>-1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>0</persDamage>
@@ -5416,7 +5416,7 @@
 	<short>Hull Repair II</short>
 	<locked>1</locked>
 	<desc>Self-teleporting nano repair unit that restores two hull damage and two system damage of the system it is teleported to. Designed to target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; repairs 3 hull. Should target your own ship.</tooltip>
+	<tooltip>炸弹武器; 需要导弹; repairs 3 hull. Should target your own ship.</tooltip>
 	<damage>-3</damage>
 	<sysDamage>-3</sysDamage>
 	<persDamage>0</persDamage>
@@ -6634,7 +6634,7 @@
 	<short>Stun C.B.</short>
 	<locked>1</locked>
 	<desc>Deploys 2 self-teleporting explosives that stun all crew inside the room for 15 seconds. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 2 stun bombs. Stuns all crew inside the room for 15 seconds. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; teleports 2 stun bombs. Stuns all crew inside the room for 15 seconds. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -6669,7 +6669,7 @@
 	<short>Lock B. II</short>
 	<locked>1</locked>
 	<desc>Self-teleporting explosive that crystallizes an entire room. Causes breaches, locks doors and also stuns and injures crew. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; causes breaches; prevents movement in or out of room; injures and stuns crew. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; causes breaches; prevents movement in or out of room; injures and stuns crew. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>10</stun>
 	<sysDamage>0</sysDamage>
@@ -6704,7 +6704,7 @@
 	<short>Stun C.B.</short>
 	<locked>1</locked>
 	<desc>Deploys 3 self-teleporting explosives that stun all crew inside the room. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 stun bombs. Stuns all crew inside the room. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; teleports 3 stun bombs. Stuns all crew inside the room. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -9546,7 +9546,7 @@
 	<short>I. Bomb</short>
 	<locked>1</locked>
 	<desc>Self-teleporting explosive that uses ion damage to disable systems. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does no damage but deals 4 ion damage. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; does no damage but deals 4 ion damage. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>1</missiles>
@@ -9995,7 +9995,7 @@
 	<title>Should not see this</title>
 	<short>Should not see this.</short>
 	<desc>Reloads and deploys slower than small bomb-launchers, but does more damage. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does 3 damage to systems. 3-second fuse. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; does 3 damage to systems.3秒延迟爆炸。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -14036,7 +14036,7 @@
 	<short>Fire B. II</short>
 	<locked>1</locked>
 	<desc>Self-teleporting explosive designed to damage crew members and light fires. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does no damage but lights fires. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; does no damage but lights fires. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -14295,7 +14295,7 @@
 	<short>Breach I</short>
 	<locked>1</locked>
 	<desc>Self-teleporting explosive designed to damage systems and cause a breach. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does 1 damage to systems, and creates a hull breach. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; does 1 damage to systems, and creates a hull breach. 可以瞄准己方舰船。</tooltip>
 	<!--<desc>Power Req: 2     Self-teleporting explosive that deals 2 damage to systems and subsystems without causing hull damage.</desc>-->
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -14329,7 +14329,7 @@
 	<short>Breach II</short>
 	<locked>1</locked>
 	<desc>Slower than Mark I but does more damage to systems and crew. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does 3 damage to systems, and creates a hull breach. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; does 3 damage to systems, and creates a hull breach. 可以瞄准己方舰船。</tooltip>
 	<!--<desc>Power Req: 2     Self-teleporting explosive that deals 2 damage to systems and subsystems without causing hull damage.</desc>-->
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
@@ -14364,7 +14364,7 @@
 	<short>Heal B.</short>
 	<locked>1</locked>
 	<desc>Self-teleporting healing unit that instantly heals all friendly crew in the room. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; heals nearby crewmembers. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; heals nearby crewmembers. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>-10</persDamage>
@@ -14600,7 +14600,7 @@
 	<short>Lock B. I</short>
 	<locked>1</locked>
 	<desc>Self-teleporting explosive that does no damage but creates a dense wall preventing movement in or out of the room. 可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; does no damage; prevents movement in or out of room. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; does no damage; prevents movement in or out of room. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
