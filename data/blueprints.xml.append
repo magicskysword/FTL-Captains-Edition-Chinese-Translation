@@ -2676,7 +2676,7 @@
 	<title>斩舰光束</title>
 	<short>斩舰光束</short>
 	<desc>弱于标准的光束</desc>
-	<tooltip>光束武器, 对每个光束击中的房间造成1点伤害，小概率引起火灾。</tooltip>
+	<tooltip>光束武器, 对每个光束击中的房间造成1点伤害，小概率点燃船体。</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
@@ -5086,7 +5086,7 @@
 	<title>狱火炸弹发射器 I</title>
 	<short>狱火炸弹 I</short>
 	<locked>1</locked>
-	<desc>小型自传送炸药，用来伤害船员并引发火灾。可以瞄准己方舰船。</desc>
+	<desc>小型自传送炸药，用来伤害船员并点燃船体。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; 对船员造成伤害; 有较高的燃烧几率; 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5120,7 +5120,7 @@
 	<short>狱火炸弹 III</short>
 	<locked>1</locked>
 	<desc>稍慢于普通炸弹，但对乘员造成更多伤害，并且能对系统造成伤害。可以瞄准己方舰船。</desc>
-	<tooltip>Bomb weapon; requires a missile; deals 1 damage to systems and subsystems and lights fires. 3-second fuse. 可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; 对系统和子系统造成1点伤害并点燃船体。3秒延迟爆炸。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>3</persDamage>
