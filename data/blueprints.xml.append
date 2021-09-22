@@ -2508,7 +2508,7 @@
 	<type>BEAM</type>
 	<title>束缚光束</title>
 	<short>束缚光束</short>
-	<desc>先进的粒子束可以使船只和船员失去行动能力而会对船体造成伤害。</desc>
+	<desc>先进的粒子束可以使船只和船员失去行动能力而不会对船体造成伤害。</desc>
 	<tooltip>光束武器; 对系统造成1点伤害，对船员造成伤害并使其眩晕10秒。</tooltip>
 	<damage>0</damage>
 	<stun>10</stun>
@@ -6004,10 +6004,10 @@
 <weaponBlueprint name="BA_MISSILES_ONI">
 	<type>LASER</type>
 	<tip>ce_tip_missiles_tech</tip>
-	<title>Oni Missiles</title>
-	<short>Oni</short>
-	<desc>High-tech cloak-missile launcher that scrambles the targeting systems of enemy defense drones. Its missiles can only be shot down by the most advanced defense drones.</desc>
-	<tooltip>发射1枚导弹; does 2 damage; pierces all shields; evades lvl 1 defense drones.</tooltip>
+	<title>山鬼导弹</title>
+	<short>山鬼</short>
+	<desc>高科技隐形导弹发射器，扰乱敌人防御无人机的目标系统。只有最先进的防御无人机才能击落这种导弹。</desc>
+	<tooltip>发射1枚导弹; 造成2点伤害; 穿透所有护盾; 躲避1级防御无人机。</tooltip>
 	<damage>2</damage>
 	<stun>4</stun>
 	<missiles>1</missiles>
@@ -6043,10 +6043,10 @@
 <weaponBlueprint name="BA_MISSILES_IFRIT">
 	<type>LASER</type>
 	<tip>ce_tip_missiles_tech</tip>
-	<title>Ifrit Missile</title>
-	<short>Ifrit</short>
-	<desc>Brilliantly designed high-tech missile launcher that fires four projectiles for the cost of one. Its cloaked missiles can only be shot down by the most advanced defense drones.</desc>
-	<tooltip>发射4枚导弹; 每发造成1点伤害; pierces all shields; evades lvl 1 defense drones.</tooltip>
+	<title>尘魔导弹</title>
+	<short>尘魔</short>
+	<desc>设计精良的高科技导弹发射器能以一枚炮弹的成本发射四枚炮弹。只有最先进的防御无人机才能击落这种导弹。</desc>
+	<tooltip>发射4枚导弹; 每发造成1点伤害; 穿透所有护盾; 躲避1级防御无人机。</tooltip>
 	<damage>1</damage>
 	<stun>3</stun>
 	<missiles>1</missiles>
@@ -6084,10 +6084,10 @@
 	<type>LASER</type>
 	<flavorType>Swarm Missile Launcher</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
-	<title>Ogre Missile Battery</title>
-	<short>Ogre</short>
-	<desc>Basic battery that fires a small swarm of missiles that deals 2 damage to hull, but only half that damage to systems and crew.</desc>
-	<tooltip>Fires a small missile swarm that deals 2 damage to hull, but only half that damage to systems and crew.</tooltip>
+	<title>食人魔导弹炮台</title>
+	<short>食人魔</short>
+	<desc>发射少量导弹的基本炮台，对船体造成2点伤害，但对系统和船员只造成一半伤害。</desc>
+	<tooltip>发射小型导弹群，对船体造成2点伤害，但对系统和船员只造成一半伤害。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>2</damage>
 	<stun>3</stun>
@@ -6128,10 +6128,10 @@
 	<type>LASER</type>
 	<flavorType>Swarm Missile Launcher</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
-	<title>Ogre Missile Battery</title>
-	<short>Ogre</short>
-	<desc>Basic battery that fires a small swarm of missiles that deals 2 damage to hull, but only half that damage to systems and crew.</desc>
-	<tooltip>Fires a small missile swarm that deals 2 damage to hull, but only 0.5x damage to systems and crew.</tooltip>
+	<title>食人魔导弹炮台</title>
+	<short>食人魔</short>
+	<desc>发射少量导弹的基本炮台，对船体造成2点伤害，但对系统和船员只造成一半伤害。</desc>
+	<tooltip>发射小型导弹群，对船体造成2点伤害，但对系统和船员只造成一半伤害。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>2</damage>
 	<stun>3</stun>
@@ -6171,10 +6171,10 @@
 	<type>LASER</type>
 	<flavorType>Swarm Missile Launcher</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
-	<title>Leviathan Missile Battery</title>
-	<short>Leviath</short>
-	<desc>Heavy artillery battery that fires a swarm of missiles that deals 3 damage to hull, but much less damage to systems and crew.</desc>
-	<tooltip>Fires a missile swarm that deals 3 damage to hull, but less damage to systems and crew; 穿透所有护盾。</tooltip>
+	<title>利維坦导弹炮台</title>
+	<short>利維坦</short>
+	<desc>重型炮台，发射大量导弹，对船体造成3点伤害，但对系统和船员的伤害较小。</desc>
+	<tooltip>发射导弹群，对船体造成3点伤害，但对系统和船员的伤害较小; 穿透所有护盾。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>3</damage>
 	<stun>3</stun>
@@ -6215,10 +6215,10 @@
 	<type>LASER</type>
 	<flavorType>Swarm Missile Launcher</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
-	<title>Leviathan Missile Battery</title>
-	<short>Leviath</short>
-	<desc>Heavy artillery battery that fires a swarm of missiles that deals 3 damage to hull, but much less damage to systems and crew.</desc>
-	<tooltip>Fires a missile swarm that deals 3 damage to hull, but less damage to systems and crew; 穿透所有护盾。</tooltip>
+	<title>利維坦导弹炮台</title>
+	<short>利維坦</short>
+	<desc>重型炮台，发射大量导弹，对船体造成3点伤害，但对系统和船员的伤害较小。</desc>
+	<tooltip>发射导弹群，对船体造成3点伤害，但对系统和船员的伤害较小; 穿透所有护盾。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>3</damage>
 	<stun>3</stun>
@@ -6258,10 +6258,10 @@
 	<type>LASER</type>
 	<flavorType>Swarm Missile Launcher</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
-	<title>Titan Missile Battery</title>
-	<short>Titan</short>
-	<desc>Huge artillery battery that releases a massive swarm of missiles. Deals 4 damage to hull, but only half that damage to systems and crew.</desc>
-	<tooltip>Fires a missile swarm that deals 4 damage to hull, but only 0.5x damage to systems and crew; 穿透所有护盾。</tooltip>
+	<title>泰坦导弹炮台</title>
+	<short>泰坦</short>
+	<desc>发射大量导弹的大型炮台。对船体造成4点伤害，但对系统和船员只造成一半伤害。</desc>
+	<tooltip>发射导弹群，对船体造成4点伤害，但对系统和船员只造成一半伤害; 穿透所有护盾。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>4</damage>
 	<missiles>1</missiles>
@@ -6302,10 +6302,10 @@
 	<type>LASER</type>
 	<flavorType>Swarm Missile Launcher</flavorType>
 	<tip>ce_tip_missiles_swarm</tip>
-	<title>Titan Missile Battery</title>
-	<short>Titan</short>
-	<desc>Huge artillery battery that releases a massive swarm of missiles. Deals 4 damage to hull, but only half that damage to systems and crew.</desc>
-	<tooltip>Fires a missile swarm that deals 4 damage to hull, but only 0.5x damage to systems and crew; 穿透所有护盾。</tooltip>
+	<title>泰坦导弹炮台</title>
+	<short>泰坦</short>
+	<desc>发射大量导弹的大型炮台。对船体造成4点伤害，但对系统和船员只造成一半伤害。</desc>
+	<tooltip>发射导弹群，对船体造成4点伤害，但对系统和船员只造成一半伤害; 穿透所有护盾。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>4</damage>
 	<missiles>1</missiles>
@@ -6348,11 +6348,11 @@
 <weaponBlueprint name="BA_SHOTGUN_ION_1">
 	<type>BURST</type>
 	<flavorType>Ion Flak Gun</flavorType>
-	<title>Ion Flak Mark I</title>
+	<title>离子轰炸发射器 I</title>
 	<tip>tip_flak</tip>
-	<short>Ion Flak I</short>
-	<desc>Fires ion blasts across a random area doing up to 2 ion damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires ion blasts across a random area doing up to 2 ion damage.</tooltip>
+	<short>离子轰炸 I</short>
+	<desc>对一个随机区域发射离子轰炸，造成最多2点离子伤害。擅长攻击护盾，但是很难瞄准。</desc>
+	<tooltip>对一个随机区域发射离子轰炸，造成最多2点离子伤害。</tooltip>
 	<radius>55</radius>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -6398,11 +6398,11 @@
 <weaponBlueprint name="BA_SHOTGUN_ION_2">
 	<type>BURST</type>
 	<flavorType>Ion Flak Gun</flavorType>
-	<title>Ion Flak Mark II</title>
+	<title>离子轰炸发射器 II</title>
 	<tip>tip_flak</tip>
-	<short>Ion Flak II</short>
-	<desc>Scatters ion blasts across the enemy ship doing up to 3 ion damage. Excellent at taking down shields but very hard to aim.</desc>
-	<tooltip>Fires ion blast across a random area doing up to 3 ion damage.</tooltip>
+	<short>离子轰炸 II</short>
+	<desc>对敌方舰艇进行离子轰炸，造成最多3点离子伤害。擅长攻击护盾，但是很难瞄准。</desc>
+	<tooltip>对一个随机区域发射离子轰炸，造成最多3点离子伤害。</tooltip>
 	<radius>70</radius>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -6446,12 +6446,12 @@
 
 <weaponBlueprint name="BA_ION_2_STUN">
 	<type>LASER</type>
-	<title>Heavy Ion Stunner</title>
-	<short>Heavy Ion Stunner</short>
+	<title>重型离子冲击</title>
+	<short>重型离子冲击</short>
 	<tip>tip_ion</tip>
 	<locked>1</locked>
-	<desc>Ion weapons can disable systems without causing hull damage. This ion weapon stuns crew inside the room for 10 seconds.</desc>
-	<tooltip>Fires a single blast that does 2 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<desc>离子武器可以在不伤害船体的情况下使系统瘫痪。同时能使房间内的船员昏迷10秒。</desc>
+	<tooltip>发射1发离子炮，造成2点离子伤害。可以攻击护盾和破坏系统。</tooltip>
 	<stun>10</stun>
 	<damage>0</damage>
 	<ion>2</ion>
@@ -6492,11 +6492,11 @@
 <weaponBlueprint name="BA_ION_BURST_1_STUN">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>Ion Burst Stunner</title>
-	<short>Ion Burst Stunner</short>
+	<title>离子爆破冲击</title>
+	<short>离子爆破冲击</short>
 	<locked>1</locked>
-	<desc>Ion weapons can disable systems without causing hull damage. This ion weapon fires two shots that stun crew inside the room for 5 seconds.</desc>
-	<tooltip>Fires 2 blasts that do 1 ion damage each. Can hit and disable shields as well as systems.</tooltip>
+	<desc>离子武器可以在不伤害船体的情况下使系统瘫痪。该武器能发射2次，使房间内的船员昏迷5秒。</desc>
+	<tooltip>发射2发离子炮，每发造成1点离子伤害。可以攻击护盾和破坏系统。</tooltip>
 	<stun>5</stun>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -6536,12 +6536,12 @@
 
 <weaponBlueprint name="BA_ION_PIERCE_1">
 	<type>LASER</type>
-	<title>Phase Ion Mark I</title>
-	<short>Phase Ion I</short>
+	<title>相位离子发射器 I</title>
+	<short>相位离子 I</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
-	<desc>This weapon's ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
-	<tooltip>Fires one phase blast; pierces all shields; deals 1 ion damage to shields and deals 1 additional ion damage to any system it hits afterwards.</tooltip>
+	<desc>该武器的离子发射体会穿过防护盾，使防护盾和之后被它们击中的任何系统都电离。</desc>
+	<tooltip>发射一发相位离子炮; 穿透所有护盾; 对护盾造成1点离子伤害，并对之后击中的系统造成1点额外离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -6588,7 +6588,7 @@
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
 	<desc>This weapon's ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
-	<tooltip>Fires one phase blast; pierces all shields; deals 1 ion damage to shields and deals 1 additional ion damage to any system it hits afterwards.</tooltip>
+	<tooltip>Fires one phase blast; 穿透所有护盾; deals 1 ion damage to shields and deals 1 additional ion damage to any system it hits afterwards.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -6933,7 +6933,7 @@
 	<tip>tip_flak</tip>
 	<short>Missile Flak</short>
 	<desc>Releases swarms of missiles across a very wide area doing up to 8 damage. Very hard to aim therefore ineffective against small ships.</desc>
-	<tooltip>Fires missiles swarms across a random area doing up to 8 damage. Pierces all shields; evades Defense I drones.</tooltip>
+	<tooltip>Fires missiles swarms across a random area doing up to 8 damage. 穿透所有护盾; evades Defense I drones.</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>120</radius>
 	<damage>1</damage>
@@ -14255,7 +14255,7 @@
 	<title>Breach Missiles</title>
 	<short>Breach</short>
 	<desc>These missiles are designed to cause maximum destruction to ship hull armor.</desc>
-	<tooltip>发射1枚导弹; 4 damage; pierces all shields; high breach chance.</tooltip>
+	<tooltip>发射1枚导弹; 4 damage; 穿透所有护盾; high breach chance.</tooltip>
 	<!-- <desc>Power Req: 3    Fires a single shot, heavy missile that does 4 damage and causes breaches in the target's hull.</desc> -->
 	<damage>4</damage>
 	<stun>6</stun>
