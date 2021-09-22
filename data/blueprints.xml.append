@@ -3867,7 +3867,7 @@
 	<tip>ce_tip_laser_light</tip>
 	<title>自动轻型激光发射器</title>
 	<short>自动轻型激光</short>
-	<desc>快速充能的杀伤激光可以让敌方人员持续处于炮火之下。</desc>
+	<desc>快速充能的杀伤激光可以让敌人持续处于炮火之下。</desc>
 	<tooltip>发射1次激光，对船员造成伤害。穿透2层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
@@ -5282,7 +5282,7 @@
 	<title>火焰集束炸弹</title>
 	<short>火焰集束炸弹</short>
 	<locked>1</locked>
-	<desc>部署了3个小型可自我传送的炸药，旨在杀伤船员并点燃船体。</desc>
+	<desc>部署了3个小型可自我传送炸药，旨在杀伤船员并点燃船体。</desc>
 	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，对船员造成伤害，较高概率点燃船体。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5315,7 +5315,7 @@
 	<title>离子集束炸弹</title>
 	<short>离子集束炸弹</short>
 	<locked>1</locked>
-	<desc>部署3个可自我传送的炸药，对系统造成离子伤害。</desc>
+	<desc>部署3个可自我传送炸药，对系统造成离子伤害。</desc>
 	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，每个炸弹不造成物理伤害，而是造成离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -6540,7 +6540,7 @@
 	<short>相位离子 I</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
-	<desc>该武器的离子发射体会穿过防护盾，使防护盾和之后被它们击中的任何系统都电离。</desc>
+	<desc>该武器发射的离子会穿透护盾，使防盾和之后被它们击中的任何系统都被离子锁定。</desc>
 	<tooltip>发射一发相位离子炮; 穿透所有护盾; 对护盾造成1点离子伤害，并对之后击中的系统造成1点额外离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -6583,12 +6583,12 @@
 
 <weaponBlueprint name="BA_ION_PIERCE_2">
 	<type>LASER</type>
-	<title>Phase Ion Mark II</title>
-	<short>Phase Ion II</short>
+	<title>相位离子发射器 II</title>
+	<short>相位离子 II</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
-	<desc>This weapon's ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
-	<tooltip>Fires one phase blast; 穿透所有护盾; deals 1 ion damage to shields and deals 1 additional ion damage to any system it hits afterwards.</tooltip>
+	<desc>该武器发射的离子会穿透护盾，使防盾和之后被它们击中的任何系统都被离子锁定。</desc>
+	<tooltip>发射一发相位离子炮; 穿透所有护盾; 对护盾造成1点离子伤害，并对之后击中的系统造成1点额外离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -6630,11 +6630,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_STUN">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>Stun Cluster Bomb</title>
-	<short>Stun C.B.</short>
+	<title>致晕集束炸弹</title>
+	<short>致晕集束炸弹</short>
 	<locked>1</locked>
-	<desc>Deploys 2 self-teleporting explosives that stun all crew inside the room for 15 seconds. 可以瞄准己方舰船。</desc>
-	<tooltip>炸弹武器; 需要导弹; teleports 2 stun bombs. Stuns all crew inside the room for 15 seconds. 可以瞄准己方舰船。</tooltip>
+	<desc>部署2个可自我传送炸药，使目标房间内所有船员昏迷15秒。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送2个眩晕炸弹。击晕房间内的所有船员15秒。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -6665,10 +6665,10 @@
 <weaponBlueprint name="BA_BOMB_LOCK_2">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Lockdown Bomb Mark II</title>
-	<short>Lock B. II</short>
+	<title>封锁炸弹发射器II</title>
+	<short>封锁炸弹 II</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive that crystallizes an entire room. Causes breaches, locks doors and also stuns and injures crew. 可以瞄准己方舰船。</desc>
+	<desc>能让整个房间结晶的可自我传送炸药。破环船体，封锁舱门，同时使使船员受伤和昏迷。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; causes breaches; prevents movement in or out of room; injures and stuns crew. 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>10</stun>
@@ -6700,11 +6700,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_STUN_ENEMY">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Stun Cluster Bomb</title>
-	<short>Stun C.B.</short>
+	<title>致晕集束炸弹</title>
+	<short>致晕集束炸弹</short>
 	<locked>1</locked>
-	<desc>Deploys 3 self-teleporting explosives that stun all crew inside the room. 可以瞄准己方舰船。</desc>
-	<tooltip>炸弹武器; 需要导弹; teleports 3 stun bombs. Stuns all crew inside the room. 可以瞄准己方舰船。</tooltip>
+	<desc>部署3个可自我传送炸药，击晕房间里的所有船员。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送3个致晕炸弹。击晕房间里的所有船员。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -6735,11 +6735,11 @@
 <weaponBlueprint name="BA_LASER_LIGHT_CHAINGUN">
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
-	<title>Light Chain Vulcan</title>
-	<short>Light Vulcan</short>
+	<title>轻型链式火神炮</title>
+	<short>轻型火神炮</short>
 	<tip>ce_tip_chain_laser_light</tip>
-	<desc>This light laser takes a long time to spin up. Each time it fires it decreases the cooldown, eventually shredding enemy crew with constant laser fire.</desc>
-	<tooltip>Cooldown decreases the more it fires. Ignores 2 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
+	<desc>这种激光需要很长时间才能进入连续开火模式。每次开火，它都会减少冷却时间，最终用暴风雨般的火力碾碎敌人。</desc>
+	<tooltip>发射次数越多，冷却时间越短。穿透两层护盾，但不能消耗护盾。较低的概率破环船体。</tooltip>
 	<persDamage>1</persDamage>
 	<shots>1</shots>
 	<sp>2</sp>
