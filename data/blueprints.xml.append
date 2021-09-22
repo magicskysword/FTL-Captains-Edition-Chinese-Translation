@@ -2875,8 +2875,8 @@
 <weaponBlueprint name="BA_BEAM_FIRE_2">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>狱火光束 II</title>
-	<short>狱火光束 II</short>
+	<title>火焰光束 II</title>
+	<short>火焰光束 II</short>
 	<desc>地狱射线，点燃火炬，灼烧船员。</desc>
 	<tooltip>发射光束武器，可以点燃船体并对船员造成伤害。</tooltip>
 	<persDamage>1</persDamage>
@@ -3223,8 +3223,8 @@
 <weaponBlueprint name="BA_MISSILES_FIRE">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>狱火导弹</title>
-	<short>狱火</short>
+	<title>火焰导弹</title>
+	<short>火焰</short>
 	<desc>这些导弹被设计成尽可能造成最大的破坏并点燃船体。</desc>
 	<tooltip>发射1枚导弹; 造成4点伤害; 穿透所有护盾; 较高的燃烧几率。</tooltip>
 	<damage>4</damage>
@@ -5083,10 +5083,10 @@
 <weaponBlueprint name="BA_BOMB_FIRE_SMALL">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>狱火炸弹发射器 I</title>
-	<short>狱火炸弹 I</short>
+	<title>火焰炸弹发射器 I</title>
+	<short>火焰炸弹 I</short>
 	<locked>1</locked>
-	<desc>小型自传送炸药，用来伤害船员并点燃船体。可以瞄准己方舰船。</desc>
+	<desc>小型可自我传送的炸弹，用来伤害船员并点燃船体。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; 对船员造成伤害; 有较高的燃烧几率; 可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5116,8 +5116,8 @@
 <weaponBlueprint name="BA_BOMB_FIRE_2">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>狱火炸弹发射器 III</title>
-	<short>狱火炸弹 III</short>
+	<title>火焰炸弹发射器 III</title>
+	<short>火焰炸弹 III</short>
 	<locked>1</locked>
 	<desc>稍慢于普通炸弹，但对乘员造成更多伤害，并且能对系统造成伤害。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; 对系统和子系统造成1点伤害并点燃船体。3秒延迟爆炸。可以瞄准己方舰船。</tooltip>
@@ -5185,7 +5185,7 @@
 	<title>反生物炸弹</title>
 	<short>反生物炸弹</short>
 	<locked>1</locked>
-	<desc>自传送炸弹，不造成物理伤害，但是会破坏有机物，从而对船员造成严重伤害。可以瞄准己方舰船。</desc>
+	<desc>可自我传送的炸弹，不造成物理伤害，但是会破坏有机物，从而对船员造成严重伤害。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; 不会对船体造成伤害，但会对敌方船员造成严重伤害。1秒延迟爆炸。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5217,7 +5217,7 @@
 	<title>集群治疗弹</title>
 	<short>集群治疗弹</short>
 	<locked>1</locked>
-	<desc>部署3个自传送治疗单位，立即治疗房间里的所有友军。当目标是己方舰船时，只部署1个单位。</desc>
+	<desc>部署3个可自我传送的治疗单位，立即治疗房间里的所有友军。当目标是己方舰船时，只部署1个单位。</desc>
 	<tooltip>炸弹武器; 需要导弹; 传送3个治疗单位来治疗目标附近的友军。可以瞄准己方舰船，但只传送一个单位。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5249,7 +5249,7 @@
 	<title>集束炸弹</title>
 	<short>集束炸弹</short>
 	<locked>1</locked>
-	<desc>部署3个自传送炸弹，破坏系统与船员，但不破坏船体。可以瞄准己方舰船。</desc>
+	<desc>部署3个可自我传送的炸弹，破坏系统与船员，但不破坏船体。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，每个造成1点伤害，但只对系统造成损害，不对船体造成伤害。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
@@ -5279,10 +5279,10 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_FIRE">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>狱火集束炸弹</title>
-	<short>狱火集束炸弹</short>
+	<title>火焰集束炸弹</title>
+	<short>火焰集束炸弹</short>
 	<locked>1</locked>
-	<desc>部署了3个小型自传送炸药，旨在杀伤船员并点燃船体。</desc>
+	<desc>部署了3个小型可自我传送的炸药，旨在杀伤船员并点燃船体。</desc>
 	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，对船员造成伤害，较高概率点燃船体。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -5315,7 +5315,7 @@
 	<title>离子集束炸弹</title>
 	<short>离子集束炸弹</short>
 	<locked>1</locked>
-	<desc>部署3个自传送炸药，对系统造成离子伤害。</desc>
+	<desc>部署3个可自我传送的炸药，对系统造成离子伤害。</desc>
 	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹，每个炸弹不造成物理伤害，而是造成离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -5347,11 +5347,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_BREACH">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>Breach Cluster Bomb</title>
-	<short>Breach C.B.</short>
+	<title>攻坚集束炸弹</title>
+	<short>攻坚集束炸弹</short>
 	<locked>1</locked>
-	<desc>Deploys 3 self-teleporting explosives designed to damage systems and causes breaches. 可以瞄准己方舰船。</desc>
-	<tooltip>炸弹武器; 需要导弹; teleports 3 bombs; each does 1 damage to systems with good chances of breaching. 可以瞄准己方舰船。</tooltip>
+	<desc>部署可自我传送的炸弹，破坏系统并造成破坏。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 传送3个炸弹; 每个对系统造成1点伤害，较高几率破坏船体。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -5380,11 +5380,11 @@
 <weaponBlueprint name="BA_BOMB_NANO_1">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Hull Repair Burst Mark I</title>
-	<short>Hull Repair I</short>
+	<title>舰船维修炸弹发射器 I</title>
+	<short>舰船维修 I</short>
 	<locked>1</locked>
-	<desc>Self-teleporting nano repair unit that instantly restores one hull damage and one system damage of the system it is teleported to. Designed to target your own ship.</desc>
-	<tooltip>炸弹武器; 需要导弹; repairs 1 hull damage. Should target your own ship.</tooltip>
+	<desc>可自我传送的纳米修复单位，可以立即修复传送到的房间的系统损坏与船体损坏，设计用于修复己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 修理1点船体损坏。应该以自己的舰船为目标。</tooltip>
 	<damage>-1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>0</persDamage>
@@ -5412,11 +5412,11 @@
 <weaponBlueprint name="BA_BOMB_NANO_2">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Hull Repair Burst Mark II</title>
-	<short>Hull Repair II</short>
+	<title>舰船维修炸弹发射器 II</title>
+	<short>舰船维修 II</short>
 	<locked>1</locked>
-	<desc>Self-teleporting nano repair unit that restores two hull damage and two system damage of the system it is teleported to. Designed to target your own ship.</desc>
-	<tooltip>炸弹武器; 需要导弹; repairs 3 hull. Should target your own ship.</tooltip>
+	<desc>自我传送纳米修复单位，可以修复被传送到的两个船体损坏和两个系统损坏。专门针对你自己的飞船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 修理3点船体损坏。应该以自己的舰船为目标。</tooltip>
 	<damage>-3</damage>
 	<sysDamage>-3</sysDamage>
 	<persDamage>0</persDamage>
@@ -5451,12 +5451,12 @@
 <weaponBlueprint name="BA_EFFECTOR_1">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Effector Mark I</title>
-	<short>Effect I</short>
+	<title>效应场发射器 I</title>
+	<short>效应场 I</short>
 	<flavorType>Ion Field Projector</flavorType>
 	<locked>1</locked>
-	<desc>Basic ion field projector that can pierce shields and continuously disrupts systems.</desc>
-	<tooltip>Does no damage but continuously tries to ionize 2 system bars. Surpasses shields.</tooltip>
+	<desc>基础型离子场产生器，可以穿透防护罩并持续破坏系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成2点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<missiles>0</missiles>
@@ -5493,12 +5493,12 @@
 <weaponBlueprint name="BA_EFFECTOR_2">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Effector Mark II</title>
-	<short>Effect II</short>
+	<title>效应场发射器 II</title>
+	<short>效应场 II</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
-	<desc>Fast charging projector device that generates ion fields inside the enemy ship to disrupt systems.</desc>
-	<tooltip>Does no damage but continuously tries to disable 1 bar of the system it is directed on. Surpasses shields.</tooltip>
+	<desc>快速充能的离子场产生器，在敌舰内部产生离子场以扰乱系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成1点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -5535,12 +5535,12 @@
 <weaponBlueprint name="BA_EFFECTOR_3">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Heavy Effector</title>
-	<short>H. Effector</short>
+	<title>重型效应场发射器</title>
+	<short>重型效应场</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
-	<desc>Slow-charging ion field projector that can deeply disrupt ship systems.</desc>
-	<tooltip>Does no damage but disables 4 bars of the system it is directed on. Surpasses shields.</tooltip>
+	<desc>缓慢充能的离子场产生器，可以严重破坏飞船系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成4点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>0</missiles>
@@ -5577,12 +5577,12 @@
 <weaponBlueprint name="BA_EFFECTOR_ADAPTIVE">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Adaptive Effector</title>
-	<short>A. Effector</short>
+	<title>自适应效应场发射器</title>
+	<short>自适应效应场</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
-	<desc>Intelligent field projector that quickly adapts to enemy defenses and gains ion damage each time it fires up to a maximum of 3.</desc>
-	<tooltip>Does no damage but deals 1 ion damage to the system it is directed on. Ion damage increases the more it fires. Surpasses shields.</tooltip>
+	<desc>智能离子场产生器，能快速根据敌人防御系统进行调整，每次发射最多造成3点离子伤害。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成1点离子伤害，发射的离子越多，伤害越高。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -5624,12 +5624,12 @@
 <weaponBlueprint name="BA_EFFECTOR_ADAPTIVE_ENEMY">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Adaptive Effector</title>
-	<short>A. Effector</short>
+	<title>自适应效应场发射器</title>
+	<short>自适应效应场</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
-	<desc>Intelligent field projector that quickly analyses enemy weak-spots. It gains ion damage each time it fires up to a maximum of 3.</desc>
-	<tooltip>Does no damage but deals 1 ion damage to the system it is directed on. Ion damage increases the more it fires. Surpasses shields.</tooltip>
+	<desc>智能离子场产生器，能快速根据敌人防御系统进行调整，每次发射最多造成3点离子伤害。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成1点离子伤害，发射的离子越多，伤害越高。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -5670,11 +5670,11 @@
 
 <weaponBlueprint name="BA_EFFECTOR_1_ENEMY">
 	<type>BOMB</type>
-	<title>Effector Mark I</title>
-	<short>Effect I</short>
+	<title>效应场发射器 I</title>
+	<short>效应场 I</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>基础型离子场产生器，可以穿透防护罩并持续破坏系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成2点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<missiles>0</missiles>
@@ -5710,11 +5710,11 @@
 
 <weaponBlueprint name="BA_EFFECTOR_2_ENEMY">
 	<type>BOMB</type>
-	<title>Effector Mark II</title>
-	<short>Effect II</short>
+	<title>效应场发射器 II</title>
+	<short>效应场 II</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>快速充能的离子场产生器，在敌舰内部产生离子场以扰乱系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成1点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -5750,11 +5750,11 @@
 
 <weaponBlueprint name="BA_EFFECTOR_3_ENEMY">
 	<type>BOMB</type>
-	<title>Heavy Effector</title>
-	<short>H. Effector</short>
+	<title>重型效应场发射器</title>
+	<short>重型效应场</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>缓慢充能的离子场产生器，可以严重破坏飞船系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成4点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>0</missiles>
@@ -5796,12 +5796,12 @@
 <weaponBlueprint name="BA_EFFECTOR_1_OLD">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Effector Mark I</title>
-	<short>Effect I</short>
+	<title>效应场发射器 I</title>
+	<short>效应场 I</short>
 	<flavorType>Electronic Warfare Device</flavorType>
 	<locked>1</locked>
-	<desc>Basic electronic warfare device that can continuously disrupt systems.</desc>
-	<tooltip>Does no damage but continuously tries to disable 2 system bars. Surpasses shields.</tooltip>
+	<desc>基本的电子战设备，可以持续干扰系统。</desc>
+	<tooltip>不会造成物理伤害，会对系统造成2点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<missiles>0</missiles>
@@ -5834,12 +5834,12 @@
 <weaponBlueprint name="BA_EFFECTOR_2_OLD">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Effector Mark II</title>
-	<short>Effect II</short>
+	<title>效应场发射器 II</title>
+	<short>效应场 II</short>
 	<locked>1</locked>
 	<flavorType>Electronic Warfare Device</flavorType>
-	<desc>Fast charging electronic warfare device that can continuously disrupt systems with a combination of hacking routines and magnetic field generation.</desc>
-	<tooltip>Does no damage but continuously tries to disable 1 bar of the system it is directed on. Surpasses shields.</tooltip>
+	<desc>快速充能的离子场产生器，可以持续破坏系统，与黑客程序和磁场产生组合效果。</desc>
+	<tooltip>不会造成物理伤害，会对系统造成1点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -5872,12 +5872,12 @@
 <weaponBlueprint name="BA_EFFECTOR_3_OLD">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>Heavy Effector</title>
-	<short>H. Effector</short>
+	<title>重型效应场发射器</title>
+	<short>重型效应场</short>
 	<locked>1</locked>
 	<flavorType>Electronic Warfare Device</flavorType>
-	<desc>Slow-charging electronic warfare device that can deeply disrupt ship systems.</desc>
-	<tooltip>Does no damage but disables 4 bars of the system it is directed on. Surpasses shields.</tooltip>
+	<desc>缓慢充能的离子场产生器，可以严重破坏飞船系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成4点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>0</missiles>
@@ -5911,11 +5911,11 @@
 
 <weaponBlueprint name="BA_EFFECTOR_1_ENEMY_OLD">
 	<type>BOMB</type>
-	<title>Effector Mark I</title>
-	<short>Effect I</short>
+	<title>效应场发射器 I</title>
+	<short>效应场 I</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>基础型离子场产生器，可以穿透防护罩并持续破坏系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成2点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<missiles>0</missiles>
@@ -5941,11 +5941,11 @@
 
 <weaponBlueprint name="BA_EFFECTOR_2_ENEMY_OLD">
 	<type>BOMB</type>
-	<title>Effector Mark II</title>
-	<short>Effect II</short>
+	<title>效应场发射器 II</title>
+	<short>效应场 II</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>快速充能的离子场产生器，在敌舰内部产生离子场以扰乱系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成1点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -5971,11 +5971,11 @@
 
 <weaponBlueprint name="BA_EFFECTOR_3_ENEMY_OLD">
 	<type>BOMB</type>
-	<title>Heavy Effector</title>
-	<short>H. Effector</short>
+	<title>重型效应场发射器</title>
+	<short>重型效应场</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>缓慢充能的离子场产生器，可以严重破坏飞船系统。</desc>
+	<tooltip>不会造成物理伤害，但是会不断地对系统造成4点离子伤害。穿透护盾。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>0</missiles>
@@ -10708,8 +10708,8 @@
 
 <weaponBlueprint name="DE_DRONE_BEAM_FIRE">
 	<type>BEAM</type>
-	<title>无人机狱火光束</title>
-	<short>无人机狱火光束</short>
+	<title>无人机火焰光束</title>
+	<short>无人机火焰光束</short>
 	<desc>无人机狱火光束; 点燃狱火魔犬！</desc>
 	<damage>0</damage>
 	<sp>0</sp>
@@ -11429,8 +11429,8 @@
 <droneBlueprint name="DE_DRONE_FIRE">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>狱火光束无人机</title>
-	<short>狱火光束无人机</short>
+	<title>火焰光束无人机</title>
+	<short>火焰光束无人机</short>
 	<desc>Slow drone that sets enemy ships on fire with its modified beam weapon.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
@@ -13501,8 +13501,8 @@
 <weaponBlueprint name="BEAM_FIRE">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>狱火光束 I</title>   <!-- Induction beam? -->
-	<short>狱火光束 I</short>
+	<title>火焰光束 I</title>   <!-- Induction beam? -->
+	<short>火焰光束 I</short>
 	<desc>This terrifying beam does no physical damage but ignites fires.</desc>
 	<tooltip>Beam weapon that starts fires.</tooltip>
 	<damage>0</damage>
@@ -16246,7 +16246,7 @@
 	<mod-overwrite:short>毒蛇导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_FIRE">
-	<mod-overwrite:title>狱火导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>火焰导弹发射器</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SIMURGH">
 	<mod-overwrite:title>骏鹰导弹发射器</mod-overwrite:title>
