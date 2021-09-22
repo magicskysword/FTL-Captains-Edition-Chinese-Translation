@@ -16,7 +16,7 @@
 
 <systemBlueprint name="oxygen">
 	<type>oxygen</type>
-	<title>生命系统</title>
+	<title>维生系统</title>
 	<desc>补充氧气，降低辐射。升级以加快飞船内气压恢复速度。</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>

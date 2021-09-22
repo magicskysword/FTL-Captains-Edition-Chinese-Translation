@@ -1,72 +1,72 @@
-<text name="window_title">FTL: Captain's Edition</text>
-<text name="hotkey_oxygen">Power Life Support</text>
-<text name="hotkey_un_oxygen">De-Power Life Support</text>
-<text name="warning_oxygen">LIFE SUPPORT\nFAILING</text>
-<text name="sector_legend_civilian">Neutral</text>  <!-- Sector type legend labels -->
-<text name="sector_legend_nebula">Hazard</text>
-<text name="sector_civilian">Unidentified Neutral Sector</text>  <!-- Names for unidentified sectors -->
-<text name="sector_nebula">Unidentified Hazard Sector</text>
-<text name="oxygen_hacked">Life Support Hacked</text>
-<text name="oxygen">Life Support</text>  <!-- These are used in running text, e.g. "upgrade_success" -->
+<text name="window_title">超越光速: 船长版</text>
+<text name="hotkey_oxygen">维生充能</text>
+<text name="hotkey_un_oxygen">维生减能</text>
+<text name="warning_oxygen">维生\n损坏</text>
+<text name="sector_legend_civilian">中立</text>  <!-- Sector type legend labels -->
+<text name="sector_legend_nebula">危险</text>
+<text name="sector_civilian">身份不明的中立星区</text>  <!-- Names for unidentified sectors -->
+<text name="sector_nebula">身份不明的危险星区</text>
+<text name="oxygen_hacked">维生破解</text>
+<text name="oxygen">维生</text>  <!-- These are used in running text, e.g. "upgrade_success" -->
 <text name="warning_pds_allies"></text>  <!-- Displayed in green below the ASB icon when friendly anti-ship batteries are present -->
 
-<text name="defense_friendly">Your Level 1 Defense Drone: \nShoots down regular missiles, mines, and asteroids. Will function until destroyed or until you jump away.</text>
-<text name="defense_enemy">Level 1 Defense Drone: \nShoots down regular missiles, mines, and asteroids. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="defense_friendly">你的1级防御无人机: \n击落常规导弹、传送炸弹和陨石。直到被摧毁或者你跃迁离开。</text>
+<text name="defense_enemy">敌方1级防御无人机: \n击落常规导弹、传送炸弹和陨石。可以通过破坏敌船的无人机系统来关闭。</text>
 
-<text name="defense_2_friendly">Your Level 2 Defense Drone: \nShoots down any projectiles. Will function until destroyed or until you jump away.</text>
-<text name="defense_2_enemy">Level 2 Defense Drone: \nShoots down any projectiles. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="defense_2_friendly">你的2级防御无人机: \n击落任何投射物。直到被摧毁或者你跃迁离开。</text>
+<text name="defense_2_enemy">敌方2级防御无人机: \n击落任何投射物。可以通过破坏敌船的无人机系统来关闭。</text>
 
-<text name="anti_combat_friendly">Your Anti-Combat Drone: \nShoots at enemy combat drones with a chance of destroying them. Will function until destroyed or until you jump away.</text>
-<text name="anti_combat_enemy">Enemy Anti-Combat Drone: \nShoots at your combat drones with a chance of destroying them. Can be shut down by damaging the enemy ship's drone system.</text>
+<text name="anti_combat_friendly">你的反战斗无人机: \n射击敌人的战斗无人机，有一定概率将其摧毁。直到被摧毁或者你跃迁离开。</text>
+<text name="anti_combat_enemy">敌方反战斗无人机: \n射击你的战斗无人机，有一定概率将其摧毁。可以通过破坏敌船的无人机系统来关闭。</text>
 
-<text name="sector_legend_nebula">Hazard</text>
-<text name="sector_nebula">Unidentified Hazard Sector</text>
+<text name="sector_legend_nebula">危险</text>
+<text name="sector_nebula">身份不明的危险星区</text>
 
-<text name="tip_crystal">Tip: Crystal weapons pierce shield layers. Only strong shields and defense drones can stop them.</text>
+<text name="tip_crystal">提示: 水晶武器可以穿透h护盾。只有超级护盾和防御无人机才能阻挡它们。</text>
 
-<text name="artillery_off">OFF: Artillery not charging</text>
+<text name="artillery_off">关闭: 火控武器不进行充能</text>
 
-<text name="artillery_1">Base Cooldown x1.25</text>
-<text name="artillery_2">Base Cooldown x1</text>
-<text name="artillery_3">Base Cooldown x0.75</text>
-<text name="artillery_4">Base Cooldown x0.5</text> 
+<text name="artillery_1">基础冷却时间 x1.25</text>
+<text name="artillery_2">基础冷却时间 x1</text>
+<text name="artillery_3">基础冷却时间 x0.75</text>
+<text name="artillery_4">基础冷却时间 x0.5</text>
 
 <!-- CE Tips -->
 
-<text name="ce_tip_beams_focus">Tip: Focus beams can only hit a single room or a small area, but deal more damage than longer beams of the same tier. For every shield bar on the enemy, a beam's damage is reduced by one.</text>
+<text name="ce_tip_beams_focus">提示: 聚焦光束只能击中单个房间或小范围区域，但比同等级的长光束造成更多伤害。每穿透一层护盾，光束的伤害减少1点。</text>
 
-<text name="ce_tip_beams_industrial">Tip: Industrial beams charge and fire very slowly, but have extremely long range.</text>
+<text name="ce_tip_beams_industrial">提示: 工业光束充能和发射速度非常慢，但是射击范围相当大。</text>
 
-<text name="ce_tip_missiles_swarm">Tip: Swarm missiles deal reduced damage to systems. They will pierce all enemy shields, but cost one missile to launch. Enemy defense drones will shoot down incoming missile swarms.</text>
+<text name="ce_tip_missiles_swarm">提示: 蜂群导弹对系统造成的伤害较低。他们可以穿透敌方所有的护盾，但它们需要一枚导弹来发射。敌方防御无人机将击落来袭的导弹群。</text>
 
-<text name="ce_tip_mines">Tip: Mines will ignore all enemy shields, but they cost one missile to launch and can not deal system damage. Enemy defense drones will shoot down approaching mines.</text>
+<text name="ce_tip_mines">提示: 炸弹会忽略敌方的所有护盾，但它们需要一枚导弹来发射，并且不能对系统造成伤害。敌方防御无人机将击落靠近的炸弹。</text>
 
-<text name="ce_tip_chaff">Tip: Chaff launchers deal no damage, but their projectiles will be targeted by enemy defense drones, opening an attack window for missile strikes.</text>
+<text name="ce_tip_chaff">提示: 箔条发射器不会造成伤害，但它们的投射物会被敌方防御无人机瞄准，为导弹攻击创造机会。</text>
 
-<text name="ce_tip_laser_light">Tip: Light lasers can pass through weak shields and super shields to injure enemy crew. But they can not deplete shields or deal hull damage.</text>
+<text name="ce_tip_laser_light">提示: 激光可以穿透护盾和超级护盾以伤害敌方船员。但他们不能消耗护盾或造成船体伤害。</text>
 
-<text name="ce_tip_laser_auto">Tip: Auto lasers can continuously suppress enemy shields, similar to certain combat drones. Each laser shot will be blocked by a single shield bubble.</text>
+<text name="ce_tip_laser_auto">提示: 自动激光可以持续压制敌方的护盾，类似于某些战斗无人机。每一次激光射击都会被一个一层护盾阻挡。</text>
 
-<text name="ce_tip_laser_scatter">Tip: Scatter lasers can not deal system damage. Each laser shot will be blocked by a single shield bubble, regardless of the laser's damage.</text>
+<text name="ce_tip_laser_scatter">提示: 散射激光不能破环系统。每发激光射击都将被一层护盾阻挡，无论激光的伤害如何。</text>
 
-<text name="ce_tip_bombs_cluster">Tip: Cluster bombs teleport multiple payloads past shields and defense drones to land directly on the ship. They cost one missile to launch and never damage hull, but can be effective at disrupting crew and systems. Launching them at your own ship will only teleport one bomb.</text>
+<text name="ce_tip_bombs_cluster">提示: 集束炸弹传送多个穿透载荷越过防护罩和防御无人机直接降落在飞船上。它们只需发射一枚导弹，不会破环船体，但可以有效地扰乱船员和系统。以己方舰船为目标时只会传送一个炸弹。</text>
 
-<text name="ce_tip_effector">Tip: Ion projectors pierce shields and deal ion damage. For every one point of ion damage, one power bar is removed from the target system and it is then locked for 5 seconds, preventing re-powering.</text>
+<text name="ce_tip_effector">提示: 离子效应场可以穿透护盾并造成离子伤害。每1点离子伤害可以锁定1层系统充能，持续5秒。</text>
 
-<text name="ce_tip_missiles_tech">Tip: Tech missiles cloak and evade level one defense drones. They ignore all enemy shields, but cost one missile to launch. Level two defense drones will still shoot them down.</text>
+<text name="ce_tip_missiles_tech">提示: 科技导弹可以躲藏一级防御无人机。它们无视敌方的所有护盾，但需要发射一枚导弹。二级防御无人机依然会将其击落。</text>
 
-<text name="ce_tip_mines_tech">Tip: Tech mines will cloak and evade level one defense drones. They ignore all enemy shields, but cost one missile to launch and can not deal system damage. Level two defense drones will still shoot them down.</text>
+<text name="ce_tip_mines_tech">提示: 科技炸弹可以躲藏一级防御无人机。它们无视敌方的所有护盾，但需要发射一枚导弹，并且不能破环系统。二级防御无人机依然会将其击落。</text>
 
-<text name="ce_tip_combat_stealth">Tip: Cloaked Combat Drones will evade most shots from enemy defense drones. They require 1 drone part to deploy for each new enemy and will attack the enemy as long as they are powered.</text>
+<text name="ce_tip_combat_stealth">提示: 隐形战斗无人机将躲避敌方防御无人机的大部分射击。但需要一个无人机部件部署，只要能源充足，他们会自动攻击敌人。</text>
 
-<text name="ce_tip_beam_adaptive">Tip: Adaptive Beams increases their damage each time they hit an enemy ship or shields. Check the green lights on the weapon to see how much the damage has increased.</text>
+<text name="ce_tip_beam_adaptive">提示: 自适应光束在每次攻击敌方船体或护盾后增加伤害。检查武器上的绿灯，以查看伤害增加了多少。</text>
 
-<text name="ce_tip_stungun">Tip: Neural stunners pierce shields and have a high chance to incapacitate all crew within a certain radius.</text>
+<text name="ce_tip_stungun">提示: 神经眩晕穿透护盾，并有很高的几率使一定范围内的所有船员失去行动能力。.</text>
 
-<text name="ce_tip_plasma">Tip: Plasma weapons target a wide area and have a high chance to ignite fires at every room they hit. They can not penetrate or deplete normal shields, but pass trough supershields.</text>
+<text name="ce_tip_plasma">提示: 等离子武器的目标范围很广，并且有较高的几率使命中房间着火。他们不能穿透或消耗普通护盾，但是可以穿透超级护盾。</text>
 
-<text name="ce_tip_chain_laser_light">Tip: Light lasers can pass through weak shields and injure enemy crew. But they can not deplete shields or deal hull damage. Chain lasers decrease their cooldown every time they fire.</text>
+<text name="ce_tip_chain_laser_light">提示: 激光可以穿透护盾，伤害敌方船员。但他们不能消耗护盾或造成物理伤害。链式激光器每次发射时冷却时间都会减少。</text>
 
-<text name="ce_tip_ion_pierce">Tip: For every one point of ion damage, one power bar is removed from the target system and it is then locked for 5 seconds, preventing re-powering. If an ion weapon hits shields, the damage is automatically applied to the Shield System.</text>
+<text name="ce_tip_ion_pierce">提示: 对于每1点离子伤害，1个能量条将从目标系统中移除，然后它将被锁定5秒，防止重新充能。如果离子武器击中盾牌，伤害将自动作用于盾牌系统。</text>
 
-<text name="ce_tip_ion_pierce">Tip: If an phase ion weapon hits shields, its ion damage is automatically applied to the shield system. The phasing projectile will then pass through the shields and can deal more ion damage to any system it hits afterwards.</text>
+<text name="ce_tip_ion_pierce">提示: 如果相位离子武器击中盾牌，它的离子伤害会自动作用于护盾系统。然后，相位投射体将穿透护盾，并可以对它之后击中的任何系统造成更多的离子伤害。</text>
