@@ -22,7 +22,7 @@
 <text name="sector_legend_nebula">危险</text>
 <text name="sector_nebula">身份不明的危险星区</text>
 
-<text name="tip_crystal">提示: 水晶武器可以穿透h护盾。只有超级护盾和防御无人机才能阻挡它们。</text>
+<text name="tip_crystal">提示: 水晶武器可以穿透护盾。只有超级护盾和防御无人机才能阻挡它们。</text>
 
 <text name="artillery_off">关闭: 火控武器不进行充能</text>
 
@@ -67,6 +67,6 @@
 
 <text name="ce_tip_chain_laser_light">提示: 激光可以穿透护盾，伤害敌方船员。但他们不能消耗护盾或造成物理伤害。链式激光器每次发射时冷却时间都会减少。</text>
 
-<text name="ce_tip_ion_pierce">提示: 对于每1点离子伤害，1个能量条将从目标系统中移除，然后它将被锁定5秒，防止重新充能。如果离子武器击中盾牌，伤害将自动作用于盾牌系统。</text>
+<text name="ce_tip_ion_pierce">提示: 对于每1点离子伤害，1个能量条将从目标系统中移除，然后它将被锁定5秒，防止重新充能。如果离子武器击中护盾，伤害将自动作用于护盾系统。</text>
 
-<text name="ce_tip_ion_pierce">提示: 如果相位离子武器击中盾牌，它的离子伤害会自动作用于护盾系统。然后，相位投射体将穿透护盾，并可以对它之后击中的任何系统造成更多的离子伤害。</text>
+<text name="ce_tip_ion_pierce">提示: 如果相位离子武器击中护盾，它的离子伤害会自动作用于护盾系统。然后，相位投射体将穿透护盾，并可以对它之后击中的任何系统造成更多的离子伤害。</text>

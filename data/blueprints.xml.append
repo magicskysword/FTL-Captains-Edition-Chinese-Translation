@@ -6540,7 +6540,7 @@
 	<short>相位离子 I</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
-	<desc>该武器发射的离子会穿透护盾，使防盾和之后被它们击中的任何系统都被离子锁定。</desc>
+	<desc>该武器发射的离子会穿透护盾，使护盾和之后被它们击中的任何系统都被离子锁定。</desc>
 	<tooltip>发射一发相位离子炮; 穿透所有护盾; 对护盾造成1点离子伤害，并对之后击中的系统造成1点额外离子伤害。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>

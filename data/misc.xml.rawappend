@@ -1,5 +1,5 @@
 
-<!-- System Tooltip Info --->
+<!-- System Tooltip Info -->
 
 <text name="level">Level </text>
 <text name="manned">Manned: </text>
@@ -87,13 +87,13 @@
 <text name="beacons_stat">Beacons Explored</text>
 <text name="scrap_stat">Scrap Collected</text>
 <text name="crew_stat">Crew Hired</text>
-	
+
 <text name="crew_evasions">Piloted Evasions</text>
 <text name="crew_repairs">Repairs</text>
 <text name="crew_kills">Combat Kills</text>
 <text name="crew_jumps">Jumps Survived</text>
 <text name="crew_masteries">Skill Masteries Earned</text>
-	
+
 <text name="records_heading">Session Records</text>
 <text name="crew_heading">Crew Records</text>
 <text name="stats_heading">Session Stats</text>
@@ -400,7 +400,7 @@
 <text name="hack_clonebay_player">SYSTEM HACKED: CLONES CANNOT BE MADE, CREW MAY DIE!</text>
 <text name="hack_mind_player">SYSTEM HACKED: FRIENDLY UNIT UNDER CONTROL!</text>
 <text name="hack_hacking_player">SYSTEM HACKED: HACKING TEMPORARILY INTERRUPTED</text>
-			
+
 <!-- Combat Box -->
 
 <text name="class">Class</text>
@@ -560,7 +560,7 @@
 
 <text name="press_key">PRESS KEY</text>
 
-<!---- Misc --->
+<!-- Misc -->
 
 <text name="mind_blocked_shield">Cannot mind control through Super Shields.</text>
 <text name="mind_blocked_blackout">Cannot mind control in rooms you cannot detect life in.</text>
@@ -718,7 +718,7 @@
 
 <text name="drone_required">Requires drone part to deploy</text>
 
-<!---- Tips ---->
+<!-- Tips -->
 
 <text name="tip_drone_generic">Tip: Use requires spending one drone part to activate, and then constant power (similar to weapons).</text>
 <text name="tip_drone_warning">Warning: You do not have a Drone System. You can purchase one from a store.</text>
@@ -766,7 +766,7 @@
 
 <text name="tip_crew">Tip: Crew Drones require 1 drone to deploy, but will not need to be deployed again until destroyed. They stay on ship and help your crew as long as they are powered.</text>
 
-<text name="tip_repair_bomb">Tip: Bombs never miss when targeting your own ship, so this bomb is a guaranteed full heal for any of your systems.</text> 
+<text name="tip_repair_bomb">Tip: Bombs never miss when targeting your own ship, so this bomb is a guaranteed full heal for any of your systems.</text>
 <text name="tip_heal_bomb">Tip: Remember, bombs can miss the enemy ship so don't count on this as a guaranteed heal for your boarders!</text>
 <text name="tip_fire_beam">Tip: This Fire Beam does no hull damage, so it cannot pierce any amount of shields.</text>
 <text name="tip_crew_beam">Tip: This Anti-Bio Beam does no hull damage, so it cannot pierce any amount of shields. It also won't hurt drones!</text>
@@ -799,7 +799,7 @@
 <text name="artillery_1">Base Cooldown x1.25</text>
 <text name="artillery_2">Base Cooldown x1</text>
 <text name="artillery_3">Base Cooldown x0.75</text>
-<text name="artillery_4">Base Cooldown x0.5</text> 
+<text name="artillery_4">Base Cooldown x0.5</text>
 
 
 
@@ -842,4 +842,3 @@
 <text name="ce_tip_ion_pierce">Tip: For every one point of ion damage, one power bar is removed from the target system and it is then locked for 5 seconds, preventing re-powering. If an ion weapon hits shields, the damage is automatically applied to the Shield System.</text>
 
 <text name="ce_tip_ion_pierce">Tip: If an phase ion weapon hits shields, its ion damage is automatically applied to the shield system. The phasing projectile will then pass through the shields and can deal more ion damage to any system it hits afterwards.</text>
-
