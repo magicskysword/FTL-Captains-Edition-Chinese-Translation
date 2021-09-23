@@ -2621,7 +2621,7 @@
 <weaponBlueprint name="BA_BEAM_HULL_SMALL">
 	<type>BEAM</type>
 	<tip>tip_beams</tip>
-	<title>舰体光束发射器 I</title>
+	<title>舰体光束 I</title>
 	<short>舰体光束 I</short>
 	<desc>快速装载光束，当目标为空舰仓时，造成最大伤害。</desc>
 	<tooltip>光束武器; 造成1点伤害; 对无系统房间造成2倍伤害。</tooltip>
@@ -3035,7 +3035,7 @@
 <weaponBlueprint name="BA_MISSILES_HULL_SMALL">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
-	<title>舰体导弹发射器 I</title>
+	<title>舰体导弹 I</title>
 	<short>舰体导弹 I</short>
 	<desc>可以造成轻微的船体损伤，外加较大的船体破损几率。</desc>
 	<tooltip>发射1枚导弹; 造出1点伤害; 对无系统的房间造成双倍伤害。</tooltip>
@@ -3300,7 +3300,7 @@
 <weaponBlueprint name="BA_MINES_BIG">
 	<type>MISSILES</type>
 	<tip>ce_tip_mines</tip>
-	<title>火神地雷发射器</title>
+	<title>火神地雷</title>
 	<short>火神</short>
 	<desc>发射1个巨大的地雷，慢慢地瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>放置1枚地雷; 对船体造成4点伤害; 穿透所有护盾。</tooltip>
@@ -3340,7 +3340,7 @@
 <weaponBlueprint name="BA_MINES_BIG_ENEMY">
 	<type>MISSILES</type>
 	<tip>ce_tip_mines</tip>
-	<title>火神地雷发射器</title>
+	<title>火神地雷</title>
 	<short>火神</short>
 	<desc>布置1个巨大的地雷，慢慢地瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置1枚地雷; 对船体造成4点伤害; 穿透所有护盾。</tooltip>
@@ -3380,7 +3380,7 @@
 <weaponBlueprint name="BA_MINES_MEDIUM">
 	<type>MISSILES</type>
 	<tip>ce_tip_mines</tip>
-	<title>天后地雷发射器</title>
+	<title>天后地雷</title>
 	<short>天后</short>
 	<desc>布置1个地雷，慢慢地瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置1枚地雷; 对船体造成3点伤害; 穿透所有护盾。</tooltip>
@@ -3420,7 +3420,7 @@
 <weaponBlueprint name="BA_MINES_MEDIUM_ENEMY">
 	<type>MISSILES</type>
 	<tip>ce_tip_mines</tip>
-	<title>天后地雷发射器</title>
+	<title>天后地雷</title>
 	<short>天后</short>
 	<desc>布置1个地雷，慢慢地瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置1枚地雷; 对船体造成3点伤害; 穿透所有护盾。</tooltip>
@@ -3459,7 +3459,7 @@
 <weaponBlueprint name="BA_MINES_SMALL">
 	<type>MISSILES</type>
 	<tip>ce_tip_mines</tip>
-	<title>仌雅地雷发射器</title>
+	<title>仌雅地雷</title>
 	<short>仌雅</short>
 	<desc>布置1对小地雷，瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置2枚地雷; 每个对船体造成1点伤害; 穿透所有护盾。</tooltip>
@@ -3499,7 +3499,7 @@
 <weaponBlueprint name="BA_MINES_SMALL_ENEMY">
 	<type>MISSILES</type>
 	<tip>ce_tip_mines</tip>
-	<title>仌雅地雷发射器</title>
+	<title>仌雅地雷</title>
 	<short>仌雅</short>
 	<desc>布置1对小地雷，瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置2枚地雷; 每个对船体造成1点伤害; 穿透所有护盾。</tooltip>
@@ -3539,7 +3539,7 @@
 	<type>LASER</type>
 	<flavorType>Tech Mines</flavorType>
 	<tip>ce_tip_mines_tech</tip>
-	<title>堕神地雷发射器</title>
+	<title>堕神地雷</title>
 	<short>堕神</short>
 	<desc>布置1枚隐形科技地雷，瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置1枚地雷; 对船体造成3点伤害; 穿透所有护盾; 躲避1级防御无人机。</tooltip>
@@ -3581,7 +3581,7 @@
 	<type>LASER</type>
 	<flavorType>Tech Mines</flavorType>
 	<tip>ce_tip_mines_tech</tip>
-	<title>堕神地雷发射器</title>
+	<title>堕神地雷</title>
 	<short>堕神</short>
 	<desc>布置1枚隐形科技地雷，瞄准敌舰并在近距离引爆。只破坏船体。</desc>
 	<tooltip>布置1枚地雷; 对船体造成3点伤害; 穿透所有护盾; 躲避1级防御无人机。</tooltip>
@@ -3621,7 +3621,7 @@
 <weaponBlueprint name="BA_MISSILES_CHAFFLAUNCHER">
 	<type>MISSILES</type>
 	<tip>ce_tip_chaff</tip>
-	<title>干扰箔发射器</title>
+	<title>干扰箔</title>
 	<short>干扰箔</short>
 	<desc>可以通过发射大量的激光箔条，迷惑敌方所有防御无人机。</desc>
 	<tooltip>发射6个箔条; 不造成任何伤害，可以干扰敌方所有防御无人机。</tooltip>
@@ -3661,7 +3661,7 @@
 <weaponBlueprint name="BA_LASER_OLD">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>老式激光发射器</title>
+	<title>老式激光</title>
 	<short>老式激光</short>
 	<desc>这种武器曾有过辉煌的日子。</desc>
 	<tooltip>发射1次激光; 每发造成1点伤害。</tooltip>
@@ -3700,7 +3700,7 @@
 <weaponBlueprint name="BA_LASER_DUAL_OLD">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>老式双发激光发射器</title>
+	<title>老式双发激光</title>
 	<short>老式双发激光</short>
 	<desc>淘汰的双发激光。总比没有好。</desc>
 	<tooltip>发射2次激光; 每发造成1点伤害。</tooltip>
@@ -3739,7 +3739,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>轻型激光发射器 I</title>
+	<title>轻型激光 I</title>
 	<short>轻型激光 I</short>
 	<desc>基础款式的杀伤性激光</desc>
 	<tooltip>发射2次激光，对船员造成伤害。穿透2层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -3781,7 +3781,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>轻型激光发射器 II</title>
+	<title>轻型激光 II</title>
 	<short>轻型激光 II</short>
 	<desc>高能杀伤性激光。</desc>
 	<tooltip>发射3次激光，对船员造成伤害。穿透2层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -3823,7 +3823,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>轻型激光发射器 III</title>
+	<title>轻型激光 III</title>
 	<short>轻型激光 III</short>
 	<desc>快速杀伤激光，歼灭敌方乘员。</desc>
 	<tooltip>发射4次激光，对船员造成伤害。穿透2层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -3865,7 +3865,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>自动轻型激光发射器</title>
+	<title>自动轻型激光</title>
 	<short>自动轻型激光</short>
 	<desc>快速充能的杀伤激光可以让敌人持续处于炮火之下。</desc>
 	<tooltip>发射1次激光，对船员造成伤害。穿透2层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -3907,7 +3907,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>轻型散射激光发射器 I</title>
+	<title>轻型散射激光 I</title>
 	<short>轻型散射激光 I</short>
 	<desc>基本杀伤性散射激光。可以穿透较弱的护盾。</desc>
 	<tooltip>发射1次多发激光，对船员造成伤害。穿透1层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -3951,7 +3951,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>轻型散射激光发射器 II</title>
+	<title>轻型散射激光 II</title>
 	<short>轻型散射激光 II</short>
 	<desc>高能散射激光，可以穿透船体并杀伤船员，但不能破坏船体结构或消耗护盾。</desc>
 	<tooltip>发射1次多发激光，对船员造成伤害。穿透1层护盾，但不会对护盾造成伤害，中等的船体破环几率。</tooltip>
@@ -3995,7 +3995,7 @@
 	<type>LASER</type>
 	<flavorType>Antipersonnel Laser</flavorType>
 	<tip>ce_tip_laser_light</tip>
-	<title>轻型散射激光发射器 III</title>
+	<title>轻型散射激光 III</title>
 	<short>轻型散射激光 III</short>
 	<desc>毁灭性的杀伤激光可以将船员撕成碎片。</desc>
 	<tooltip>发射1次多发激光，对船员造成极大的伤害。穿透1层护盾，但不会对护盾造成伤害，较高的船体破环几率。</tooltip>
@@ -4038,7 +4038,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_SCATTER_1_ENEMY">
 	<type>LASER</type>
-	<title>轻型散射激光发射器 I</title>
+	<title>轻型散射激光 I</title>
 	<short>轻型散射激光 I</short>
 	<desc>基本杀伤性散射激光。可以穿透较弱的护盾。</desc>
 	<tooltip>发射1次多发激光，对船员造成伤害。穿透1层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -4080,7 +4080,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_SCATTER_2_ENEMY">
 	<type>LASER</type>
-	<title>轻型散射激光发射器 II</title>
+	<title>轻型散射激光 II</title>
 	<short>轻型散射激光 II</short>
 	<desc>高能散射激光，可以穿透船体并杀伤船员，但不能破坏船体结构或消耗护盾。</desc>
 	<tooltip>发射1次多发激光，对船员造成伤害。穿透1层护盾，但不会对护盾造成伤害，一定的船体破坏几率。</tooltip>
@@ -4122,7 +4122,7 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_SCATTER_3_ENEMY">
 	<type>LASER</type>
-	<title>轻型散射激光发射器 III</title>
+	<title>轻型散射激光 III</title>
 	<short>轻型散射激光 III</short>
 	<desc>毁灭性的杀伤激光可以将船员撕成碎片。</desc>
 	<tooltip>发射1次多发激光，对船员造成极大的伤害。穿透1层护盾，但不会对护盾造成伤害，较高的船体破坏几率。</tooltip>
@@ -4208,7 +4208,7 @@
 <weaponBlueprint name="BA_CRYSTAL_LIGHT_1">
 	<type>MISSILES</type>
 	<tip>tip_crystal</tip>
-	<title>轻型水晶发射器 I</title>
+	<title>轻型水晶 I</title>
 	<short>轻型水晶 I</short>
 	<desc>改进过的发射器可以发射3枚穿透护盾的晶体，对船员造成伤害，但是不会破环船体或对护盾造成伤害。</desc>
 	<tooltip>发射3枚晶体，对船员造成伤害。穿透3层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -4248,7 +4248,7 @@
 <weaponBlueprint name="BA_CRYSTAL_LIGHT_2">
 	<type>MISSILES</type>
 	<tip>tip_crystal</tip>
-	<title>轻型水晶发射器 II</title>
+	<title>轻型水晶 II</title>
 	<short>轻型水晶 II</short>
 	<desc>改进过的发射器可以发射4枚穿透护盾的晶体，对船员造成伤害，但是不会破环船体或对护盾造成伤害。</desc>
 	<tooltip>发射4枚晶体，对船员造成伤害。穿透3层护盾，但不会对护盾造成伤害，较低的船体破坏几率。</tooltip>
@@ -4288,7 +4288,7 @@
 <weaponBlueprint name="BA_CRYSTAL_HEAVY_LOCKDOWN_1">
 	<type>MISSILES</type>
 	<tip>tip_crystal</tip>
-	<title>封爆水晶发射器 I</title>
+	<title>封爆水晶 I</title>
 	<short>封爆水晶 I</short>
 	<desc>发射一枚穿透护盾的水晶，可以在命中房间里制造一堵厚实的墙体，阻止船员进入或离开房间。易受无人机攻击。</desc>
 	<tooltip>发射1枚水晶，造成1点伤害; 较低的燃烧几率; 穿透1层护盾; 锁定房间。容易被防御无人机I型击落。</tooltip>
@@ -4330,7 +4330,7 @@
 <weaponBlueprint name="BA_CRYSTAL_HEAVY_LOCKDOWN_2">
 	<type>MISSILES</type>
 	<tip>tip_crystal</tip>
-	<title>封爆水晶发射器 II</title>
+	<title>封爆水晶 II</title>
 	<short>封爆水晶 II</short>
 	<desc>更强大的水晶发射器，可以使整个房间结晶并破环船体，同时使船员昏迷。易受无人机攻击。</desc>
 	<tooltip>发射1枚水晶，造成2点伤害; 穿透1层护盾; 锁定房间; 伤害并击晕船员。容易被防御无人机I型击落。</tooltip>
@@ -4372,7 +4372,7 @@
 <weaponBlueprint name="BA_LASER_AUTO_1">
 	<type>LASER</type>
 	<tip>ce_tip_laser_auto</tip>
-	<title>自动激光发射器 I</title>
+	<title>自动激光 I</title>
 	<short>自动激光 I</short>
 	<desc>快速充能激光，设计用于持续火力覆盖。</desc>
 	<tooltip>发射1发激光，造成1点伤害，快速充能。</tooltip>
@@ -4411,7 +4411,7 @@
 <weaponBlueprint name="BA_LASER_AUTO_2">
 	<type>LASER</type>
 	<tip>ce_tip_laser_auto</tip>
-	<title>自动激光发射器 II</title>
+	<title>自动激光 II</title>
 	<short>自动激光 II</short>
 	<desc>充能非常迅速的激光发射器，可以使敌人的舰船持续暴露于炮火之中。</desc>
 	<tooltip>发射1发激光，造成1点伤害，极速充能。</tooltip>
@@ -4449,7 +4449,7 @@
 <weaponBlueprint name="BA_LASER_BURST_1_2">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>基础激光发射器 II</title>
+	<title>基础激光 II</title>
 	<short>基础激光 II</short>
 	<desc>简单的军事激光。</desc>
 	<tooltip>发射1发激光，造成1点伤害。</tooltip>
@@ -4487,7 +4487,7 @@
 <weaponBlueprint name="BA_LASER_DUAL_2">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>爆裂激光发射器 II</title>
+	<title>爆裂激光 II</title>
 	<short>爆裂激光 II</short>
 	<desc>军用版爆裂激光</desc>
 	<tooltip>发射2发激光，每发造成1点伤害。</tooltip>
@@ -4526,7 +4526,7 @@
 <weaponBlueprint name="BA_LASER_BURST_SCATTER_1">
 	<type>LASER</type>
 	<tip>ce_tip_laser_scatter</tip>
-	<title>脉冲散射激光发射器 I</title>
+	<title>脉冲散射激光 I</title>
 	<short>脉冲散射激光 I</short>
 	<desc>这种简单的散射激光发射脉冲激光以摧毁护盾。</desc>
 	<tooltip>发射2发激光, 每发造成1点伤害; 不能伤害系统或船员。</tooltip>
@@ -4568,7 +4568,7 @@
 <weaponBlueprint name="BA_LASER_BURST_SCATTER_2">
 	<type>LASER</type>
 	<tip>ce_tip_laser_scatter</tip>
-	<title>脉冲散射激光发射器 II</title>
+	<title>脉冲散射激光 II</title>
 	<short>脉冲散射激光 II</short>
 	<desc>强大的脉冲散射激光可以发射大量的脉冲激光。</desc>
 	<tooltip>发射4发激光, 每发造成1点伤害; 不能伤害系统或船员。</tooltip>
@@ -4610,7 +4610,7 @@
 <weaponBlueprint name="BA_LASER_HEAVY_SCATTER_1">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>重型散射激光发射器 I</title>
+	<title>重型散射激光 I</title>
 	<short>重型散射激光 I</short>
 	<desc>重型散射激光可以对船体造成大量的伤害，但是对系统和船员造成的伤害较小。</desc>
 	<tooltip>发射1发激光, 对船体造成2点伤害，但是对系统和船员只能造成1点伤害。较低的燃烧几率。</tooltip>
@@ -4653,7 +4653,7 @@
 <weaponBlueprint name="BA_LASER_HEAVY_SCATTER_2">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>重型散射激光发射器 II</title>
+	<title>重型散射激光 II</title>
 	<short>重型散射激光 II</short>
 	<desc>轻微改进后的重型散射激光发射器可以进行大范围的齐射，从而造成更多的伤害。</desc>
 	<tooltip>发射1发激光, 对船体造成3点伤害，但是对系统和船员只能造成2点伤害。较低的燃烧几率。</tooltip>
@@ -4696,7 +4696,7 @@
 <weaponBlueprint name="BA_LASER_ARTILLERY_1">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>火炮激光发射器 I</title>
+	<title>火炮激光 I</title>
 	<short>火炮激光 I</short>
 	<desc>火炮激光造成的破坏甚至比重型激光更大，能穿透一层护盾。</desc>
 	<tooltip>发射1发激光，造成4点伤害，较低的燃烧与船体破环几率。</tooltip>
@@ -4735,7 +4735,7 @@
 <weaponBlueprint name="BA_LASER_ARTILLERY_2">
 	<type>LASER</type>
 	<tip>tip_laser</tip>
-	<title>火炮激光发射器 II</title>
+	<title>火炮激光 II</title>
 	<short>火炮激光 II</short>
 	<desc>这种先进的火炮激光发射缓慢，但造成很大的伤害，能穿透一层护盾。</desc>
 	<tooltip>发射1发激光，造成5点伤害，较高的燃烧与船体破环几率。</tooltip>
@@ -4774,7 +4774,7 @@
 <weaponBlueprint name="BA_LASER_HULLCRUSHER">
 	<type>LASER</type>
 	<tip>tip_hull</tip>
-	<title>舰体毁灭者激光发射器</title>
+	<title>舰体毁灭者激光</title>
 	<short>舰体毁灭者</short>
 	<desc>这种改进的火炮激光发射1发激光，对有系统或子系统的房间造成3点伤害，对没有系统或子系统的房间造成双倍伤害。</desc>
 	<tooltip>发射1发激光，造成3点伤害，对无系统的房间造成双倍伤害，较高的燃烧与船体破环几率。</tooltip>
@@ -4814,7 +4814,7 @@
 <weaponBlueprint name="BA_LASER_HULL_SMALL">
 	<type>LASER</type>
 	<tip>tip_hull</tip>
-	<title>舰体粉碎者激光发射器</title>
+	<title>舰体粉碎者激光</title>
 	<short>舰体粉碎者</short>
 	<desc>发射1发激光，对有系统或子系统的房间造成1点伤害，对没有系统或子系统的房间造成双倍伤害。</desc>
 	<tooltip>发射1发激光, 造成1点伤害，对无系统的房间造成双倍伤害。</tooltip>
@@ -4855,7 +4855,7 @@
 <weaponBlueprint name="BA_ION_BURST_1">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>离子爆裂发射器 I</title>
+	<title>离子爆裂 I</title>
 	<short>离子爆裂 I</short>
 	<locked>1</locked>
 	<desc>离子武器可以在不伤害船体的情况下使系统瘫痪。</desc>
@@ -4899,7 +4899,7 @@
 <weaponBlueprint name="BA_ION_BURST_2">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>离子爆裂发射器 II</title>
+	<title>离子爆裂 II</title>
 	<short>离子爆裂 II</short>
 	<locked>1</locked>
 	<desc>离子武器可以在不伤害船体的情况下使系统瘫痪。</desc>
@@ -4944,7 +4944,7 @@
 <weaponBlueprint name="BA_ION_BURST_3">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>离子爆裂发射器 III</title>
+	<title>离子爆裂 III</title>
 	<short>离子爆裂 III</short>
 	<locked>1</locked>
 	<desc>强大的离子武器，可以进行大规模齐射以瘫痪敌人的船只。</desc>
@@ -4988,7 +4988,7 @@
 <weaponBlueprint name="BA_ION_HEAVY_2">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>重型离子发射器 II</title>
+	<title>重型离子 II</title>
 	<short>重型离子 II</short>
 	<locked>1</locked>
 	<desc>强大但缓慢的离子加农炮，可以使系统瘫痪和损坏而不破环船体。</desc>
@@ -5034,7 +5034,7 @@
 <weaponBlueprint name="BA_ION_HEAVY_3">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>重型离子发射器 III</title>
+	<title>重型离子 III</title>
 	<short>重型离子 III</short>
 	<locked>1</locked>
 	<desc>大量的离子炮可以使系统瘫痪和损坏而不破环船体。</desc>
@@ -5083,7 +5083,7 @@
 <weaponBlueprint name="BA_BOMB_FIRE_SMALL">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>火焰炸弹发射器 I</title>
+	<title>火焰炸弹 I</title>
 	<short>火焰炸弹 I</short>
 	<locked>1</locked>
 	<desc>小型可自我传送的炸弹，用来伤害船员并点燃船体。可以瞄准己方舰船。</desc>
@@ -5116,7 +5116,7 @@
 <weaponBlueprint name="BA_BOMB_FIRE_2">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>火焰炸弹发射器 III</title>
+	<title>火焰炸弹 III</title>
 	<short>火焰炸弹 III</short>
 	<locked>1</locked>
 	<desc>稍慢于普通炸弹，但对乘员造成更多伤害，并且能对系统造成伤害。可以瞄准己方舰船。</desc>
@@ -5380,7 +5380,7 @@
 <weaponBlueprint name="BA_BOMB_NANO_1">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>舰船维修炸弹发射器 I</title>
+	<title>舰船维修弹 I</title>
 	<short>舰船维修 I</short>
 	<locked>1</locked>
 	<desc>可自我传送的纳米修复单位，可以立即修复传送到的房间的系统损坏与船体损坏，设计用于修复己方舰船。</desc>
@@ -5412,7 +5412,7 @@
 <weaponBlueprint name="BA_BOMB_NANO_2">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>舰船维修炸弹发射器 II</title>
+	<title>舰船维修弹 II</title>
 	<short>舰船维修 II</short>
 	<locked>1</locked>
 	<desc>自我传送纳米修复单位，可以修复被传送到的两个船体损坏和两个系统损坏。专门针对你自己的飞船。</desc>
@@ -5451,7 +5451,7 @@
 <weaponBlueprint name="BA_EFFECTOR_1">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>效应场发射器 I</title>
+	<title>效应场 I</title>
 	<short>效应场 I</short>
 	<flavorType>Ion Field Projector</flavorType>
 	<locked>1</locked>
@@ -5493,7 +5493,7 @@
 <weaponBlueprint name="BA_EFFECTOR_2">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>效应场发射器 II</title>
+	<title>效应场 II</title>
 	<short>效应场 II</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
@@ -5535,7 +5535,7 @@
 <weaponBlueprint name="BA_EFFECTOR_3">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>重型效应场发射器</title>
+	<title>重型效应场</title>
 	<short>重型效应场</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
@@ -5577,7 +5577,7 @@
 <weaponBlueprint name="BA_EFFECTOR_ADAPTIVE">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>自适应效应场发射器</title>
+	<title>自适应效应场</title>
 	<short>自适应效应场</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
@@ -5624,7 +5624,7 @@
 <weaponBlueprint name="BA_EFFECTOR_ADAPTIVE_ENEMY">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>自适应效应场发射器</title>
+	<title>自适应效应场</title>
 	<short>自适应效应场</short>
 	<locked>1</locked>
 	<flavorType>Ion Field Projector</flavorType>
@@ -5670,7 +5670,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_1_ENEMY">
 	<type>BOMB</type>
-	<title>效应场发射器 I</title>
+	<title>效应场 I</title>
 	<short>效应场 I</short>
 	<locked>1</locked>
 	<desc>基础型离子场产生器，可以穿透防护罩并持续破坏系统。</desc>
@@ -5710,7 +5710,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_2_ENEMY">
 	<type>BOMB</type>
-	<title>效应场发射器 II</title>
+	<title>效应场 II</title>
 	<short>效应场 II</short>
 	<locked>1</locked>
 	<desc>快速充能的离子场产生器，在敌舰内部产生离子场以扰乱系统。</desc>
@@ -5750,7 +5750,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_3_ENEMY">
 	<type>BOMB</type>
-	<title>重型效应场发射器</title>
+	<title>重型效应场</title>
 	<short>重型效应场</short>
 	<locked>1</locked>
 	<desc>缓慢充能的离子场产生器，可以严重破坏飞船系统。</desc>
@@ -5796,7 +5796,7 @@
 <weaponBlueprint name="BA_EFFECTOR_1_OLD">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>效应场发射器 I</title>
+	<title>效应场 I</title>
 	<short>效应场 I</short>
 	<flavorType>Electronic Warfare Device</flavorType>
 	<locked>1</locked>
@@ -5834,7 +5834,7 @@
 <weaponBlueprint name="BA_EFFECTOR_2_OLD">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>效应场发射器 II</title>
+	<title>效应场 II</title>
 	<short>效应场 II</short>
 	<locked>1</locked>
 	<flavorType>Electronic Warfare Device</flavorType>
@@ -5872,7 +5872,7 @@
 <weaponBlueprint name="BA_EFFECTOR_3_OLD">
 	<type>BOMB</type>
 	<tip>ce_tip_effector</tip>
-	<title>重型效应场发射器</title>
+	<title>重型效应场</title>
 	<short>重型效应场</short>
 	<locked>1</locked>
 	<flavorType>Electronic Warfare Device</flavorType>
@@ -5911,7 +5911,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_1_ENEMY_OLD">
 	<type>BOMB</type>
-	<title>效应场发射器 I</title>
+	<title>效应场 I</title>
 	<short>效应场 I</short>
 	<locked>1</locked>
 	<desc>基础型离子场产生器，可以穿透防护罩并持续破坏系统。</desc>
@@ -5941,7 +5941,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_2_ENEMY_OLD">
 	<type>BOMB</type>
-	<title>效应场发射器 II</title>
+	<title>效应场 II</title>
 	<short>效应场 II</short>
 	<locked>1</locked>
 	<desc>快速充能的离子场产生器，在敌舰内部产生离子场以扰乱系统。</desc>
@@ -5971,7 +5971,7 @@
 
 <weaponBlueprint name="BA_EFFECTOR_3_ENEMY_OLD">
 	<type>BOMB</type>
-	<title>重型效应场发射器</title>
+	<title>重型效应场</title>
 	<short>重型效应场</short>
 	<locked>1</locked>
 	<desc>缓慢充能的离子场产生器，可以严重破坏飞船系统。</desc>
@@ -6348,9 +6348,9 @@
 <weaponBlueprint name="BA_SHOTGUN_ION_1">
 	<type>BURST</type>
 	<flavorType>Ion Flak Gun</flavorType>
-	<title>离子轰炸发射器 I</title>
+	<title>离子碎弹炮 I</title>
 	<tip>tip_flak</tip>
-	<short>离子轰炸 I</short>
+	<short>离子碎弹炮 I</short>
 	<desc>对一个随机区域发射离子轰炸，造成最多2点离子伤害。擅长攻击护盾，但是很难瞄准。</desc>
 	<tooltip>对一个随机区域发射离子轰炸，造成最多2点离子伤害。</tooltip>
 	<radius>55</radius>
@@ -6398,9 +6398,9 @@
 <weaponBlueprint name="BA_SHOTGUN_ION_2">
 	<type>BURST</type>
 	<flavorType>Ion Flak Gun</flavorType>
-	<title>离子轰炸发射器 II</title>
+	<title>离子碎弹炮 II</title>
 	<tip>tip_flak</tip>
-	<short>离子轰炸 II</short>
+	<short>离子碎弹炮 II</short>
 	<desc>对敌方舰艇进行离子轰炸，造成最多3点离子伤害。擅长攻击护盾，但是很难瞄准。</desc>
 	<tooltip>对一个随机区域发射离子轰炸，造成最多3点离子伤害。</tooltip>
 	<radius>70</radius>
@@ -6536,7 +6536,7 @@
 
 <weaponBlueprint name="BA_ION_PIERCE_1">
 	<type>LASER</type>
-	<title>相位离子发射器 I</title>
+	<title>相位离子 I</title>
 	<short>相位离子 I</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
@@ -6583,7 +6583,7 @@
 
 <weaponBlueprint name="BA_ION_PIERCE_2">
 	<type>LASER</type>
-	<title>相位离子发射器 II</title>
+	<title>相位离子 II</title>
 	<short>相位离子 II</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
@@ -6665,7 +6665,7 @@
 <weaponBlueprint name="BA_BOMB_LOCK_2">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>封锁炸弹发射器II</title>
+	<title>封锁炸弹II</title>
 	<short>封锁炸弹 II</short>
 	<locked>1</locked>
 	<desc>能让整个房间结晶的可自我传送炸药。破环船体，封锁舱门，同时使使船员受伤和昏迷。可以瞄准己方舰船。</desc>
@@ -6782,11 +6782,11 @@
 <weaponBlueprint name="BA_SHOTGUN_SMALL">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Flak Gun Mark I</title>
+	<title>碎弹炮 I</title>
 	<tip>tip_flak</tip>
-	<short>Flak I</short>
-	<desc>Fires a small load of debris across a random area doing up to 2 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a small blast of debris across a random area doing up to 2 damage.</tooltip>
+	<short>碎弹炮 I</short>
+	<desc>对随机区域发射少量碎片，造成2点伤害。擅长破盾，但极难瞄准。</desc>
+	<tooltip>在随机区域内发射小型爆炸碎片，每个碎片造成造成2点伤害。</tooltip>
 	<radius>40</radius>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -6828,11 +6828,11 @@
 <weaponBlueprint name="BA_SHOTGUN_SCATTER">
 	<type>BURST</type>
 	<flavorType>Laser Projectile Blast</flavorType>
-	<title>Scatter Laser Flak Gun</title>
+	<title>散射激光碎弹炮</title>
 	<tip>tip_flak</tip>
-	<short>Scatter Flak</short>
-	<desc>Blasts scatter laser pellets across a wide area doing up to 5 damage. Excellent at taking down shields but hard to aim and can only damage ships' hull.</desc>
-	<tooltip>Fires scatter laser projectiles across a random area doing up to 5 damage.</tooltip>
+	<short>散射碎弹炮</short>
+	<desc>发射横穿大片区域的爆裂激光弹，造成高达5点伤害。擅长破盾，但极难瞄准，只能对船体造成伤害。</desc>
+	<tooltip>在随机区域内发射爆裂激光弹，每个弹丸造成造成5点伤害。</tooltip>
 	<radius>80</radius>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
@@ -6877,11 +6877,11 @@
 <weaponBlueprint name="BA_SHOTGUN_MISSILES">
 	<type>BURST</type>
 	<flavorType>Swarm Missile Blast</flavorType>
-	<title>Missile Flak</title>
+	<title>制导碎弹</title>
 	<tip>tip_flak</tip>
-	<short>Missile Flak</short>
-	<desc>Fires swarms of missiles across a very wide area doing up to 6 damage. Very hard to aim and therefore ineffective against smaller ships.</desc>
-	<tooltip>Fires missiles swarms across a random area doing up to 6 damage. 穿透所有护盾。</tooltip>
+	<short>制导碎弹</short>
+	<desc>发射覆盖极大范围的导弹，造成6点伤害。但极难瞄准，因此对较小的船只效果不佳。</desc>
+	<tooltip>发射飞弹群覆盖随机区域，造成6点伤害。穿透所有护盾。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<radius>100</radius>
 	<damage>1</damage>
@@ -6929,11 +6929,11 @@
 <weaponBlueprint name="BA_SHOTGUN_MISSILES_ENEMY">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Missile Flak</title>
+	<title>制导碎弹</title>
 	<tip>tip_flak</tip>
-	<short>Missile Flak</short>
-	<desc>Releases swarms of missiles across a very wide area doing up to 8 damage. Very hard to aim therefore ineffective against small ships.</desc>
-	<tooltip>Fires missiles swarms across a random area doing up to 8 damage. 穿透所有护盾; evades Defense I drones.</tooltip>
+	<short>制导碎弹</short>
+	<desc>发射覆盖极大范围的导弹，造成8点伤害。但极难瞄准，因此对较小的船只效果不佳。</desc>
+	<tooltip>发射飞弹群覆盖随机区域，造成8点伤害。穿透所有护盾; 躲避1级防御无人机。</tooltip>
 	<drone_targetable>1</drone_targetable>
 	<radius>120</radius>
 	<damage>1</damage>
@@ -6983,11 +6983,11 @@
 <weaponBlueprint name="BA_PLASMA_1">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Plasma Thrower Mark I</title>
+	<title>等离子喷射器 I</title>
 	<tip>ce_tip_plasma</tip>
-	<short>Plasma I</short>
-	<desc>Fires a concentrated blast of plasma that deals no physical damage but has a good chance to ignite fires.</desc>
-	<tooltip>Fires plasma across a small, random area. High fire chance.</tooltip>
+	<short>等离子 I</short>
+	<desc>发射集中的等离子体冲击波，不会造成物理伤害，但是有极高的几率点燃船体。</desc>
+	<tooltip>发射等离子体覆盖小范围随机区域。极高的几率点燃船体。</tooltip>
 	<radius>40</radius>
 	<damage>0</damage>
 	<missiles>0</missiles>
@@ -7027,11 +7027,11 @@
 <weaponBlueprint name="BA_PLASMA_1_ENEMY">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Plasma Thrower Mark I</title>
+	<title>等离子喷射器 I</title>
 	<tip>ce_tip_plasma</tip>
-	<short>Plasma I</short>
-	<desc>Fires a concentrated blast of plasma that deals no physical damage but has a good chance to ignite fires.</desc>
-	<tooltip>Fires plasma across a small, random area. High fire chance.</tooltip>
+	<short>等离子 I</short>
+	<desc>发射集中的等离子体冲击波，不会造成物理伤害，但是有极高的几率点燃船体。</desc>
+	<tooltip>发射等离子体覆盖小范围随机区域。极高的几率点燃船体。</tooltip>
 	<radius>40</radius>
 	<damage>0</damage>
 	<missiles>0</missiles>
@@ -7071,11 +7071,11 @@
 <weaponBlueprint name="BA_PLASMA_2">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Plasma Thrower Mark II</title>
+	<title>等离子喷射器 II</title>
 	<tip>ce_tip_plasma</tip>
-	<short>Plasma II</short>
-	<desc>Fires multiple blasts of plasma across a random area with a chance to light fires in every room that is hit.</desc>
-	<tooltip>Fires plasma across a wide, random area. Very high fire chance.</tooltip>
+	<short>等离子 II</short>
+	<desc>发射多个等离子体覆盖随机区域，造成爆炸，极高的几率点燃船体。</desc>
+	<tooltip>发射等离子体覆盖大范围随机区域。极高的几率点燃船体。</tooltip>
 	<radius>65</radius>
 	<damage>0</damage>
 	<missiles>0</missiles>
@@ -7114,11 +7114,11 @@
 <weaponBlueprint name="BA_PLASMA_2_ENEMY">
 	<type>BURST</type>
 	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Plasma Thrower Mark II</title>
+	<title>等离子喷射器 II</title>
 	<tip>ce_tip_plasma</tip>
-	<short>Plasma II</short>
-	<desc>Fires multiple blasts of plasma across a random area with a chance to light fires in every room that is hit.</desc>
-	<tooltip>Fires plasma across a wide, random area. Very high fire chance.</tooltip>
+	<short>等离子 II</short>
+	<desc>发射多个等离子体覆盖随机区域，造成爆炸，极高的几率点燃船体。</desc>
+	<tooltip>发射等离子体覆盖大范围随机区域。极高的几率点燃船体。</tooltip>
 	<radius>65</radius>
 	<damage>0</damage>
 	<missiles>0</missiles>
@@ -16230,26 +16230,26 @@
 	<mod-overwrite:short>反生物光束 聚焦</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_ASTERIA">
-	<mod-overwrite:title>夜神导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>夜神导弹</mod-overwrite:title>
 	<mod-overwrite:short>夜神导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_4">
-	<mod-overwrite:title>太阳神导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>太阳神导弹</mod-overwrite:title>
 	<mod-overwrite:short>太阳神导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_PERYTON">
-	<mod-overwrite:title>翼鹿导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>翼鹿导弹</mod-overwrite:title>
 	<mod-overwrite:short>翼鹿导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_COCKATRICE">
-	<mod-overwrite:title>毒蛇导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>毒蛇导弹</mod-overwrite:title>
 	<mod-overwrite:short>毒蛇导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_FIRE">
-	<mod-overwrite:title>火焰导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>火焰导弹</mod-overwrite:title>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SIMURGH">
-	<mod-overwrite:title>骏鹰导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>骏鹰导弹</mod-overwrite:title>
 	<mod-overwrite:short>骏鹰导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MINES_BIG">
@@ -16447,7 +16447,7 @@
 	<mod-overwrite:short>反生物光束 II</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_1">
-	<mod-overwrite:title>勒托导弹发射器</mod-overwrite:title>
+	<mod-overwrite:title>勒托导弹</mod-overwrite:title>
 	<mod-overwrite:short>勒托导弹</mod-overwrite:short>
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="MISSILES_2_PLAYER">
