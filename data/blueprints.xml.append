@@ -6630,11 +6630,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_STUN">
 	<type>BOMB</type>
 	<tip>ce_tip_bombs_cluster</tip>
-	<title>致晕集束炸弹</title>
-	<short>致晕集束炸弹</short>
+	<title>震爆集束炸弹</title>
+	<short>震爆集束炸弹</short>
 	<locked>1</locked>
 	<desc>部署2个可自我传送炸药，使目标房间内所有船员昏迷15秒。可以瞄准己方舰船。</desc>
-	<tooltip>炸弹武器; 需要导弹; 传送2个眩晕炸弹。击晕房间内的所有船员15秒。可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; 传送2个震爆炸弹。使房间内的所有船员眩晕15秒。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -6700,11 +6700,11 @@
 <weaponBlueprint name="BA_BOMB_CLUSTER_STUN_ENEMY">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>致晕集束炸弹</title>
-	<short>致晕集束炸弹</short>
+	<title>震爆集束炸弹</title>
+	<short>震爆集束炸弹</short>
 	<locked>1</locked>
 	<desc>部署3个可自我传送炸药，击晕房间里的所有船员。可以瞄准己方舰船。</desc>
-	<tooltip>炸弹武器; 需要导弹; 传送3个致晕炸弹。击晕房间里的所有船员。可以瞄准己方舰船。</tooltip>
+	<tooltip>炸弹武器; 需要导弹; 传送3个震爆炸弹。眩晕房间里的所有船员。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -7157,12 +7157,12 @@
 
 <weaponBlueprint name="BA_STUNGUN_1">
 	<type>BURST</type>
-	<title>Neural Stunner Mark I</title>
+	<title>神经震爆 I</title>
 	<tip>ce_tip_stungun</tip>
-	<short>Neural Stun I</short>
+	<short>神经震爆 I</short>
 	<flavorType>Stungun</flavorType>
-	<desc>Experimental field generation device that pierces shields and can knock out multiple enemy crewmen.</desc>
-	<tooltip>High chance to stun crew across a wide area for 5 seconds. 穿透所有护盾。</tooltip>
+	<desc>实验型场域产生器，穿透护盾，可以眩晕多个敌方船员。</desc>
+	<tooltip>较高的几率大范围眩晕船员。穿透所有护盾。</tooltip>
 	<radius>105</radius>
 	<damage>0</damage>
 	<stun>5</stun>
@@ -7202,12 +7202,12 @@
 
 <weaponBlueprint name="BA_STUNGUN_2">
 	<type>BURST</type>
-	<title>Neural Stunner Mark II</title>
+	<title>神经震爆 II</title>
 	<tip>ce_tip_stungun</tip>
-	<short>Neural Stun II</short>
+	<short>神经震爆 II</short>
 	<flavorType>Stungun</flavorType>
-	<desc>Advanced field generation device that pierces shields and can incapacitate entire ship crews.</desc>
-	<tooltip>High chance to stun all crew across a huge area for 10 seconds. 穿透所有护盾。</tooltip>
+	<desc>改进型场域产生器，穿透护盾，并能使整船船员失去行动能力。</desc>
+	<tooltip>较高的几率极大范围眩晕船员。穿透所有护盾。</tooltip>
 	<radius>175</radius>
 	<damage>0</damage>
 	<stun>10</stun>
@@ -7248,10 +7248,10 @@
 <weaponBlueprint name="BA_BEAM_ADAPTIVE_1">
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
-	<title>Adaptive Focus Beam Mark I</title>
-	<short>Adaptive I</short>
-	<tooltip>Focused beam weapon; deals 1 damage to one room; damage increases the more it fires.</tooltip>
-	<desc>Newly developed weapon system that adjusts it's beam pattern to enemy shields and gains 0.25 damage each time it fires up to a maximum of 2.</desc>
+	<title>自适应聚焦光束 I</title>
+	<short>自适应聚焦光束 I</short>
+	<tooltip>聚焦光束武器; 对每个房间造成1点伤害; 发射次数越多，伤害越高。</tooltip>
+	<desc>最先进的武器系统，可自动调整光束模式，以适应敌人的护盾。每次发射增加0.25点伤害，最多增加2点伤害。</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -7280,10 +7280,10 @@
 <weaponBlueprint name="BA_BEAM_ADAPTIVE_2">
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
-	<title>Adaptive Focus Beam Mark II</title>
-	<short>Adaptive II</short>
-	<desc>Advanced weapon system that adjusts its beam pattern to enemy shields. Gains 0.5 damage each time it fires up to a maximum of 3.</desc>
-	<tooltip>Focused beam weapon; deals 1 damage to one room with a low breach chance; damage increases the more it fires.</tooltip>
+	<title>自适应聚焦光束 II</title>
+	<short>自适应聚焦光束 II</short>
+	<desc>最先进的武器系统，可自动调整光束模式，以适应敌人的护盾。每次发射增加0.5点伤害，最多增加3点伤害。</desc>
+	<tooltip>改进型聚焦光束武器; 对每个房间造成1点伤害; 较高的船体破坏几率; 发射次数越多，伤害越高。</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -7312,10 +7312,10 @@
 <weaponBlueprint name="BA_BEAM_ADAPTIVE_3">
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
-	<title>Adaptive Focus Beam Mark III</title>
-	<short>Adaptive III</short>
-	<desc>This highly advanced weapon adjusts its beam pattern to enemy shields. It gains 1 damage each time it fires up to a maximum of 4.</desc>
-	<tooltip>Focused beam weapon; deals 1 damage per room; pierces one shield; damage increases the more it fires.</tooltip>
+	<title>自适应聚焦光束 III</title>
+	<short>自适应聚焦光束 III</short>
+	<desc>这种高度先进的武器可以根据敌人的护盾调整光束模式。每次攻击后增加1点伤害，最多增加4点。</desc>
+	<tooltip>终极聚焦光束武器; 对每个房间造成1点伤害; 穿透1层护盾; 发射次数越多，伤害越高。</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -7344,10 +7344,10 @@
 <weaponBlueprint name="BA_BEAM_ADAPTIVE_3_ENEMY">
 	<type>BEAM</type>
 	<tip>ce_tip_beam_adaptive</tip>
-	<title>Adaptive Focus Beam</title>
-	<short>Adaptive</short>
-	<desc>This highly advanced weapon adjusts its beam pattern to enemy shields. It gains damage each time it fires up to a maximum of 4.</desc>
-	<tooltip>Focused beam weapon; deals 1 damage per room; pierces one shield; damage increases the more it fires.</tooltip>
+	<title>自适应聚焦光束 III</title>
+	<short>自适应聚焦光束 III</short>
+	<desc>这种高度先进的武器可以根据敌人的护盾调整光束模式。每次攻击后增加1点伤害，最多增加4点。</desc>
+	<tooltip>终极聚焦光束武器; 对每个房间造成1点伤害; 穿透1层护盾; 发射次数越多，伤害越高。</tooltip>on; deals 1 damage per room; pierces one shield; damage increases the more it fires.</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -7376,11 +7376,11 @@
 
 <weaponBlueprint name="BA_LASER_CHARGEGUN_MEDIUM">
 	<type>LASER</type>
-	<title>Laser Charger</title>
-	<short>Charge L</short>
+	<title>充能激光</title>
+	<short>充能激光</short>
 	<tip>tip_charge</tip>
-	<desc>This laser weapon can charge three times, giving it additional projectiles.</desc>
-	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
+	<desc>这种激光武器能够充能3次，以增加发射次数。</desc>
+	<tooltip>充能次数越多，发射次数越多，最多充能3次。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -7417,11 +7417,11 @@
 
 <weaponBlueprint name="BA_LASER_CHARGEGUN_HEAVY">
 	<type>LASER</type>
-	<title>Heavy Charger</title>
-	<short>H. Charge</short>
+	<title>重型充能激光</title>
+	<short>重型充能激光</short>
 	<tip>tip_charge</tip>
-	<desc>This heavy laser can charge two times, giving it an additional projectile.</desc>
-	<tooltip>Causes 2 damage with low chance of fire and breaching. Fires more shots the more it charges, up to a max of 2.</tooltip>
+	<desc>这种重型激光可以充能2次，以获取额外发射次数。</desc>
+	<tooltip>造成2点伤害，较低概率破坏和点燃舰船。充能次数越多，发射次数越多，最多充能2次。</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>0</sp>
