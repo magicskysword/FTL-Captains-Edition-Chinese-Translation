@@ -1851,7 +1851,7 @@
 	<tip>tip_combat</tip>
 	<title>Boss - Your should not see this descrition</title>
 	<short>Boss - Your should not see this descrition</short>
-	<desc>Powerful drone that continually attacks the enemy ship.</desc>
+	<desc>持续攻击敌舰的强大无人机。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
@@ -7458,11 +7458,11 @@
 
 <weaponBlueprint name="BA_LASER_CHARGEGUN_HEAVY_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Charger</title>
-	<short>H. Charge</short>
+	<title>重型充能激光</title>
+	<short>重型充能激光</short>
 	<tip>tip_charge</tip>
-	<desc>This heavy laser can charge two times, giving it an additional projectile.</desc>
-	<tooltip>Causes 2 damage with low chance of fire and breaching. Fires more shots the more it charges, up to a max of 2.</tooltip>
+	<desc>这种重型激光可以充能2次，以获取额外发射次数。</desc>
+	<tooltip>造成2点伤害，较低概率破坏和点燃舰船。充能次数越多，发射次数越多，最多充能2次。</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -7501,11 +7501,11 @@
 	<type>BURST</type>
 	<flavorType>Charge Blast Missile</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Charge Missiles Mark I</title>
+	<title>充能导弹 I</title>
 	<tip>tip_charge</tip>
-	<short>Charge M. I</short>
-	<desc>If given time to prepare, the charge launcher can replicate a secondary warhead for immediate follow-up strikes.</desc>
-	<tooltip>Charges up to 2 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
+	<short>充能导弹 I</short>
+	<desc>如果有充足的时间准备，导弹发射器可装载第二弹头用于打击。</desc>
+	<tooltip>最多可以充能2枚穿透护盾导弹。但是总是只消耗1枚导弹。</tooltip>
 	<radius>34</radius>
 	<missiles>1</missiles>
 	<damage>1</damage>
@@ -7555,10 +7555,10 @@
 
 <weaponBlueprint name="BA_MINES_SMALL_HAZARD_1">
 	<type>MISSILES</type>
-	<title>Hazard Mines</title>
-	<short>Hazard Mines</short>
-	<desc>Hazard Dummy Weapon - You should not see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You should not see this description</tooltip>
+	<title>危险地雷</title>
+	<short>危险地雷</short>
+	<desc>危险假武器 - 你不应该看到这个描述</desc>
+	<tooltip>危险假武器 - 你不应该看到这个描述</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -7593,10 +7593,10 @@
 
 <weaponBlueprint name="BA_MINES_SMALL_HAZARD_2">
 	<type>MISSILES</type>
-	<title>Hazard Mines</title>
-	<short>Hazard Mines</short>
-	<desc>Hazard Dummy Weapon - You should not see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You should not see this description</tooltip>
+	<title>危险地雷</title>
+	<short>危险地雷</short>
+	<desc>危险假武器 - 你不应该看到这个描述</desc>
+	<tooltip>危险假武器 - 你不应该看到这个描述</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -7631,10 +7631,10 @@
 
 <weaponBlueprint name="BA_MINES_SMALL_HAZARD_3">
 	<type>MISSILES</type>
-	<title>Hazard Mines</title>
-	<short>Hazard Mines</short>
-	<desc>Hazard Dummy Weapon - You should not see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You should not see this description</tooltip>
+	<title>危险地雷</title>
+	<short>危险地雷</short>
+	<desc>危险假武器 - 你不应该看到这个描述</desc>
+	<tooltip>危险假武器 - 你不应该看到这个描述</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -7669,10 +7669,10 @@
 
 <weaponBlueprint name="BA_MINES_SMALL_HAZARD_4">
 	<type>MISSILES</type>
-	<title>Hazard Mines</title>
-	<short>Hazard Mines</short>
-	<desc>Hazard Dummy Weapon - You should not see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You should not see this description</tooltip>
+	<title>危险地雷</title>
+	<short>危险地雷</short>
+	<desc>危险假武器 - 你不应该看到这个描述</desc>
+	<tooltip>危险假武器 - 你不应该看到这个描述</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -7707,10 +7707,10 @@
 
 <weaponBlueprint name="BA_MINES_SMALL_HAZARD_5">
 	<type>MISSILES</type>
-	<title>Hazard Mines</title>
-	<short>Hazard Mines</short>
-	<desc>Hazard Dummy Weapon - You should not see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You should not see this description</tooltip>
+	<title>危险地雷</title>
+	<short>危险地雷</short>
+	<desc>危险假武器 - 你不应该看到这个描述</desc>
+	<tooltip>危险假武器 - 你不应该看到这个描述</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -7745,10 +7745,10 @@
 
 <weaponBlueprint name="BA_MINES_SMALL_HAZARD_6">
 	<type>MISSILES</type>
-	<title>Hazard Mines</title>
-	<short>Hazard Mines</short>
-	<desc>Hazard Dummy Weapon - You should not see this description</desc>
-	<tooltip>Hazard Dummy Weapon - You should not see this description</tooltip>
+	<title>危险地雷</title>
+	<short>危险地雷</short>
+	<desc>危险假武器 - 你不应该看到这个描述</desc>
+	<tooltip>危险假武器 - 你不应该看到这个描述</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -7784,8 +7784,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_ARTILLERY_1">
 	<type>BOMB</type>
-	<title>Planetary Artillery Guns Mark I</title>
-	<short>Planetary Artillery Guns I</short>
+	<title>行星巨炮 I</title>
+	<short>行星巨炮 I</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -7817,8 +7817,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_ARTILLERY_2">
 	<type>BOMB</type>
-	<title>Planetary Artillery Guns Mark II</title>
-	<short>Planetary Artillery Guns II</short>
+	<title>行星巨炮 II</title>
+	<short>行星巨炮 II</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -7849,8 +7849,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_ARTILLERY_3">
 	<type>BOMB</type>
-	<title>Planetary Artillery Guns Mark III</title>
-	<short>Planetary Artillery Guns III</short>
+	<title>行星巨炮 III</title>
+	<short>行星巨炮 III</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -7881,8 +7881,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_ARTILLERY_4">
 	<type>BOMB</type>
-	<title>Planetary Artillery Guns Mark IV</title>
-	<short>Planetary Artillery Guns IV</short>
+	<title>行星巨炮 IV</title>
+	<short>行星巨炮 IV</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -7913,8 +7913,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_BEAM_1">
 	<type>BOMB</type>
-	<title>Planetary Artillery Beam Mark I</title>
-	<short>Planetary Artillery Beam I</short>
+	<title>行星光束 I</title>
+	<short>行星光束 I</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -7946,8 +7946,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_BEAM_2">
 	<type>BOMB</type>
-	<title>Planetary Artillery Beam Mark I</title>
-	<short>Planetary Artillery Beam I</short>
+	<title>行星光束 II</title>
+	<short>行星光束 II</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -7979,8 +7979,8 @@
 
 <weaponBlueprint name="CE_PLANETARY_BEAM_3">
 	<type>BOMB</type>
-	<title>Planetary Artillery Beam Mark III</title>
-	<short>Planetary Artillery Beam III</short>
+	<title>行星光束 III</title>
+	<short>行星光束 III</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -8013,8 +8013,8 @@
 
 <weaponBlueprint name="CE_FLEET_ARTILLERY_1">
 	<type>BOMB</type>
-	<title>Fleet Artillery Guns Mark I</title>
-	<short>Fleet Artillery Guns I</short>
+	<title>飞船巨炮 I</title>
+	<short>飞船巨炮 I</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -8046,8 +8046,8 @@
 
 <weaponBlueprint name="CE_FLEET_ARTILLERY_2">
 	<type>BOMB</type>
-	<title>Fleet Artillery Guns Mark II</title>
-	<short>Fleet Artillery Guns II</short>
+	<title>飞船巨炮 II</title>
+	<short>飞船巨炮 II</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -8078,8 +8078,8 @@
 
 <weaponBlueprint name="CE_FLEET_ARTILLERY_3">
 	<type>BOMB</type>
-	<title>Fleet Artillery Guns Mark III</title>
-	<short>Fleet Artillery Guns III</short>
+	<title>飞船巨炮 III</title>
+	<short>飞船巨炮 III</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -8111,8 +8111,8 @@
 
 <weaponBlueprint name="CE_BOSS_ARTILLERY_1">
 	<type>BOMB</type>
-	<title>Boss Artillery Support Mark I</title>
-	<short>Boss Artillery Support I</short>
+	<title>Boss 火炮支援 I</title>
+	<short>Boss 火炮支援 I</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -8143,8 +8143,8 @@
 
 <weaponBlueprint name="CE_BOSS_ARTILLERY_2">
 	<type>BOMB</type>
-	<title>Boss Artillery Support Mark II</title>
-	<short>Boss Artillery Support II</short>
+	<title>Boss 火炮支援 II</title>
+	<short>Boss 火炮支援 II</short>
 	<locked>1</locked>
 	<desc>Hazard Dummy Weapon - You shouldn't see this description</desc>
 	<tooltip>Hazard Dummy Weapon - You shouldn't see this description</tooltip>
@@ -8176,11 +8176,11 @@
 
 <weaponBlueprint name="CE_LASER_BURST_1_SIMMED">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title>Simmed Defense Laser Mark I</title>
-	<short>Basic Laser</short>
+	<title>西姆德防御激光 I</title>
+	<short>基础激光</short>
 	<tip>tip_laser</tip>
-	<desc>Very weak laser.</desc>
-	<tooltip>Only one shot; one damage per shot.</tooltip>
+	<desc>非常弱的激光.</desc>
+	<tooltip>发射1发激光; 每发造成1点伤害。</tooltip>
 	<damage>0</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -8215,11 +8215,11 @@
 
 <weaponBlueprint name="CE_LASER_BURST_3_SIMMED">
 	<type>LASER</type>
-	<title>Simmed Burst Laser Mark II</title>
-	<short>Burst Laser II</short>
+	<title>西姆德爆裂激光 II</title>
+	<short>爆裂激光 II</short>
 	<tip>tip_laser</tip>
-	<desc>Slightly improved version of the burst laser that fires more shots per charge.</desc>
-	<tooltip>Fires 3 lasers, 每发造成1点伤害.</tooltip>
+	<desc>稍作改进的脉冲激光每次充能可以发射更多的激光。</desc>
+	<tooltip>发射3发激光, 每发造成1点伤害.</tooltip>
 	<damage>0</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -8253,11 +8253,11 @@
 
 <weaponBlueprint name="CE_LASER_BURST_5_SIMMED">
 	<type>LASER</type>
-	<title>Simmed Burst Laser Mark III</title>
-	<short>Burst L. III</short>
+	<title>西姆德爆裂激光 III</title>
+	<short>爆裂激光 III</short>
 	<tip>tip_laser</tip>
-	<desc>Powerful burst laser that fires off an impressive barrage.</desc>
-	<tooltip>Fires 5 lasers, 1 damage per shot.</tooltip>
+	<desc>强大的脉冲激光可以发射出强大的火力。</desc>
+	<tooltip>发射5发激光, 每发造成1点伤害</tooltip>
 	<damage>0</damage>
 	<shots>5</shots>
 	<sp>0</sp>
@@ -8296,10 +8296,10 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_1_ENEMY">
 	<type>LASER</type>
-	<title>Light Laser Mark I</title>
-	<short>L. Laser I</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>轻型激光 I</title>
+	<short>轻型激光 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>2</shots>
@@ -8336,10 +8336,10 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_2_ENEMY">
 	<type>LASER</type>
-	<title>Light Laser Mark II</title>
-	<short>L. Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>轻型激光 II</title>
+	<short>轻型激光 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>3</shots>
@@ -8376,10 +8376,10 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_3_ENEMY">
 	<type>LASER</type>
-	<title>Light Laser Mark III</title>
-	<short>L. Laser III</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>轻型激光 III</title>
+	<short>轻型激光 III</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>4</shots>
@@ -8416,10 +8416,10 @@
 
 <weaponBlueprint name="BA_LASER_LIGHT_AUTO_ENEMY">
 	<type>LASER</type>
-	<title>Light Auto Laser</title>
-	<short>Light Auto</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>轻型自动激光</title>
+	<short>轻型自动激光</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>1</shots>
@@ -8457,11 +8457,11 @@
 
 <weaponBlueprint name="BA_BOMB_FIRE_SMALL_ENEMY">
 	<type>BOMB</type>
-	<title>Fire Bomb Mark I</title>
-	<short>Fire B. I</short>
+	<title>火焰炸弹 I</title>
+	<short>火焰炸弹 I</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -8489,11 +8489,11 @@
 
 <weaponBlueprint name="BOMB_FIRE_ENEMY">
 	<type>BOMB</type>
-	<title>Fire Bomb</title>
-	<short>Fire B.</short>
+	<title>火焰炸弹</title>
+	<short>火焰炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>2</persDamage>
@@ -8521,11 +8521,11 @@
 
 <weaponBlueprint name="BA_BOMB_FIRE_2_ENEMY">
 	<type>BOMB</type>
-	<title>Fire Bomb Mark III</title>
-	<short>Fire B. III</short>
+	<title>火焰炸弹 III</title>
+	<short>火焰炸弹 III</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>3</persDamage>
@@ -8553,11 +8553,11 @@
 
 <weaponBlueprint name="BA_BOMB_BIG_ENEMY">
 	<type>BOMB</type>
-	<title>Big Bomb</title>
-	<short>Big B.</short>
+	<title>大炸弹</title>
+	<short>大炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>3</sysDamage>
 	<persDamage>3</persDamage>
@@ -8585,11 +8585,11 @@
 
 <weaponBlueprint name="BA_BOMB_BIO_ENEMY">
 	<type>BOMB</type>
-	<title>Anti-Bio Bomb</title>
-	<short>Bio B.</short>
+	<title>反生物炸弹</title>
+	<short>反生物炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>4</persDamage>
@@ -8616,11 +8616,11 @@
 
 <weaponBlueprint name="BA_BOMB_CLUSTER_1_ENEMY">
 	<type>BOMB</type>
-	<title>Cluster Bomb</title>
-	<short>Cluster B.</short>
+	<title>集束炸弹</title>
+	<short>集束炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -8648,11 +8648,11 @@
 
 <weaponBlueprint name="BA_BOMB_CLUSTER_FIRE_ENEMY">
 	<type>BOMB</type>
-	<title>Fire Cluster Bomb</title>
-	<short>Fire Cluster</short>
+	<title>火焰集束炸弹</title>
+	<short>火焰集束炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -8680,11 +8680,11 @@
 
 <weaponBlueprint name="BA_BOMB_CLUSTER_ION_ENEMY">
 	<type>BOMB</type>
-	<title>Ion Cluster Bomb</title>
-	<short>Ion Cluster</short>
+	<title>离子集束炸弹</title>
+	<short>离子集束炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>1</missiles>
@@ -8712,11 +8712,11 @@
 
 <weaponBlueprint name="BA_BOMB_CLUSTER_BREACH_ENEMY">
 	<type>BOMB</type>
-	<title>Breach Cluster Bomb</title>
-	<short>Breach C.B.</short>
+	<title>爆裂集束炸弹</title>
+	<short>爆裂集束炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -8747,10 +8747,10 @@
 <weaponBlueprint name="BA_MISSILES_ONI_ENEMY">
 	<type>LASER</type>
 	<flavorType>Tech Missiles</flavorType>
-	<title>Oni Missiles</title>
-	<short>Oni</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>离子导弹</title>
+	<short>离子导弹</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>2</damage>
 	<stun>4</stun>
 	<missiles>1</missiles>
@@ -8786,10 +8786,10 @@
 <weaponBlueprint name="BA_MISSILES_IFRIT_ENEMY">
 	<type>LASER</type>
 	<flavorType>Tech Missiles</flavorType>
-	<title>Ifrit Missile</title>
-	<short>Ifrit</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>火魔导弹</title>
+	<short>火魔导弹</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<stun>3</stun>
 	<missiles>1</missiles>
@@ -8825,10 +8825,10 @@
 
 <weaponBlueprint name="BA_LASER_ARTILLERY_1_ENEMY">
 	<type>LASER</type>
-	<title>Artillery Laser Mark I</title>
-	<short>Arti. I</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>巨炮激光 I</title>
+	<short>巨炮激光 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>4</damage>
 	<stun>4</stun>
 	<shots>1</shots>
@@ -8863,10 +8863,10 @@
 
 <weaponBlueprint name="BA_LASER_ARTILLERY_2_ENEMY">
 	<type>LASER</type>
-	<title>Artillery Laser Mark II</title>
-	<short>Arti. II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>巨炮激光 II</title>
+	<short>巨炮激光 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>6</damage>
 	<stun>5</stun>
 	<shots>1</shots>
@@ -8901,10 +8901,10 @@
 
 <weaponBlueprint name="BA_LASER_HULL_SMALL_ENEMY">
 	<type>LASER</type>
-	<title>Hull Smasher Laser</title>
-	<short>Hull Laser I</short>
-	<desc>Enemy Weapon. You should not see this description.</desc>
-	<tooltip>Enemy Weapon. You should not see this description.</tooltip>
+	<title>船体毁灭者激光 I</title>
+	<short>船体毁灭者激光 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -8940,10 +8940,10 @@
 
 <weaponBlueprint name="BA_LASER_HULLCRUSHER_ENEMY">
 	<type>LASER</type>
-	<title>Hull Crusher Laser</title>
-	<short>Hull Crusher</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>船体粉碎者激光</title>
+	<short>船体粉碎者</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>3</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -8978,10 +8978,10 @@
 
 <weaponBlueprint name="BA_LASER_AUTO_1_ENEMY">
 	<type>LASER</type>
-	<title>Auto Laser Mark I</title>
-	<short>Auto I</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>自动激光 I</title>
+	<short>自动激光 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -9017,10 +9017,10 @@
 
 <weaponBlueprint name="BA_LASER_AUTO_2_ENEMY">
 	<type>LASER</type>
-	<title>Auto Laser Mark II</title>
-	<short>Auto II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>自动激光 II</title>
+	<short>自动激光 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -9055,10 +9055,10 @@
 
 <weaponBlueprint name="LASER_HEAVY_1_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Laser Mark I</title>
-	<short>Heavy Laser I</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>重型激光 I</title>
+	<short>重型激光 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<stunChance>2</stunChance>
@@ -9093,10 +9093,10 @@
 
 <weaponBlueprint name="LASER_HEAVY_2_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Laser Mark II</title>
-	<short>Heavy Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>重型激光 II</title>
+	<short>重型激光 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>2</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -9132,10 +9132,10 @@
 
 <weaponBlueprint name="LASER_HULL_1_ENEMY">
 	<type>LASER</type>
-	<title>Hull Smasher Laser</title>
-	<short>Hull Laser I</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>船体毁灭者 I</title>
+	<short>船体毁灭者 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -9171,10 +9171,10 @@
 
 <weaponBlueprint name="LASER_HULL_2_ENEMY">
 	<type>LASER</type>
-	<title>Hull Smasher Laser Mark II</title>
-	<short>Hull Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>船体毁灭者 II</title>
+	<short>船体毁灭者 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -9210,10 +9210,10 @@
 
 <weaponBlueprint name="BA_LASER_HEAVY_SCATTER_1_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Scatter Laser Mark I</title>
-	<short>Heavy Scatter I</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>船体粉碎者 I</title>
+	<short>船体粉碎者 I</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>2</damage>
 	<stunChance>2</stunChance>
 	<sysDamage>-1</sysDamage>
@@ -9252,10 +9252,10 @@
 
 <weaponBlueprint name="BA_LASER_HEAVY_SCATTER_2_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Scatter Laser Mark II</title>
-	<short>Heavy Scatter II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>船体粉碎者 II</title>
+	<short>船体粉碎者 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>3</damage>
 	<stunChance>2</stunChance>
 	<sysDamage>-1</sysDamage>
@@ -9294,10 +9294,10 @@
 
 <weaponBlueprint name="LASER_BURST_3_ENEMY">
 	<type>LASER</type>
-	<title>Burst Laser Mark II</title>
-	<short>Burst Laser II</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>爆裂激光 II</title>
+	<short>爆裂激光 II</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -9332,10 +9332,10 @@
 
 <weaponBlueprint name="LASER_BURST_4_ENEMY">
 	<type>LASER</type>
-	<title>Burst Laser Mark III</title>
-	<short>Burst Laser III</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>爆裂激光 III</title>
+	<short>爆裂激光 III</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>4</shots>
 	<sp>0</sp>
@@ -9370,10 +9370,10 @@
 
 <weaponBlueprint name="LASER_BURST_5_ENEMY">
 	<type>LASER</type>
-	<title>Burst Laser Mark III</title>
-	<short>Burst L. III</short>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<title>爆裂激光 III</title>
+	<short>爆裂激光 III</short>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>1</damage>
 	<shots>5</shots>
 	<sp>0</sp>
@@ -9408,11 +9408,11 @@
 
 <weaponBlueprint name="ION_2_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Ion</title>
-	<short>Heavy Ion</short>
+	<title>重型离子</title>
+	<short>重型离子</short>
 	<locked>1</locked>
-	<desc>Enemy drone. You shouldn't see this description.</desc>
-	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
+	<desc>敌方无人机。你不应该看到这个描述。</desc>
+	<tooltip>敌方无人机。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<ion>2</ion>
 	<speed>40</speed>
@@ -9451,11 +9451,11 @@
 
 <weaponBlueprint name="BA_ION_HEAVY_2_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Ion Mark II</title>
-	<short>Heavy Ion II</short>
+	<title>重型离子 II</title>
+	<short>重型离子 II</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<ion>3</ion>
 	<stunChance>2</stunChance>
@@ -9495,11 +9495,11 @@
 
 <weaponBlueprint name="BA_ION_HEAVY_3_ENEMY">
 	<type>LASER</type>
-	<title>Heavy Ion Mark III</title>
-	<short>Heavy Ion III</short>
+	<title>重型离子 III</title>
+	<short>重型离子 III</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<stunChance>4</stunChance>
 	<ion>4</ion>
@@ -9542,11 +9542,11 @@
 <weaponBlueprint name="BOMB_ION">
 	<type>BOMB</type>
 	<tip>tip_bombs</tip>
-	<title>Ion Bomb</title>
-	<short>I. Bomb</short>
+	<title>离子炸弹</title>
+	<short>离子炸弹</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive that uses ion damage to disable systems. 可以瞄准己方舰船。</desc>
-	<tooltip>炸弹武器; 需要导弹; does no damage but deals 4 ion damage. 可以瞄准己方舰船。</tooltip>
+	<desc>使用离子伤害使系统瘫痪的可自我传送炸药。可以瞄准己方舰船。</desc>
+	<tooltip>炸弹武器; 需要导弹; 不造成物理伤害，而是造成4点离子伤害。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<missiles>1</missiles>
@@ -9576,11 +9576,11 @@
 
 <weaponBlueprint name="BOMB_ION_ENEMY">
 	<type>BOMB</type>
-	<title>Ion Bomb</title>
-	<short>I. Bomb</short>
+	<title>离子炸弹</title>
+	<short>离子炸弹</short>
 	<locked>1</locked>
-	<desc>Enemy weapon. You shouldn't see this description.</desc>
-	<tooltip>Enemy weapon. You shouldn't see this description.</tooltip>
+	<desc>敌方武器。你不应该看到这个描述。</desc>
+	<tooltip>敌方武器。你不应该看到这个描述。</tooltip>
 	<damage>0</damage>
 	<ion>4</ion>
 	<stunChance>2</stunChance>
@@ -9614,8 +9614,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_ENEMY">
 	<type>LASER</type>
-	<title>Drone Heavy Laser</title>
-	<short>Drone Heavy Laser</short>
+	<title>重型激光无人机</title>
+	<short>重型激光无人机</short>
 	<damage>2</damage>
 	<stunChance>2</stunChance>
 	<shots>1</shots>
@@ -9648,8 +9648,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HULL_ENEMY">
 	<type>LASER</type>
-	<title>Drone Hull Laser</title>
-	<short>Drone Hull Laser</short>
+	<title>船体激光无人机</title>
+	<short>船体激光无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -9681,8 +9681,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_SCATTER_ENEMY">
 	<type>LASER</type>
-	<title>Drone Heavy Laser</title>
-	<short>Drone Heavy Laser</short>
+	<title>重型激光无人机</title>
+	<short>重型激光无人机</short>
 	<stunChance>2</stunChance>
 	<damage>2</damage>
 	<sysDamage>-1</sysDamage>
@@ -9720,9 +9720,9 @@
 <droneBlueprint name="DE_DRONE_HEAVY_1_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Drone Mark I</title>
-	<desc>Enemy drone. You shouldn't see this description.</desc>
-	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
+	<title>重型反舰无人机 I</title>
+	<desc>敌方无人机。你不应该看到这个描述。</desc>
+	<tooltip>敌方无人机。你不应该看到这个描述。</tooltip>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>1</dodge>
@@ -9737,9 +9737,9 @@
 <droneBlueprint name="DE_DRONE_HEAVY_2_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Mark II</title>
-	<desc>Enemy drone. You shouldn't see this description.</desc>
-	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
+	<title>重型反舰无人机 II</title>
+	<desc>敌方无人机。你不应该看到这个描述。</desc>
+	<tooltip>敌方无人机。你不应该看到这个描述。</tooltip>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
@@ -9754,9 +9754,9 @@
 <droneBlueprint name="DE_DRONE_HEAVY_SCATTER_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Scatter</title>
-	<short>Enemy drone. You shouldn't see this description.</short>
-	<tooltip>Enemy drone. You shouldn't see this description.</tooltip>
+	<title>重型散射无人机</title>
+	<short>敌方无人机。你不应该看到这个描述。</short>
+	<tooltip>敌方无人机。你不应该看到这个描述。</tooltip>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -9772,9 +9772,9 @@
 <droneBlueprint name="DE_DRONE_HULL_1_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Hull Ripper Mark I</title>
-	<short>Hull I</short>
-	<desc>Powerful drone that continually attacks the enemy ship and deals double damage if it hits systemless rooms.</desc>
+	<title>船体撕裂者 I</title>
+	<short>船体撕裂者 I</short>
+	<desc>强大的无人机，持续攻击敌方船只，如果击中无系统的房间，造成双倍伤害。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
@@ -9791,7 +9791,7 @@
 	<tip>tip_combat</tip>
 	<title>Hull Ripper Mark II</title>
 	<short>Hull II</short>
-	<desc>Powerful drone that continually attacks the enemy ship and deals double damage if it hits systemless rooms. Moves and shoots faster than mark I.</desc>
+	<desc>强大的无人机，持续攻击敌方船只，如果击中无系统的房间，造成双倍伤害。 移动和射击都I型快。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>3</dodge>
@@ -9805,7 +9805,7 @@
 
 <weaponBlueprint name="DRONE_LASER_ENEMY">
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>激光无人机</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -9835,7 +9835,7 @@
 
 <weaponBlueprint name="DE_DRONE_PLASMA_THROWER">
 	<type>LASER</type>
-	<title>Plasma Thrower Mark I</title>
+	<title>等离子喷射器 I</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -9864,7 +9864,7 @@
 
 <weaponBlueprint name="DE_DRONE_PLASMA_THROWER_ENEMY">
 	<type>LASER</type>
-	<title>Plasma Thrower Mark I</title>
+	<title>等离子喷射器 I</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -9896,9 +9896,9 @@
 <droneBlueprint name="COMBAT_1_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Mark I</title>
-	<short>Anti-Ship I</short>
-	<desc>Powerful drone that continually attacks the enemy ship.</desc>
+	<title>反舰 I</title>
+	<short>反舰 I</short>
+	<desc>持续攻击敌舰的强大无人机。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -9914,9 +9914,9 @@
 <droneBlueprint name="COMBAT_2_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Mark II</title>
-	<short>Anti-Ship II</short>
-	<desc>Powerful drone that continually attacks the enemy ship. Moves and shoots faster than mark I.</desc>
+	<title>反舰 II</title>
+	<short>反舰 II</short>
+	<desc>持续攻击敌舰的强大无人机。 移动和射击都I型快。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>3</dodge>
@@ -9931,7 +9931,7 @@
 
 <weaponBlueprint name="DRONE_LASER_DEFENSE">
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>激光无人机</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -9961,7 +9961,7 @@
 
 <weaponBlueprint name="DRONE_LASER_DEFENSE_2">
 	<type>LASER</type>
-	<title>Drone Laser 2</title>
+	<title>激光无人机 II</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -9992,9 +9992,9 @@
 
 <weaponBlueprint name="DE_DRONE_SCANNER">
 	<type>BOMB</type>
-	<title>Should not see this</title>
-	<short>Should not see this.</short>
-	<desc>Reloads and deploys slower than small bomb-launchers, but does more damage. 可以瞄准己方舰船。</desc>
+	<title>不应该看到这个</title>
+	<short>不应该看到这个.</short>
+	<desc>重装弹药和部署速度比小型炸弹发射器慢，但造成的伤害更大。可以瞄准己方舰船。</desc>
 	<tooltip>炸弹武器; 需要导弹; does 3 damage to systems.3秒延迟爆炸。可以瞄准己方舰船。</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
@@ -10027,9 +10027,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Defense Drone Mark I</title>
-	<short>Defense I</short>
-	<desc>Shoots down incoming missiles, mines, and asteroids. Reloads in 1 second.</desc>
+	<title>防御无人机 I</title>
+	<short>防 I</short>
+	<desc>击落来袭导弹、地雷和小行星。需要1秒重新填装。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -10045,9 +10045,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>2</level>
-	<title>Defense Drone Mark II</title>
-	<short>Defense II</short>
-	<desc>Fires faster than mark I and can shoot down any incoming projectiles. Reloads in 0.75 seconds.</desc>
+	<title>防御无人机 II</title>
+	<short>防 II</short>
+	<desc>射击速度比I型快，能击落任何来袭的射弹。需要0.75秒重新填装。</desc>
 	<power>3</power>
 	<cooldown>750</cooldown>
 	<dodge>1</dodge>
@@ -10061,8 +10061,8 @@
 
 <weaponBlueprint name="DE_DRONE_ION_HEAVY_ENEMY">
 	<type>LASER</type>
-	<title>Drone Ion</title>
-	<short>Drone Ion</short>
+	<title>离子无人机</title>
+	<short>离子</short>
 	<damage>0</damage>
 	<ion>2</ion>
 	<speed>40</speed>
@@ -10097,9 +10097,9 @@
 <droneBlueprint name="DE_DRONE_ION_2_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Ion Drone</title>
-	<short>Heavy Ion</short>
-	<desc>Slow-moving drone that attacks the enemy ship with a heavy ion weapon.</desc>
+	<title>重型反舰离子无人机</title>
+	<short>重离子</short>
+	<desc>使用重离子武器攻击敌舰的缓慢移动无人机。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -10120,8 +10120,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_LIGHT_1">
 	<type>LASER</type>
-	<title>Drone Light Laser Mark I</title>
-	<short>Drone Light Laser I</short>
+	<title>轻型激光无人机 I</title>
+	<short>轻型激光无人机 I</short>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>1</shots>
@@ -10154,8 +10154,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_LIGHT_2">
 	<type>LASER</type>
-	<title>Drone Light Laser Mark I</title>
-	<short>Drone Light Laser I</short>
+	<title>轻型激光无人机 II</title>
+	<short>轻型激光无人机 II</short>
 	<persDamage>2</persDamage>
 	<damage>0</damage>
 	<shots>1</shots>
@@ -10188,8 +10188,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_LIGHT_SCATTER">
 	<type>LASER</type>
-	<title>Drone Light Scatter Laser</title>
-	<short>Drone Light Scatter Laser</short>
+	<title>散射激光无人机</title>
+	<short>散射激光无人机</short>
 	<persDamage>3</persDamage>
 	<damage>0</damage>
 	<shots>1</shots>
@@ -10224,8 +10224,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY">
 	<type>LASER</type>
-	<title>Drone Heavy Laser</title>
-	<short>Drone Heavy Laser</short>
+	<title>重型激光无人机</title>
+	<short>重型激光无人机</short>
 	<damage>2</damage>
 	<stunChance>2</stunChance>
 	<shots>1</shots>
@@ -10257,8 +10257,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_SCATTER">
 	<type>LASER</type>
-	<title>Drone Scatter Laser</title>
-	<short>Drone Scatter Laser</short>
+	<title>散射激光无人机</title>
+	<short>散射激光无人机</short>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -10294,8 +10294,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_SCATTER">
 	<type>LASER</type>
-	<title>Drone Heavy Laser</title>
-	<short>Drone Heavy Laser</short>
+	<title>重型散射激光无人机</title>
+	<short>重型散射激光无人机</short>
 	<damage>2</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -10332,8 +10332,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HULL">
 	<type>LASER</type>
-	<title>Drone Hull Laser</title>
-	<short>Drone Hull Laser</short>
+	<title>船体激光无人机</title>
+	<short>船体激光无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -10365,8 +10365,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_SCATTER_DEFENSE">
 	<type>LASER</type>
-	<title>Defense Scatter Laser</title>
-	<short>Defense Scatter Laser</short>
+	<title>散射激光防御无人机</title>
+	<short>散射激光防御无人机</short>
 	<damage>1</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -10404,8 +10404,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_SCATTER_DEFENSE_ENEMY">
 	<type>LASER</type>
-	<title>Defense Scatter Laser</title>
-	<short>Defense Scatter Laser</short>
+	<title>散射激光防御无人机</title>
+	<short>散射激光防御无人机</short>
 	<damage>1</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -10441,8 +10441,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_DEFENSE">
 	<type>LASER</type>
-	<title>Drone Heavy Defense Laser</title>
-	<short>Drone Heavy Defense Laser</short>
+	<title>重型激光防御无人机</title>
+	<short>重型激光防御无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -10474,8 +10474,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_LIGHT_DEFENSE">
 	<type>LASER</type>
-	<title>Drone Light Defense Laser</title>
-	<short>Drone Light Defense Laser</short>
+	<title>轻型激光防御无人机</title>
+	<short>轻型激光防御无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -10507,8 +10507,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_DEFENSE">
 	<type>LASER</type>
-	<title>Drone Light Defense Missile</title>
-	<short>Drone Light Defense Missile</short>
+	<title>轻型导弹防御无人机</title>
+	<short>轻型导弹防御无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -10537,8 +10537,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_DEFENSE_SWARM">
 	<type>LASER</type>
-	<title>Heavy Missiles</title>
-	<short>Heavy Missiles</short>
+	<title>重型导弹防御无人机</title>
+	<short>重型激光防御无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>5</sp>
@@ -10565,8 +10565,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_LIGHT">
 	<type>MISSILES</type>
-	<title>Light Missiles</title>
-	<short>Light Missiles</short>
+	<title>轻型导弹无人机</title>
+	<short>轻型导弹无人机</short>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -10596,8 +10596,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_LIGHT_FIRE">
 	<type>MISSILES</type>
-	<title>Light Fire Missiles</title>
-	<short>Light Fire Missiles</short>
+	<title>轻型火焰无人机</title>
+	<short>轻型火焰无人机</short>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -10628,8 +10628,8 @@
 
 <weaponBlueprint name="DE_DRONE_BEAM_HEAVY_FOCUS">
 	<type>BEAM</type>
-	<title>Focus Beam</title>
-	<short>Focus Beam</short>
+	<title>聚焦光束无人机</title>
+	<short>聚焦光束无人机</short>
 	<desc>Focused Beam; two damage per room.</desc>
 	<damage>2</damage>
 	<sp>0</sp>
@@ -10649,9 +10649,9 @@
 
 <weaponBlueprint name="DE_DRONE_BEAM_HEAVY">
 	<type>BEAM</type>
-	<title>Advanced Beam</title>
-	<short>Advanced Beam</short>
-	<desc>Advanced Beam; two damage per room.</desc>
+	<title>改进光束无人机</title>
+	<short>改进光束无人机</short>
+	<desc>改进光束; 对每个房间造成2点伤害。</desc>
 	<damage>2</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
@@ -10668,9 +10668,9 @@
 
 <weaponBlueprint name="DE_DRONE_BEAM_HEAVY_ENEMY">
 	<type>BEAM</type>
-	<title>Advanced Beam</title>
-	<short>Advanced Beam</short>
-	<desc>Advanced Beam; two damage per room.</desc>
+	<title>改进光束无人机</title>
+	<short>改进光束无人机</short>
+	<desc>改进光束; 对每个房间造成2点伤害。</desc>
 	<damage>2</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
@@ -10688,9 +10688,9 @@
 
 <weaponBlueprint name="DE_DRONE_BEAM_HULL">
 	<type>BEAM</type>
-	<title>Drone Hull Beam</title>
-	<short>Drone Hull Beam</short>
-	<desc>Drone beam that does double damage to systemless rooms.</desc>
+	<title>船体激光无人机</title>
+	<short>船体激光无人机</short>
+	<desc>无人机光束对无系统房间造成双倍伤害。</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
@@ -10728,8 +10728,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES">
 	<type>MISSILES</type>
-	<title>Drone Missiles</title>
-	<short>Drone Missiles</short>
+	<title>导弹无人机</title>
+	<short>导弹无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>5</sp>
@@ -10757,8 +10757,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_HEAVY">
 	<type>MISSILES</type>
-	<title>Heavy Missiles</title>
-	<short>Heavy Missiles</short>
+	<title>重型激光防御无人机</title>
+	<short>重型激光防御无人机</short>
 	<damage>2</damage>
 	<stun>4</stun>
 	<shots>1</shots>
@@ -10789,8 +10789,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_SWARM">
 	<type>LASER</type>
-	<title>Heavy Missiles</title>
-	<short>Heavy Missiles</short>
+	<title>重型激光防御无人机</title>
+	<short>重型激光防御无人机</short>
 	<drone_targetable>2</drone_targetable>
 	<damage>2</damage>
 	<sysDamage>-1</sysDamage>
@@ -10824,8 +10824,8 @@
 
 <weaponBlueprint name="DE_DRONE_MINES_SMALL">
 	<type>MISSILES</type>
-	<title>Small Bomb</title>
-	<short>Small Bomb</short>
+	<title>小型炸弹</title>
+	<short>小型炸弹</short>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -10855,8 +10855,8 @@
 
 <weaponBlueprint name="DE_DRONE_MINES_MEDIUM">
 	<type>MISSILES</type>
-	<title>Big Mines</title>
-	<short>Big Mines</short>
+	<title>大型地雷</title>
+	<short>大型地雷</short>
 	<damage>2</damage>
 	<sysDamage>-2</sysDamage>
 	<persDamage>-2</persDamage>
@@ -10886,8 +10886,8 @@
 
 <weaponBlueprint name="DE_DRONE_ION">
 	<type>LASER</type>
-	<title>Drone Ion</title>
-	<short>Drone Ion</short>
+	<title>离子无人机</title>
+	<short>离子无人机</short>
 	<damage>0</damage>
 	<ion>1</ion>
 	<stunChance>2</stunChance>
@@ -10922,8 +10922,8 @@
 
 <weaponBlueprint name="DE_DRONE_ION_HEAVY">
 	<type>LASER</type>
-	<title>Drone Ion</title>
-	<short>Drone Ion</short>
+	<title>离子无人机</title>
+	<short>离子无人机</short>
 	<damage>0</damage>
 	<ion>2</ion>
 	<speed>40</speed>
@@ -10959,8 +10959,8 @@
 
 <weaponBlueprint name="DE_DRONE_FLARE">
 	<type>MISSILES</type>
-	<title>Drone Flare</title>
-	<short>Drone Flare</short>
+	<title>闪光无人机</title>
+	<short>闪光无人机</short>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -10991,8 +10991,8 @@
 
 <weaponBlueprint name="DE_DRONE_ION_MINESWEEPER">
 	<type>LASER</type>
-	<title>Minesweeper Ion</title>
-	<short>Minesweeper Ion</short>
+	<title>离子扫雷艇</title>
+	<short>离子扫雷艇</short>
 	<damage>1</damage>
 	<ion>0</ion>
 	<speed>20</speed>
@@ -11027,8 +11027,8 @@
 
 <weaponBlueprint name="DE_DRONE_ION_MINESWEEPER_ENEMY">
 	<type>LASER</type>
-	<title>Minesweeper Ion</title>
-	<short>Minesweeper Ion</short>
+	<title>离子扫雷艇</title>
+	<short>离子扫雷艇</short>
 	<damage>1</damage>
 	<ion>0</ion>
 	<speed>14</speed>
@@ -11070,8 +11070,8 @@
 <droneBlueprint name="DE_DRONE_LIGHT_1">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Anti-Crew Drone Mk I</title>
-	<short>Light I</short>
+	<title>轻型反人员无人机 I</title>
+	<short>轻 I</short>
 	<desc>Fast drone that attacks enemy crew with light lasers.</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
@@ -11087,8 +11087,8 @@
 <droneBlueprint name="DE_DRONE_LIGHT_2">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Anti-Crew Drone Mk II</title>
-	<short>Light II</short>
+	<title>轻型反人员无人机 II</title>
+	<short>轻 II</short>
 	<desc>Fast drone that attacks enemy crew with light lasers. Deals more damage than mark I.</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
@@ -11104,9 +11104,9 @@
 <droneBlueprint name="DE_DRONE_LIGHT_SCATTER">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Scatter Drone</title>
-	<short>Light Scatter</short>
-	<desc>Dangerous drone that shreds enemy crew with a light scatter laser.</desc>
+	<title>散射激光无人机</title>
+	<short>散光</short>
+	<desc>高危无人机，用散射激光将敌方船员撕碎。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
@@ -11121,9 +11121,9 @@
 <droneBlueprint name="DE_DRONE_SCATTER">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Scatter Drone</title>
-	<short>Scatter</short>
-	<desc>Basic drone that continually ablates enemy ship's hull with scatter lasers.</desc>
+	<title>反舰散射无人机</title>
+	<short>散</short>
+	<desc>基础无人机，用散射激光持续烧蚀敌人的船体。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -11138,9 +11138,9 @@
 <droneBlueprint name="DE_DRONE_HEAVY_SCATTER">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Scatter Drone</title>
-	<short>Heavy Sc.</short>
-	<desc>Huge drone that slowly takes ship hulls apart with its heavy scatter lasers.</desc>
+	<title>重型散射无人机</title>
+	<short>重散</short>
+	<desc>巨大的无人机用它的重型散射激光慢慢地将船体撕裂。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11155,9 +11155,9 @@
 <droneBlueprint name="DE_DRONE_HEAVY_1">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Drone Mark I</title>
-	<short>Heavy I</short>
-	<desc>Slow drone that can cause a lot of damage with its heavy lasers.</desc>
+	<title>重型反舰无人机 I</title>
+	<short>重 I</short>
+	<desc>缓慢的无人机，可以用它的重型激光造成极大的伤害。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -11172,9 +11172,9 @@
 <droneBlueprint name="DE_DRONE_HEAVY_2">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Drone Mk II</title>
-	<short>Heavy II</short>
-	<desc>Powerful drone that wreaks havoc when it hits with its heavy lasers. Moves and shoots faster than mark I.</desc>
+	<title>重型反舰无人机 II</title>
+	<short>重 II</short>
+	<desc>强大的无人机，当它用重型激光攻击时，会造成巨额伤害。移动和射击都I型快。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
@@ -11189,9 +11189,9 @@
 <droneBlueprint name="DE_DRONE_HULL_1">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Hull Ripper Drone Mark I</title>
-	<short>Hull I</short>
-	<desc>Powerful drone that continually attacks the enemy ship and deals double damage if it hits systemless rooms.</desc>
+	<title>船体撕裂无人机 I</title>
+	<short>船 I</short>
+	<desc>强大的无人机，持续攻击敌方船只，如果击中无系统的房间，造成双倍伤害。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>1</dodge>
@@ -11206,9 +11206,9 @@
 <droneBlueprint name="DE_DRONE_HULL_2">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Hull Ripper Drone Mark II</title>
-	<short>Hull II</short>
-	<desc>Powerful drone that continually attacks the enemy ship and deals double damage if it hits systemless rooms. Moves and shoots faster than mark I.</desc>
+	<title>船体撕裂无人机 II</title>
+	<short>船 II</short>
+	<desc>强大的无人机，持续攻击敌方船只，如果击中无系统的房间，造成双倍伤害。移动和射击都I型快。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>3</dodge>
@@ -11223,9 +11223,9 @@
 <droneBlueprint name="DE_DRONE_LIGHT_MISSILE">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Anti-Crew Missile Drone</title>
-	<short>Light M.</short>
-	<desc>Slow drone that damages enemy crew and systems with guided micro missiles. Its usage can be considered a war-crime under interstellar law, but nobody cares.</desc>
+	<title>轻型反人员导弹无人机</title>
+	<short>轻导</short>
+	<desc>使用微型制导导弹摧毁敌方机组人员和系统的缓慢无人机。根据星际法，使用这种无人机可以被视为犯了战争罪，但没人在乎。</desc>
 <!-- Pierces hull but cannot damage ships structural integrity. -->
 	<power>2</power>
 	<cooldown>1000</cooldown>
@@ -11241,9 +11241,9 @@
 <droneBlueprint name="DE_DRONE_LIGHT_MISSILE_FIRE">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Fire-Missile Drone</title>
-	<short>Light F.M.</short>
-	<desc>Slow drone that starts fires inside the enemy ship with hull-piercing micro-missiles. Injures crew, but does not deal hull damage.</desc>
+	<title>轻型火焰导弹无人机</title>
+	<short>轻火导</short>
+	<desc>缓慢的无人机用穿透性微型导弹点燃敌舰。伤害船员，但不伤害船体。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11258,9 +11258,9 @@
 <droneBlueprint name="DE_DRONE_MISSILES_1">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Missile Drone MK I</title>
-	<short>Missile I</short>
-	<desc>Slow-moving drone that repeatedly attacks the enemy ship with mini missiles.</desc>
+	<title>反舰导弹无人机 I</title>
+	<short>导 I</short>
+	<desc>缓慢移动的无人机，反复用迷你导弹攻击敌船。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11275,9 +11275,9 @@
 <droneBlueprint name="DE_DRONE_MISSILES_2">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Missile Drone</title>
-	<short>H. Missile</short>
-	<desc>Extremely slow drone that repeatedly attacks the enemy ship with heavy missile strikes.</desc>
+	<title>反舰导弹无人机 II</title>
+	<short>导 II</short>
+	<desc>极其缓慢的无人机，反复用重型导弹攻击敌船。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11292,9 +11292,9 @@
 <droneBlueprint name="DE_DRONE_MISSILES_3">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Missile Drone MK II</title>
-	<short>Missile II</short>
-	<desc>Powerful drone that continuously attacks the enemy ship with mini missiles.</desc>
+	<title>反舰导弹无人机 III</title>
+	<short>导 III</short>
+	<desc>强大的无人机，用迷你导弹持续攻击敌舰。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11309,9 +11309,9 @@
 <droneBlueprint name="DE_DRONE_MISSILES_BARRAGE">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Swarm Missile Drone</title>
-	<short>Swarm M.</short>
-	<desc>Very slow drone that repeatedly attacks the enemy ship with swarm missile strikes.</desc>
+	<title>集群导弹无人机</title>
+	<short>群导</short>
+	<desc>非常缓慢的无人机，不断地用蜂群导弹攻击敌舰。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11326,9 +11326,9 @@
 <droneBlueprint name="DE_DRONE_MINE_SMALL">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Minelayer Drone Mark I</title>
-	<short>Minelayer I</short>
-	<desc>Basic minelayer drone that continually drops slow moving anti-hull mines around an enemy ship.</desc>
+	<title>布雷无人机 I</title>
+	<short>布雷 I</short>
+	<desc>基础型布雷无人机，持续地在敌方舰艇周围投下缓慢移动的反舰地雷。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11343,9 +11343,9 @@
 <droneBlueprint name="DE_DRONE_MINE_MEDIUM">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Minelayer Drone Mark II</title>
-	<short>Minelayer II</short>
-	<desc>Slow minelayer drone. Continually drops mines that home in on the enemy ship and deal heavy damage to hull.</desc>
+	<title>布雷无人机 II</title>
+	<short>布雷 II</short>
+	<desc>缓慢的布雷无人机。不断投下地雷攻击敌舰并对船体造成严重伤害。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -11360,9 +11360,9 @@
 <droneBlueprint name="DE_DRONE_BEAM_2">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Beam Drone</title>
-	<short>Heavy Beam</short>
-	<desc>Powerful drone that cuts enemy ships into pieces with its heavy beam weapon.</desc>
+	<title>重型反舰光束无人机</title>
+	<short>重光</short>
+	<desc>强大的无人机，用它的重型光束武器把敌人的船只切成碎片。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -11378,9 +11378,9 @@
 <droneBlueprint name="DE_DRONE_BEAM_2_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Beam Drone</title>
-	<short>Heavy Beam</short>
-	<desc>Powerful drone that cuts enemy ships into pieces with its heavy beam weapon.</desc>
+	<title>重型反舰光束无人机</title>
+	<short>重光</short>
+	<desc>强大的无人机，用它的重型光束武器把敌人的船只切成碎片。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -11395,9 +11395,9 @@
 <droneBlueprint name="DE_DRONE_BEAM_FOCUS">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Focus Beam Drone</title>
-	<short>Focus Beam</short>
-	<desc>Powerful drone that pierces shield with its focus beam.</desc>
+	<title>反舰聚焦光束无人机</title>
+	<short>聚光</short>
+	<desc>强大的无人机可以用聚焦光束穿透护盾。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11412,9 +11412,9 @@
 <droneBlueprint name="DE_DRONE_HULL_BEAM">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Hull Beam Drone</title>
-	<short>Hull Beam</short>
-	<desc>Powerful drone that repeatedly attacks with a small hull beam and deals double damage if it hits systemless rooms.</desc>
+	<title>反舰船体光束无人机</title>
+	<short>舰光</short>
+	<desc>强大的无人机，反复攻击小船体梁，对无系统房间造成双倍伤害。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -11430,8 +11430,8 @@
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
 	<title>火焰光束无人机</title>
-	<short>火焰光束无人机</short>
-	<desc>Slow drone that sets enemy ships on fire with its modified beam weapon.</desc>
+	<short>火光</short>
+	<desc>缓慢的无人机，用它的改装光束武器点燃敌人的船只。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11446,9 +11446,9 @@
 <droneBlueprint name="DE_DRONE_PLASMA">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Plasma Drone</title>
-	<short>Plasma</short>
-	<desc>Slow drone that uses a small plasma thrower to set enemy ships on fire.</desc>
+	<title>等离子无人机</title>
+	<short>等离子</short>
+	<desc>缓慢的无人机，使用小型等离子发射器点燃敌方船只。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11463,9 +11463,9 @@
 <droneBlueprint name="DE_DRONE_PLASMA_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Plasma Drone</title>
-	<short>Plasma</short>
-	<desc>Slow drone that uses a small plasma thrower to set enemy ships on fire.</desc>
+	<title>等离子无人机</title>
+	<short>等离子</short>
+	<desc>缓慢的无人机，使用小型等离子发射器点燃敌方船只。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -11480,9 +11480,9 @@
 <droneBlueprint name="DE_DRONE_ION_1">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Ion Drone Mark I</title>
-	<short>Ion I</short>
-	<desc>Slow-reloading drone that continuously attacks the enemy ship with ion blasts.</desc>
+	<title>反舰离子无人机 I</title>
+	<short>离子 I</short>
+	<desc>缓慢充能的无人机持续使用离子爆炸攻击敌船。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>1</dodge>
@@ -11497,9 +11497,9 @@
 <droneBlueprint name="DE_DRONE_ION_2">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Anti-Ship Ion Drone</title>
-	<short>Heavy Ion</short>
-	<desc>Slow-moving drone that attacks the enemy ship with a heavy ion weapon.</desc>
+	<title>重型反舰离子无人机</title>
+	<short>重离子</short>
+	<desc>使用重离子武器攻击敌舰的缓慢移动无人机。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -11514,9 +11514,9 @@
 <droneBlueprint name="DE_DRONE_ION_3">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Ion Drone Mark II</title>
-	<short>Ion II</short>
-	<desc>Advanced drone that can completely disable small ships with its ion cannon.</desc>
+	<title>反舰离子无人机 II</title>
+	<short>离子 II</short>
+	<desc>先进的无人机可以用它的离子炮完全摧毁小型船只。</desc>
 	<power>4</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>2</dodge>
@@ -11531,8 +11531,8 @@
 
 <weaponBlueprint name="DE_ION_PIERCE_DRONE">
 	<type>LASER</type>
-	<title>Drone Phase Ion</title>
-	<short>Drone Phase Ion</short>
+	<title>相位离子无人机</title>
+	<short>相位离子无人机</short>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -11568,12 +11568,13 @@
 	<weaponArt>ba_ion_phase_1</weaponArt>
 	<iconImage>ion</iconImage>
 </weaponBlueprint>
+
 <droneBlueprint name="DE_DRONE_ION_PIERCE">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Phase Ion Drone</title>
-	<short>Phase Ion</short>
-	<desc>Advanced drone that continuously attacks enemy shields and systems with a phasing ion weapon.</desc>
+	<title>反舰相位离子无人机</title>
+	<short>相位离子</short>
+	<desc>先进的无人机，持续使用相位离子攻击敌人的护盾与系统。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect combat drone -->
 	<dodge>1</dodge>
@@ -11588,9 +11589,9 @@
 <droneBlueprint name="DE_DRONE_FLARELAUNCHER">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Decoy Drone</title>
-	<short>Decoy</short>
-	<desc>Cloaked support device that moves around and drops flares in order to distract enemy anti-drones and defense drones.</desc>
+	<title>诱饵无人机</title>
+	<short>饵</short>
+	<desc>隐形支援无人机，移动和投掷闪光弹，以迷惑敌人的反无人机和防御无人机。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown>
 	<dodge>9</dodge>
@@ -11606,9 +11607,9 @@
 <droneBlueprint name="DE_DRONE_RECON">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Recon Drone</title>
-	<short>Recon</short>
-	<desc>Light infiltration drone equipped with advanced scanning tech. Deals no damage, but can reveal the enemy ship even when sensors are not an option.</desc>
+	<title>侦查无人机</title>
+	<short>侦</short>
+	<desc>配备先进扫描技术的轻型渗透无人机，不会造成伤害，但即使没有传感器也能显示敌船内部。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown>
 	<dodge>6</dodge>
@@ -11624,9 +11625,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Missile Defense Turret Mark I</title>
-	<short>M. Defense I</short>
-	<desc>Outdated turret drone that shoots down incoming missiles and mines with defense missiles. Reloads in 24 seconds.</desc>
+	<title>导弹防御炮塔 I</title>
+	<short>导弹防御 I</short>
+	<desc>过时的炮塔无人机用防御导弹击落来袭导弹和地雷。需要24秒重新填装。</desc>
 	<power>1</power>
 	<cooldown>24000</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>0</dodge>
@@ -11642,9 +11643,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Missile Defense Turret Mark II</title>
-	<short>M. Defens.II</short>
-	<desc>Basic turret drone that destroys incoming missiles, mines, and asteroids with a counter-missile barrage. Reloads in 14 seconds.</desc>
+	<title>导弹防御炮塔 II</title>
+	<short>导弹防御.II</short>
+	<desc>基础炮塔无人机，摧毁来袭导弹、地雷和小行星的反导弹弹幕。需要14秒重新填装。</desc>
 	<power>1</power>
 	<cooldown>14000</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>0</dodge>
@@ -11660,9 +11661,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Light Defense Drone Mk I</title>
-	<short>L.Defense I</short>
-	<desc>Slow-reloading defense drone that shoots down incoming missiles, mines and asteroids with high-velocity light lasers. Reloads in 6 seconds.</desc>
+	<title>轻型防御无人机 I</title>
+	<short>轻防 I</short>
+	<desc>缓慢填装的防御无人机可以用高速激光击落来袭的导弹、地雷和小行星。需要6秒重新填装。</desc>
 	<power>1</power>
 	<cooldown>6000</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>2</dodge>
@@ -11678,9 +11679,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Light Defense Drone Mk II</title>
-	<short>L.Defense II</short>
-	<desc>Fast defense drone that reliably shoots down incoming missiles, mines, and asteroids with high-velocity light lasers. Reloads in 0.6 second.</desc>
+	<title>轻型防御无人机 II</title>
+	<short>轻防 II</short>
+	<desc>快速防御无人机可靠地击落来袭导弹、地雷和小行星与高速激光。需要0.6秒重新填装。</desc>
 	<power>2</power>
 	<cooldown>600</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>1</dodge>
@@ -11696,9 +11697,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Burst Scatter Defense Drone</title>
-	<short>Sc. Defense</short>
-	<desc>Quick firing drone that shoots down incoming missiles, mines, and asteroids with medium-velocity scatter salvos. Reloads in 0.3 seconds.</desc>
+	<title>爆裂散射防御无人机</title>
+	<short>散防</short>
+	<desc>快速无人机发射散射弹击落来袭导弹，地雷和小行星。需要0.3秒重新填装。</desc>
 	<power>2</power>
 	<cooldown>300</cooldown>
 	<dodge>1</dodge>
@@ -11715,9 +11716,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Burst Scatter Defense Drone</title>
-	<short>Sc. Defense</short>
-	<desc>Enemy You should not see this</desc>
+	<title>爆裂散射防御无人机</title>
+	<short>散防</short>
+	<desc>快速无人机发射散射弹击落来袭导弹，地雷和小行星。需要0.3秒重新填装。</desc>
 	<power>2</power>
 	<cooldown>300</cooldown>
 	<dodge>1</dodge>
@@ -11733,9 +11734,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>2</level>
-	<title>Heavy Defense Drone Mark I</title>
-	<short>H. Defense I</short>
-	<desc>Slow-reloading defense drone that can shoot down all incoming projectiles. Reloads in 9 seconds.</desc>
+	<title>重型防御无人机 I</title>
+	<short>重防 I</short>
+	<desc>缓慢装填的防御无人机可以击落所有来袭的炮弹。需要9秒重新填装。</desc>
 	<power>1</power>
 	<cooldown>9000</cooldown>
 	<dodge>0</dodge>
@@ -11751,9 +11752,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>2</level>
-	<title>Heavy Defense Drone Mark II</title>
-	<short>H. Defense II</short>
-	<desc>Slow defense drone that reliably shoots down all incoming projectiles. Reloads in 4 seconds.</desc>
+	<title>重型防御无人机 II</title>
+	<short>重防 II</short>
+	<desc>缓慢的防御无人机，可靠地击落所有来袭的炮弹。需要4秒重新填装。</desc>
 	<power>2</power>
 	<cooldown>4000</cooldown>
 	<dodge>0</dodge>
@@ -12562,8 +12563,8 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_MISSILES_SWARM">
 	<type>LASER</type>
-	<title>Heavy Missiles Drone</title>
-	<short>Heavy Missiles</short>
+	<title>重型激光防御无人机</title>
+	<short>重型激光防御无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>5</sp>
@@ -12612,8 +12613,8 @@
 
 <weaponBlueprint name="DE_DRONE_LASER_HEAVY_ANTI">
 	<type>LASER</type>
-	<title>Drone Heavy Defense Laser</title>
-	<short>Drone Heavy Defense Laser</short>
+	<title>重型激光防御无人机</title>
+	<short>重型激光防御无人机</short>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -13584,7 +13585,7 @@
 	<title>Basic Laser Mark I</title>
 	<short>Basic Laser I</short>
 	<desc>Very weak laser.</desc>
-	<tooltip>Only one shot; one damage per shot.</tooltip>
+	<tooltip>Only one shot; on每发造成e点伤害</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -13698,7 +13699,7 @@
 	<title>Burst Laser Mark II</title>
 	<short>Burst Laser II</short>
 	<desc>Slightly improved version of the burst laser that fires more shots per charge.</desc>
-	<tooltip>Fires 3 lasers; 每发造成1点伤害.</tooltip>
+	<tooltip>发射3发激光; 每发造成1点伤害.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
@@ -13774,7 +13775,7 @@
 	<title>Burst Laser Mark IV</title>
 	<short>Burst Laser IV</short>
 	<desc>Powerful burst laser that fires off an impressive barrage.</desc>
-	<tooltip>Fires 5 lasers; 1 damage per shot.</tooltip>
+	<tooltip>发射5发激光; 每发造成1点伤害</tooltip>
 	<damage>1</damage>
 	<shots>5</shots>
 	<sp>0</sp>
@@ -14400,7 +14401,7 @@
 	<title>Hull Smasher Laser Mark II</title>
 	<short>Hull Laser II</short>
 	<desc>Fires 2 shots that deal 1 damage to rooms with a system or subsystem and double damage to rooms without either.</desc>
-	<tooltip>Fires 2 lasers; 每发造成1点伤害 and 2x damage in systemless rooms.</tooltip>
+	<tooltip>发射2发激光; 每发造成1点伤害 and 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -14439,7 +14440,7 @@
 	<title>Hull Smasher Laser Mark III</title>
 	<short>Hull Laser III</short>
 	<desc>Designed to maximize hull damage.</desc>
-	<tooltip>Fires 3 lasers; 每发造成1点伤害 and 2x damage in systemless rooms.</tooltip>
+	<tooltip>发射3发激光; 每发造成1点伤害 and 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>0</sp>
