@@ -1412,7 +1412,7 @@
 	<tip>tip_flak</tip>
 	<short>皇帝</short>
 	<desc>复制成敌人的导弹攻击敌人，造成0-8点伤害，40秒基础冷却时间。</desc>
-	<tooltip>自动用复制导弹轰炸敌舰，造成0-8点伤害。穿过所有的盾牌。40秒基础冷却时间。</tooltip>
+	<tooltip>自动用复制导弹轰炸敌舰，造成0-8点伤害。穿过所有的护盾。40秒基础冷却时间。</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<radius>105</radius>
 	<damage>1</damage>
@@ -1914,7 +1914,7 @@
 	<type>REPAIR</type>
 	<title>Boss - Your should not see this descrition</title>
 	<short>Boss - Your should not see this descrition</short>
-	<desc>Will seek out damaged systems and repair them automatically. Leaks power and therefore needs more energy from the ship's generator.</desc>
+	<desc>会找到受损的系统并自动修复它们。 Leaks power and therefore needs more energy from the ship's generator.</desc>
 	<power>1</power>
 	<cost>15</cost>
 	<bp>2</bp>
@@ -11770,9 +11770,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Ion Defense Drone</title>
-	<short>Ion Defense</short>
-	<desc>Designated minesweeper drone that detonates incoming mines with slow moving ion blasts. Unable to hit other projectiles effectively. Reloads in 0.75 seconds.</desc>
+	<title>离子防御无人机</title>
+	<short>离子防</short>
+	<desc>设计用于反地雷的无人机，以缓慢移动的离子爆炸引爆来袭的地雷。无法有效地击中其他投射物。充能时间0.75秒。</desc>
 	<power>1</power>
 	<cooldown>750</cooldown>
 	<dodge>0</dodge>
@@ -11789,9 +11789,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Ion Defense Drone</title>
-	<short>Ion Defense</short>
-	<desc>Designated minesweeper drone that detonates incoming mines with slow moving ion blasts. Unable to hit other projectiles effectively. Reloads in 1.5 seconds.</desc>
+	<title>离子防御无人机</title>
+	<short>离子防</short>
+	<desc>设计用于反地雷的无人机，以缓慢移动的离子爆炸引爆来袭的地雷。无法有效地击中其他投射物。充能时间1.5秒。</desc>
 	<power>1</power>
 	<cooldown>1500</cooldown>
 	<dodge>0</dodge>
@@ -11808,9 +11808,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>2</level>
-	<title>Defense Drone Mark III</title>
-	<short>Defense III</short>
-	<desc>Advanced drone that shoots down all incoming projectiles. Reloads in only 0.5 seconds.</desc>
+	<title>防御无人机 III</title>
+	<short>防 III</short>
+	<desc>先进的无人机可以击落所有来袭的炮弹。充能时间只需要0.5秒。</desc>
 	<power>4</power>
 	<cooldown>500</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>1</dodge>
@@ -11827,9 +11827,9 @@
 <droneBlueprint name="DE_REPAIR_2">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
-	<title>Repair Drone</title>
-	<short>Sys Repair</short>
-	<desc>Will seek out damaged systems and repair them automatically.</desc>
+	<title>修复无人机</title>
+	<short>系统修复</short>
+	<desc>会找到受损的系统并自动修复它们。</desc>
 	<power>1</power>
 	<cost>20</cost>
 	<bp>2</bp>
@@ -11840,9 +11840,9 @@
 <droneBlueprint name="DE_REPAIR_3">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
-	<title>Leaking System Repair Drone</title>
-	<short>Sys Repair</short>
-	<desc>Will seek out damaged systems and repair them automatically. Leaks power and therefore needs more energy from the ship's generator.</desc>
+	<title>漏电系统修复无人机</title>
+	<short>系统修复</short>
+	<desc>会找到受损的系统并自动修复它们。因为会漏电，因此需要从船上的反应堆中获得更多的能量。</desc>
 	<power>2</power>
 	<cost>15</cost>
 	<bp>2</bp>
@@ -11852,9 +11852,9 @@
 <droneBlueprint name="DE_REPAIR_4">
 	<type>REPAIR</type>
 	<tip>tip_crew</tip>
-	<title>System Repair Drone</title>
-	<short>Sys Rep.</short>
-	<desc>Will seek out damaged systems and repair them automatically.</desc>
+	<title>系统修复无人机</title>
+	<short>系统修复</short>
+	<desc>会找到受损的系统并自动修复它们。</desc>
 	<power>1</power>
 	<cost>30</cost>
 	<bp>2</bp>
@@ -11866,9 +11866,9 @@
 	<type>BATTLE</type>
 	<tip>tip_crew</tip>
 	<locked>1</locked>
-	<title>Seasoned A.P. Drone</title>
-	<short>Anti-Pers.</short>
-	<desc>Will seek out and attempt to destroy any intruders on-board your ship. Has already terminated dozens of individuals.</desc>
+	<title>老练的镇暴无人机</title>
+	<short>镇暴</short>
+	<desc>将寻找并试图消灭任何闯入你飞船的入侵者。已经消灭过了几十个人了。</desc>
 	<power>2</power>
 	<cost>35</cost>
 	<bp>3</bp>
@@ -11879,9 +11879,9 @@
 	<type>BATTLE</type>
 	<tip>tip_crew</tip>
 	<locked>1</locked>
-	<title>Faulty A.P. Drone</title>
-	<short>Anti-Pers.</short>
-	<desc>Will seek out and attempt to destroy any intruders on-board your ship. Leaks power and therefore needs more energy from the ship's generator.</desc>
+	<title>错误的镇暴无人机</title>
+	<short>镇暴</short>
+	<desc>将寻找并试图消灭任何闯入你飞船的入侵者。因为会漏电，因此需要从船上的反应堆中获得更多的能量。</desc>
 	<power>3</power>
 	<cost>30</cost>
 	<bp>3</bp>
@@ -11892,9 +11892,9 @@
 	<type>BATTLE</type>
 	<locked>1</locked>
 	<tip>tip_crew</tip>
-	<title>Anti-Personnel Drone</title>
-	<short>Anti-Pers.</short>
-	<desc>Will seek out and attempt to destroy any intruders on-board your ship.</desc>
+	<title>镇暴无人机</title>
+	<short>镇暴</short>
+	<desc>将寻找并试图消灭任何闯入你飞船的入侵者。</desc>
 	<power>2</power>
 	<cost>35</cost> <!--was 60-->
 	<bp>3</bp>
@@ -11906,9 +11906,9 @@
 	<type>BOARDER</type>
 	<tip>tip_boarding</tip>
 	<locked>1</locked>
-	<title>Boarding Drone</title>
-	<short>Boarding</short>
-	<desc>Breaches through the enemy hull and wreaks havoc. Awesome.</desc>
+	<title>登舰无人机</title>
+	<short>登舰</short>
+	<desc>冲破敌人的船体，造成巨大破坏。太棒了！</desc>
 	<power>3</power>
 	<speed>35</speed>
 	<cost>70</cost>
@@ -11920,9 +11920,9 @@
 	<type>BOARDER</type>
 	<tip>tip_boarding</tip>
 	<locked>1</locked>
-	<title>Improved Boarding Drone</title>
-	<short>I. Boarding</short>
-	<desc>Is launched at higher speed into enemy ships to avoid defense drones and start the carnage even faster. Overkill!</desc>
+	<title>改进登舰无人机</title>
+	<short>登舰 Plus</short>
+	<desc>以更高的速度发射到敌方船只，以躲避防御无人机，并以更快的速度开始屠杀。太过分了!</desc>
 	<power>3</power>
 	<speed>150</speed>
 	<cost>80</cost>
@@ -11933,9 +11933,9 @@
 	<type>BOARDER</type>
 	<tip>tip_boarding</tip>
 	<locked>1</locked>
-	<title>Boosterless Boarding Drone</title>
-	<short>B. Boarding</short>
-	<desc>Takes its time to get to the enemy ship. Then starts a massacre. Chilled!</desc>
+	<title>低速登舰无人机</title>
+	<short>登舰 Mini</short>
+	<desc>它需要时间才能到达敌舰。然后开始了一场大屠杀。太慢了！</desc>
 	<power>2</power>
 	<speed>4</speed>
 	<cost>50</cost>
@@ -11944,9 +11944,9 @@
 
 <droneBlueprint name="DE_SHIP_REPAIR_2">
 	<type>SHIP_REPAIR</type>
-	<title>Advanced Hull Repair Drone</title>
-	<short>Hull Repair</short>
-	<desc>Repairs damage to your hull even faster. Part is consumed once it finishes.</desc>
+	<title>高级船体修理无人机</title>
+	<short>船体维修</short>
+	<desc>以最快的速度修复船体。一旦修复完成就会被消耗掉。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect repair drone -->
 	<dodge>5</dodge>
@@ -11964,8 +11964,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_STUN">
 	<type>MISSILES</type>
-	<title>Light Stun Missiles</title>
-	<short>Light Stun Missiles</short>
+	<title>轻型冲击导弹</title>
+	<short>轻型冲击导弹</short>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -11996,9 +11996,9 @@
 <droneBlueprint name="DE_DRONE_LIGHT_MISSILE_STUN">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Anti-Crew Stun Drone</title>
-	<short>Light Stun</short>
-	<desc>Lightweight drone that injures and stuns enemy crew with small hull-buster grenades.</desc>
+	<title>轻型反人员冲击无人机</title>
+	<short>轻型冲击</short>
+	<desc>轻型反轻型无人机，用小型外壳炸弹伤害和击晕敌方船员。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -12013,8 +12013,8 @@
 
 <weaponBlueprint name="DE_DRONE_MISSILES_STUN_ENEMY">
 	<type>MISSILES</type>
-	<title>Light Stun Missiles</title>
-	<short>Light Stun Missiles</short>
+	<title>轻型冲击导弹</title>
+	<short>轻型冲击导弹</short>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>1</persDamage>
@@ -12045,9 +12045,9 @@
 <droneBlueprint name="DE_DRONE_LIGHT_MISSILE_STUN_ENEMY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Anti-Crew Stun Drone</title>
-	<short>Light Stun</short>
-	<desc>Lightweight drone that stuns and damages enemy crew with micro hull-buster grenades.</desc>
+	<title>轻型反人员冲击无人机</title>
+	<short>轻型冲击</short>
+	<desc>轻型反轻型无人机，用小型外壳炸弹伤害和击晕敌方船员。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -12063,9 +12063,9 @@
 <droneBlueprint name="DE_DRONE_STEALTH_BEAM_1">
 	<type>COMBAT</type>
 	<tip>ce_tip_combat_stealth</tip>
-	<title>Stealth Beam Drone Mark I</title>
-	<short>Stealth I</short>
-	<desc>Cloaked combat drone that evades enemy anti-drones and repeatedly attacks with a small beam weapon.</desc>
+	<title>隐形光束无人机 I</title>
+	<short>隐 I</short>
+	<desc>隐形战斗无人机躲避敌人的反无人机，并使用小型光束武器反复攻击。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>9</dodge>
@@ -12080,10 +12080,10 @@
 
 <droneBlueprint name="DE_DRONE_STEALTH_BEAM_2">
 	<type>COMBAT</type>
-	<title>Stealth Beam Drone Mark II</title>
+	<title>隐形光束无人机 II</title>
 	<tip>ce_tip_combat_stealth</tip>
-	<short>Stealth II</short>
-	<desc>Cloaked combat drone that evades enemy anti-drones and repeatedly attacks with a large beam weapon.</desc>
+	<short>隐 II</short>
+	<desc>隐形战斗无人机躲避敌人的反无人机，并使用大型光束武器反复攻击。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>10</dodge>
@@ -12099,10 +12099,10 @@
 
 <weaponBlueprint name="BA_DRONE_CRYSTAL">
 	<type>MISSILES</type>
-	<title>Crystal Burst Mark I</title>
-	<short>Crystal Burst I</short>
-	<desc>A special projectile weapon that fires two shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 2 shots; 每发造成1点伤害. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<title>晶体爆裂 I</title>
+	<short>晶体爆裂 I</short>
+	<desc>一种特殊的射弹武器，可以发射两个穿透护盾的水晶碎片。易受无人机攻击。</desc>
+	<tooltip>发射2发晶体; 每发造成1点伤害. 较低的船体破坏几率。穿透1层护盾。易受防御无人机I攻击。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -12138,9 +12138,9 @@
 <droneBlueprint name="DE_DRONE_CRYSTAL">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Crystal Anti-Ship Drone</title>
-	<short>Crystal</short>
-	<desc>Modified projectile drone that continually attacks the enemy ship with shield-piercing crystals.</desc>
+	<title>水晶反舰无人机</title>
+	<short>水晶</short>
+	<desc>改进的射弹无人机可以持续使用穿透护盾的水晶攻击敌方船只。</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -12156,10 +12156,10 @@
 
 <weaponBlueprint name="BA_HEAVY_DRONE_CRYSTAL">
 	<type>MISSILES</type>
-	<title>Heavy Crystal Mark I</title>
-	<short>Heavy Crys. I</short>
-	<desc>A special projectile weapon that shoots a powerful, shield-piercing crystal. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 1 shot; 2 damage. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<title>重型水晶无人机 I</title>
+	<short>重型水晶 I</short>
+	<desc>一种特殊的射弹武器，可以射出强大的穿透护盾的水晶。易受防御无人机攻击。</desc>
+	<tooltip>发射1发; 造成2点伤害。较低的船体破坏几率。穿透1层护盾。易受防御无人机I攻击。</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -12195,9 +12195,9 @@
 <droneBlueprint name="DE_DRONE_CRYSTAL_HEAVY">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Heavy Crystal Drone</title>
-	<short>Heavy Cr.</short>
-	<desc>Modified projectile drone that continually attacks the enemy ship with large shield piercing crystals.</desc>
+	<title>重型水晶无人机</title>
+	<short>重型水晶</short>
+	<desc>改进的射弹无人机，使用穿透水晶持续攻击敌人的护盾。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>2</dodge>
@@ -12213,10 +12213,10 @@
 <weaponBlueprint name="BA_LIGHT_DRONE_CRYSTAL">
 	<type>MISSILES</type>
 	<tip>tip_crystal</tip>
-	<title>Light Crystal Mark I</title>
-	<short>Light C.I</short>
-	<desc>Modified projectile weapon that fires 3 shield piercing antipersonnel crystals. Can not damage ships' structural integrity or deplete shields.</desc>
-	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
+	<title>轻型水晶无人机 I</title>
+	<short>轻型水晶 I</short>
+	<desc>改进型抛射武器，发射3个穿透护盾的水晶，杀伤船员。不能破环船体或消耗护盾。</desc>
+	<tooltip>发射3发伤害船员的水晶。忽略3个护盾气泡但不能消耗护盾。较低的船体破环几率。</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>1</shots>
@@ -12252,9 +12252,9 @@
 <droneBlueprint name="DE_DRONE_CRYSTAL_LIGHT">
 	<type>COMBAT</type>
 	<tip>tip_combat</tip>
-	<title>Light Crystal Anti-Crew Drone</title>
-	<short>Light Cr.</short>
-	<desc>Extremely fast drone that attacks enemy crew with shield-piercing light crystals.</desc>
+	<title>轻型水晶无人机</title>
+	<short>轻型水晶</short>
+	<desc>速度极快的无人机，可以用穿透护盾的光水晶攻击敌方乘员。</desc>
 	<power>1</power>
 	<cooldown>1000</cooldown>
 	<dodge>5</dodge>
@@ -12273,7 +12273,7 @@
 	<title>Light Crystal Mark I</title>
 	<short>Light C.I</short>
 	<desc>Modified projectile weapon that fires 3 shield-piercing antipersonnel crystals. Can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>发射3发s that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>0</persDamage>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -12328,7 +12328,7 @@
 	<title>Crystal Burst Mark I</title>
 	<short>Crystal Burst I</short>
 	<desc>A special projectile weapon that fires two shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 2 shots, 每发造成1点伤害. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<tooltip>发射2发s, 每发造成1点伤害. 较低的船体破坏几率。 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -13737,7 +13737,7 @@
 	<title>Burst Laser Mark III</title>
 	<short>Burst Laser III</short>
 	<desc>Powerful burst laser that fires a notable volley of shots.</desc>
-	<tooltip>Fires 4 shots; 每发造成1点伤害.</tooltip>
+	<tooltip>发射4发s; 每发造成1点伤害.</tooltip>
 	<damage>1</damage>
 	<shots>4</shots>
 	<sp>0</sp>
@@ -13813,7 +13813,7 @@
 	<title>Heavy Laser Mark I</title>
 	<short>Heavy Laser I</short>
 	<desc>Heavy lasers can wreak more havoc than their smaller, burst laser counterparts</desc>
-	<tooltip>Fires 1 shot, causes 2 damage with low chance of fire and breaching.</tooltip>
+	<tooltip>发射1发, causes 2 damage with low chance of fire and breaching.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<stunChance>2</stunChance>
@@ -14400,7 +14400,7 @@
 	<tip>tip_hull</tip>
 	<title>Hull Smasher Laser Mark II</title>
 	<short>Hull Laser II</short>
-	<desc>Fires 2 shots that deal 1 damage to rooms with a system or subsystem and double damage to rooms without either.</desc>
+	<desc>发射2发s that deal 1 damage to rooms with a system or subsystem and double damage to rooms without either.</desc>
 	<tooltip>发射2发激光; 每发造成1点伤害 and 2x damage in systemless rooms.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
@@ -14633,7 +14633,7 @@
 	<title>Crystal Burst Mark I</title>
 	<short>Crystal Burst I</short>
 	<desc>A special projectile weapon that fires two shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 2 shots; 每发造成1点伤害. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<tooltip>发射2发s; 每发造成1点伤害. 较低的船体破坏几率。 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>1</sp>
@@ -14672,7 +14672,7 @@
 	<title>Crystal Burst Mark II</title>
 	<short>Crystal Burst II</short>
 	<desc>A powerful projectile weapon that fires three shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 3 shots; 每发造成1点伤害. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<tooltip>发射3发s; 每发造成1点伤害. 较低的船体破坏几率。 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
 	<damage>1</damage>
 	<shots>3</shots>
 	<sp>1</sp>
@@ -14711,7 +14711,7 @@
 	<title>Heavy Crystal Mark I</title>
 	<short>Heavy Crys. I</short>
 	<desc>A special projectile weapon that shoots a powerful, shield-piercing crystal. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 1 shot; 2 damage. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<tooltip>发射1发; 2 damage. 较低的船体破坏几率。 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -14751,7 +14751,7 @@
 	<title>Heavy Crystal Mark II</title>
 	<short>Heavy Crys. II</short>
 	<desc>A powerful projectile weapon that fires a devastating, shield-piercing crystal that causes a hull breach. Vulnerable to Defense drones.</desc>
-	<tooltip>Fires 1 shot; 4 damage; causes a hull breach. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
+	<tooltip>发射1发; 4 damage; causes a hull breach. 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
 	<damage>4</damage>
 	<shots>1</shots>
 	<sp>1</sp>
