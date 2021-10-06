@@ -5,7 +5,7 @@
 
 进行中：
 * 蓝图 blueprints.xml.append<br/>
-    完成行数：12278 / 16550 (71%)
+    完成行数：13035 / 16550 (78%)
 
 已完成：
 * 文本杂项 text_misc.xml.append<br/>

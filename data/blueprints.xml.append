@@ -12270,10 +12270,10 @@
 <weaponBlueprint name="BA_LIGHT_DEFENSE_DRONE_CRYSTAL">
 	<type>LASER</type>
 	<tip>tip_crystal</tip>
-	<title>Light Crystal Mark I</title>
-	<short>Light C.I</short>
-	<desc>Modified projectile weapon that fires 3 shield-piercing antipersonnel crystals. Can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>发射3发s that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
+	<title>轻型水晶无人机 I</title>
+	<short>轻型水晶 I</short>
+	<desc>改进型抛射武器，发射3个杀伤船员的晶体，穿透护盾。不能破坏船体。</desc>
+	<tooltip>发射3发水晶伤害船员. 穿透三层护盾但无法对护盾造成伤害. 较低的船体破坏几率.</tooltip>
 	<persDamage>0</persDamage>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -12308,9 +12308,9 @@
 	<type>DEFENSE</type>
 	<tip>tip_defense</tip>
 	<level>1</level>
-	<title>Light Crystal Defense Drone</title>
-	<short>Cr.Defense</short>
-	<desc>Modified defense drone that shoots down incoming missiles, mines and asteroids with high-velocity light crystals. Reloads in 3 seconds.</desc>
+	<title>轻型水晶防御无人机</title>
+	<short>水晶防御</short>
+	<desc>改进的防御无人机，击落来袭导弹，地雷和高速光晶体小行星。需要3秒重新充能。</desc>
 	<power>1</power>
 	<cooldown>3000</cooldown>
 	<dodge>3</dodge>
@@ -12325,10 +12325,10 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_CRYSTAL">
 	<type>LASER</type>
-	<title>Crystal Burst Mark I</title>
-	<short>Crystal Burst I</short>
-	<desc>A special projectile weapon that fires two shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
-	<tooltip>发射2发s, 每发造成1点伤害. 较低的船体破坏几率。 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
+	<title>水晶爆裂 I</title>
+	<short>水晶爆裂 I</short>
+	<desc>一种特殊的射弹武器，可以发射两个穿透护盾的水晶碎片。易受无人机攻击。</desc>
+	<tooltip>发射2发水晶, 每发造成1点伤害. 较低的船体破坏几率。 穿透1层护盾。 易受防御无人机I攻击。</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -12366,9 +12366,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Crystal Drone-Destroyer</title>
-	<short>Cr. Destroyer</short>
-	<desc>Destroys combat drones attacking your ship. Reloads in 4 seconds.</desc>
+	<title>水晶无人机破坏者</title>
+	<short>水晶破坏者</short>
+	<desc>摧毁攻击你舰船的战斗无人机。需要4秒重新充能。</desc>
 	<power>1</power>
 	<cooldown>4000</cooldown>
 	<dodge>0</dodge>
@@ -12423,9 +12423,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger Drone</title>
-	<short>Shield</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<title>过载护盾无人机</title>
+	<short>护盾</short>
+	<desc>定期创建一个超级盾牌屏障。</desc>
 	<power>3</power>
 	<cooldown>60000</cooldown>
 	<dodge>0</dodge>
@@ -12441,9 +12441,9 @@
 	<type>SHIELD</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger Drone</title>
-	<short>Shield</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<title>过载护盾无人机</title>
+	<short>护盾</short>
+	<desc>定期创建一个超级盾牌屏障。</desc>
 	<power>3</power>
 	<cooldown>15000</cooldown>
 	<dodge>0</dodge>
@@ -12457,7 +12457,7 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_ION_2">
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>无人机激光</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<ion>4</ion>
@@ -12493,9 +12493,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Heavy Anti-Combat Drone</title>
-	<short>Heavy Anti-Drone</short>
-	<desc>Sluggish drone that can disable multiple enemy combat drones with huge ion blasts. Less effective against fast drones. Reloads in 8 seconds.</desc>
+	<title>重型反无人机</title>
+	<short>重型反无人机</short>
+	<desc>缓慢的无人机可以用巨大的离子爆炸使多个敌方战斗无人机失效。对付快速无人机效果较差。需要8秒重新充能。</desc>
 	<power>2</power>
 	<cooldown>8000</cooldown>
 	<dodge>0</dodge>
@@ -12510,7 +12510,7 @@
 
 <weaponBlueprint name="BA_ANTI_DRONE_EFFECTOR_INVISIBLE">
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>无人机激光</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<ion>1</ion>
@@ -12545,9 +12545,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Effector Drone</title>
-	<short>Effector</short>
-	<desc>Advanced electronic warfare drone that can continuously disrupt multiple enemy combat drones simultaneously. Reloads in 1 second.</desc>
+	<title>效应场无人机</title>
+	<short>效应场</short>
+	<desc>先进的电子战无人机，可以同时连续干扰多个敌方战斗无人机。需要1秒重新充能。</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -12594,9 +12594,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Drone-Destroyer Turret</title>
-	<short>Destroyer T.</short>
-	<desc>Simple turret that blasts enemy combat drones with swarm missiles. Less effective against fast drones. Reloads in 16 seconds.</desc>
+	<title>无人机破坏者炮塔</title>
+	<short>破坏者炮塔</short>
+	<desc>简单的炮塔，用蜂群导弹轰炸敌人的战斗无人机。对付快速无人机效果较差。需要16秒重新充能。</desc>
 	<power>1</power>
 	<cooldown>16000</cooldown>
 	<dodge>0</dodge>
@@ -12648,9 +12648,9 @@
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Drone-Destroyer</title>
+	<title>无人机破坏者</title>
 	<short>Destroyer</short>
-	<desc>Destroys combat drones attacking your ship. Reloads in 8 seconds.</desc>
+	<desc>摧毁攻击你的船的战斗无人机。需要8秒重新充能。</desc>
 	<power>2</power>
 	<cooldown>8000</cooldown>
 	<dodge>0</dodge>
@@ -12677,9 +12677,9 @@
  <!-- TB DRONES -->
 <droneBlueprint name="TB_SHIP_REPAIR_ENEMY">
 	<type>SHIP_REPAIR</type>
-	<title>Slow Hull Repair Drone</title>
-	<short>Slow Hull Repair</short>
-	<desc>You shouldn't see this description.</desc>
+	<title>缓慢船体维修无人机</title>
+	<short>缓慢船体维修</short>
+	<desc>你不应该看见此描述</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect repair drone -->
 	<dodge>0</dodge>
@@ -12768,8 +12768,8 @@
  	-->
 
 <augBlueprint name="TE_GOODS_CIVILIAN_CONSUMER">
-	<title>Consumer Goods</title>
-	<desc>Once the basic necessities of survival have been met, most want to immediately spend their money on meaningless things like these. Basic trade goods.</desc>
+	<title>生活消费品</title>
+	<desc>一旦基本的生活必需品得到满足，大多数人想马上把钱花在这些毫无意义的东西上。基本贸易商品。</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12780,8 +12780,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CIVILIAN_LUXURY">
-	<title>Luxury Goods</title>
-	<desc>Status symbols for individuals who want to set themselves apart from those with less recourses. Rare trade goods.</desc>
+	<title>奢侈品</title>
+	<desc>对于那些想要将自己与那些资源匮乏的人区分开来的人来说，它是一种地位的象征。罕见的贸易商品。</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12792,8 +12792,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CIVILIAN_FOOD">
-	<title>Space Rations</title>
-	<desc>One bar of this stuff can feed a humble colonist family for an entire month. Common trade goods.</desc>
+	<title>太空口粮</title>
+	<desc>一根棒子就能养活一个底层殖民者家庭整整一个月。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12804,8 +12804,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ENGI_MEDICINE">
-	<title>Pharmaceuticals</title>
-	<desc>A shipment of extremely effective medicine, produced in Engi space. Common trade goods.</desc>
+	<title>药物</title>
+	<desc>一船非常有效的药物，恩吉星区出品。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12816,8 +12816,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ENGI_ELECTRONICS">
-	<title>Ship Hardware</title>
-	<desc>The superior cluster production methods of the Engi undercut prices and made their advanced ship electronics the interstellar standard. Common trade goods.</desc>
+	<title>船体硬件</title>
+	<desc>恩吉的先进生产线降低了其价格，使其先进的船舶电子产品成为星际标准。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12828,8 +12828,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ENGI_MACHINES">
-	<title>Industrial Machinery</title>
-	<desc>Equipment needed for deep space mining and industrial stations. Basic trade goods.</desc>
+	<title>工业机械</title>
+	<desc>深空采矿和工业站所需的设备。基本贸易商品。</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12840,8 +12840,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ZOLTAN_BEACONS">
-	<title>Beacon Parts</title>
-	<desc>Beacon parts are used to create an FTL network in newly colonized regions of space. They are also always needed as spare parts in other sectors. Common trade goods.</desc>
+	<title>信标部件</title>
+	<desc>信标部件用于在新殖民的太空区域创建超光速网络。其他部门也总是需要它们作为备件。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12852,8 +12852,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ZOLTAN_CODEX">
-	<title>Zoltan Legal Codex</title>
-	<desc>The Zoltan legal code is the basis of general system law. Even when stored on super capacity micro drives, this behemoth of legal documentation still fills an entire cargo hold. Common trade goods.</desc>
+	<title>佐尔坦法典</title>
+	<desc>佐尔坦法典是一般制度法的基础。即使存储在超级容量的储存器上，这一庞然大物般的法律文件仍然塞满了整个货舱。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12864,8 +12864,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ZOLTAN_SHIELDS">
-	<title>Shield Components</title>
-	<desc>Zoltan produced shield systems are known for their precise bubble creation. You also get a handmade carma cake with each shipment you purchase. Uncommon trade goods.</desc>
+	<title>护盾组件</title>
+	<desc>佐尔坦生产的防护罩系统以精准的防护能力而闻名。每当你购买一批组件时，你还会得到一个手工制作的卡玛蛋糕。稀有的贸易商品。</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12876,8 +12876,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROCK_LITERATURE">
-	<title>Religious Rock Scriptures</title>
-	<desc>A collection of stone tablets with religious speeches. The Rockmen are one of the few species that still keep physical records. Quite a heavy shipment. Uncommon trade goods.</desc>
+	<title>岩石教碑文</title>
+	<desc>写有宗教演说的石碑。岩石人是为数不多的仍保留物理记录习惯的物种之一。相当重的货物。稀有的贸易商品。</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12888,8 +12888,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROCK_ORE">
-	<title>Raw Asteroid Ore</title>
-	<desc>Metals refined from asteroid ores are needed to manufacture all kinds ship components. Basic trade goods.</desc>
+	<title>未提练的小行星矿</title>
+	<desc>从小行星矿石中提炼出来的金属是制造各种船舶部件所必需的。基本贸易商品。</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12900,8 +12900,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_ROCK_HULLS">
-	<title>Ship Hull Panels</title>
-	<desc>The Rocks obsession with hull construction has led to an immense overproduction. Of course, to other species, they only sell third grade junk. Common trade goods.</desc>
+	<title>船体甲板</title>
+	<desc>岩石对船体建造的痴迷导致了巨大的产能过剩。当然，当对待其他物种时，他们只卖三等垃圾。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12912,8 +12912,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_MANTIS_ENGINES">
-	<title>Engine Parts</title>
-	<desc>Engine parts are an essential component in ship construction. Any invading space-armada that wants to be taken seriously needs a lot of these. Uncommon trade goods.</desc>
+	<title>引擎部件</title>
+	<desc>引擎部件是造船的重要部件。任何想要认真进入宇宙的舰船都需要很多这样的东西。稀有的贸易商品。</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12924,8 +12924,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_MANTIS_WEAPONS">
-	<title>Weapon Components</title>
-	<desc>These charge cycle cores, shielded muzzles and chassis panels are the basis of all these fancy guns you can mount on your ship. Rare trade goods.</desc>
+	<title>武器组件</title>
+	<desc>这些循环充能核心，护盾炮口和底盘面板是所有你可以安装在船上的花里胡哨的武器的基础。罕见的贸易商品。</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12936,8 +12936,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_MANTIS_BOUNTY">
-	<title>Looted Bounty</title>
-	<desc>Various cultural artifacts stolen from different species. Some call it trash, others call it treasure. Common trade goods.</desc>
+	<title>赃物</title>
+	<desc>从不同物种偷来的各种文化文物。有人称之为垃圾，有人称之为珍宝。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12948,8 +12948,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SLUG_DRUGS">
-	<title>Slug Hallucinogens</title>
-	<desc>Illegal substances synthesized by the Slugs are popular among all species. You better keep the crew away from these. Rare trade goods.</desc>
+	<title>斯拉格致幻剂</title>
+	<desc>由斯拉格合成的非法物质在所有物种中都很流行。你最好让你的船员们离这些玩意远点儿。罕见的贸易商品。</desc>
 	<cost>50</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12960,8 +12960,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SLUG_ART">
-	<title>Eccentric Artwork</title>
-	<desc>Nebula and other phenomena often inspire aliens to create impressive pictures, installations, soundscapes, genetic mutation sculptures and all kinds of other stuff. Uncommon trade goods.</desc>
+	<title>古怪的艺术品</title>
+	<desc>星云和其他充满艺术力的照片、装置、音景、基因突变雕塑以及其他各种各样的东西。稀有的贸易商品。</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12972,8 +12972,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_SLUG_ANIMALS">
-	<title>Alien Livestock</title>
-	<desc>Living cargo. The individuals you sell these animals to will either pet, hunt, slaughter or vivisect them. It's a sad galaxy you try to survive in. Uncommon trade goods.</desc>
+	<title>外星家畜</title>
+	<desc>住在货仓。你把这些动物卖给会饲养、捕猎、屠宰或活体解剖它们的人。这真是一个令人悲伤的宇宙。稀有的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12984,8 +12984,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_PIRATE_ARMS">
-	<title>Small Arms</title>
-	<desc>Financing your escape from the Rebel fleet by arms trading seems kind of wrong. Not everyone can be that picky though. Uncommon trade goods.</desc>
+	<title>轻型武器</title>
+	<desc>用军火交易来资助你逃离叛军舰队似乎有点不对。但不是每个人都能那么挑剔。稀有的贸易商品。</desc>
 	<cost>40</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -12996,8 +12996,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_REBEL_CONTRABAND">
-	<title>Federation Contraband</title>
-	<desc>Crates with confiscated goods that are illegal under the new Rebels laws. Common trade goods.</desc>
+	<title>联邦违禁品</title>
+	<desc>装着没收货物的板条箱，根据新叛军法这些东西是非法的。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13008,8 +13008,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_NEBULA_GAS">
-	<title>Compressed Nebula Gas</title>
-	<desc>The basis for the production of FTL fuel. Common trade goods.</desc>
+	<title>压缩星云气体</title>
+	<desc>超光速燃料生产的基础。常见的贸易商品。</desc>
 	<cost>30</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13020,8 +13020,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_CRYSTAL_ARTIFACTS">
-	<title>Crystal Artifacts</title>
-	<desc>These remains of an ancient alien civilization act as a status symbol for wealthy aliens, especially among the Rock people. Legendary trade goods.</desc>
+	<title>水晶神器</title>
+	<desc>这些古代外星文明的遗迹是富有的外星人的身份象征，尤其是在岩石族中。传奇贸易商品。</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -13032,8 +13032,8 @@
 </augBlueprint>
 
 <augBlueprint name="TE_GOODS_FED_WRECK">
-	<title>Ship Wreckage</title>
-	<desc>Space battles sometimes damage a ship to a degree that nothing of it remains usable. Only complex salvage operations can turn these burnt out hulks into anything useful again. Basic trade goods.</desc>
+	<title>船体残骸</title>
+	<desc>太空战斗有时会使飞船损坏到无法使用的程度。只有复杂的打捞作业才能把这些烧毁的废船重新变成有用的东西。基本贸易商品。</desc>
 	<cost>20</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
